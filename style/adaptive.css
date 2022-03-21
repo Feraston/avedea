@@ -1,0 +1,29 @@
+@media (max-width:700px) {
+  .footer__socials::before {
+    width: 500px;
+    left:-35%;
+  }
+
+  .description_content {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .advantages_title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .advantages_content {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+  
+  .navigation__item {
+    margin: 0px 15px 0px 0px;
+  }
+}
