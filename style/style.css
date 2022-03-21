@@ -1,34 +1,35 @@
-@media screen and (max-width: 480px) {
-  .header {
+@media screen and (max-width: 320px) {
+  #header {
     display: none;
   }
   
-  .description_content {
+  #description_content {
     font-size: 22px;
     line-height: 22px;
   }
 
-  .advantages_title {
+  #advantages_title {
     font-size: 26x;
     line-height: 26px;
   }
   
-  .advantages_content {
+  #advantages_content {
     font-size: 18px;
     line-height: 18px;
   }
 
-  .header {
+  #header {
     padding: 5px;
   }
   
-  .navigation__item {
+  #navigation__item {
     margin: 0 10px 0 0;
   }
 
-  .header__button {
+  #header__button {
     padding: 5px 8px;
   }
+
 }
 
 @font-face {
