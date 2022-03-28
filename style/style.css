@@ -370,7 +370,7 @@
   }
   .header {
     padding-right: 5px;
-    justify-content: end;
+    justify-content: right;
   }
   .menu {
     width: 320px;
@@ -412,17 +412,14 @@
   .menu_is-open .menu__toggle-image {
     transform: rotate(180deg);
   }
-
-.menu__container {
-  padding-left: 10px;
-}
-
+  .menu__container {
+    padding-left: 10px;
+  }
   .menu__mobile {
     min-height: 300px;
     display: flex;
     flex-direction: column;
   }
-
   .menu__body {
     list-style: none;
     display: flex;
@@ -431,12 +428,10 @@
     padding-left: 0;
     margin: 0;  
   }
-  
-  .manu__item {
+    .manu__item {
     margin: 20px;
   }
-  
-  .menu__item:last-child {
+    .menu__item:last-child {
    margin: 0;
   }
   
