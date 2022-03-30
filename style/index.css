@@ -172,14 +172,30 @@
 .specialist {
   width: 100%;
   background-color: rgb(35, 73, 62);
-  background-image: url(../image/services1.jpg);
+  background-image: url(../image/description.jpg);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 38% 50%;
   background-repeat: no-repeat;
   min-height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.specialist_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .specialist__title {
@@ -187,7 +203,7 @@
   line-height: 40px;
   margin: 30px auto 30px;
   font-style: italic;
-  color: rgb(114, 38, 38);
+  color: rgb(0, 0, 0);
 }
 
 .specialist__body {
@@ -225,7 +241,7 @@
   width: 65%;
   height: 50px;
   margin: 100px 0 0 5px;
-  color: rgb(114, 38, 38);
+  color: rgb(0, 0, 0);
   font-size: 26px;
   line-height: 26px;
   text-align: left;
