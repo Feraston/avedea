@@ -1,31 +1,112 @@
 @media screen and (max-width: 480px) {
   .description_content {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 21px;
     margin: 10px auto;
+    max-width: 90%;
   }
   .description_content:not(:last-child) {
     margin: 10px auto 0;
   }
-  .advantages_title {
-    font-size: 26px;
-    line-height: 26px;
-    margin: 0 auto 15px;
+  .header {
+    padding-right: 5px;
+    justify-content: right;
   }
-  .advantages_content {
+  .menu {
+    width: 320px;
+    height: 100vh;
+    background: rgba(146, 185, 172, .85);
+    border-right: 1px solid #000;
+    position: fixed;
+    top: 0px;
+    left: -321px;
+    transition: left .5s;
+    font-family: 'Linotype Didot', 'Lavanderia', serif;
+    display: block;
+    z-index: 3;
+  }
+  .menu_is-open {
+    left: 0px;
+  }
+  .menu__toggle {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(146, 185, 172, 0.85);
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    display: flex;
+    cursor: pointer;
+    transition: opacity .4s;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .menu__toggle:hover {
+    opacity: .8;
+  }
+  .menu__toggle-image {
+    width: 12px;
+    height: 20px;
+    margin: auto;
+  }
+  .menu_is-open .menu__toggle-image {
+    transform: rotate(180deg);
+  }
+  .menu__container {
+    padding-left: 10px;
+  }
+  .menu__mobile {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__body {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 0;
+    margin: 0;  
+  }
+    .manu__item {
+    margin: 20px;
+  }
+    .menu__item:last-child {
+   margin: 0;
+  }
+  
+  .menu__link {
     font-size: 22px;
     line-height: 22px;
+    text-decoration: none;
+    color: rgba(1, 2, 1, 0.9);
   }
-  .header {
-    padding: 5px;
+  
+  .menu__button {
+    background: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(9, 19, 15);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
   }
-    .navigation__item {
-    margin: 0 15px 0 0;
+
+  .header__button-close {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+  .logo__image {
+    display: none;
   }
   .header__button {
     padding: 7px 10px;
   }
-  .services__card {
+  .specialist__card {
     min-width: 300px;
     max-width: 600px;
     min-height: 450px;
@@ -35,18 +116,12 @@
     margin-bottom: 15px;
     position: relative;
   }
-  .services__card-title {
+  .specialist__card-title {
     display: flex;
     width: 250px;
     max-height: 300px;
     flex-wrap: wrap;
     position: absolute;
     top: 275px;
-  }
-  .navigation__link {
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration: none;
-    color: rgba(9, 26, 20, 0.5);
   }
 }
