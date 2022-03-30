@@ -172,9 +172,10 @@
 .specialist {
   width: 100%;
   background-color: rgb(35, 73, 62);
-  background-image: url(../image/services.jpg);
+  background-image: url(../image/services1.jpg);
   background-size: cover;
-  background-position: 40% 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   min-height: 300px;
   display: flex;
   justify-content: center;
@@ -186,7 +187,7 @@
   line-height: 40px;
   margin: 30px auto 30px;
   font-style: italic;
-  color: rgb(211, 184, 184);
+  color: rgb(114, 38, 38);
 }
 
 .specialist__body {
@@ -200,7 +201,6 @@
 .specialist__card {
   min-width: 300px;
   max-width: 600px;
-  height: 300px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -210,35 +210,25 @@
 
 .specialist__card-img {
   width: 275px;
-  height: 275px;
-  border-radius: 15%;
+  height: 413px;
+  border-radius: 10%;
   pointer-events: none;
 }
 
 .specialist__card-title {
-  position: relative;
   display: flex;
   width: 250px;
   max-height: 300px;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
-
-.specialist__card-button {
-  width: 65%;
-  height: 50px;
-  margin: 10px 0 0 5px;
-}
-
 
 .dropbtn {
-  color: rgb(211, 184, 184);
+  width: 65%;
+  height: 50px;
+  margin: 100px 0 0 5px;
+  color: rgb(114, 38, 38);
   font-size: 26px;
   line-height: 26px;
   text-align: left;
-  border: none;
-  background: none;
-  position: relative;
   padding-left: 10px;
 }
 
@@ -410,6 +400,10 @@
     width: 100px;
     padding: 6px 5px;
   }
+  .menu__item:last-child {
+    width: 120px;
+   }
+
   .menu__item:hover {
     background-color: rgb(76, 129, 111);
     color: rgb(255, 255, 255);
@@ -443,25 +437,26 @@
   .logo__image {
     display: none;
   }
-    .greeting {
+  .greeting {
     background-position: center;
-    }
+  }
+  .greeting__title {
+    margin: 120px auto 0;
+  }
   .specialist__card {
     min-width: 300px;
     max-width: 600px;
     min-height: 450px;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-bottom: 15px;
-    position: relative;
   }
   .specialist__card-title {
     display: flex;
     width: 250px;
     max-height: 300px;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 275px;
+  }
+  .dropbtn {
+    margin: 10px 0 0 20px;
   }
 }
