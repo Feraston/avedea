@@ -19,7 +19,7 @@
 }
 
 .header {
-  min-height: 116px;
+  min-height: 50px;
   max-height: 140px;
   width: 100%;
   display: flex;
@@ -29,7 +29,7 @@
   position: absolute;
   flex-wrap: wrap;
   top: 0;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .logo__image {
@@ -112,12 +112,13 @@
 
 
 .greeting__title {
-  margin: 90px auto 0;
+  margin: 85px auto 0;
   width: 300px;
   text-align: center;
   font-size: 40px;
   line-height: 40px;
   font-style: italic;
+  z-index: 2;
 }
 
 .greeting__title:hover {
@@ -139,7 +140,6 @@
   transform: scale(1.1,1.1);
   transition: 0.5s;
 }
-
 
 .description {
   display: flex;
