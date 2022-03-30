@@ -132,9 +132,7 @@
   font-size: 40px;
   line-height: 40px;
   font-weight: normal;
-  font-style: italic;
-  font-family: 'Lavanderia';
-
+  font-family: 'Great Vibes';
 }
 
 .greating__subtitle:hover {
@@ -329,17 +327,22 @@
     padding-right: 5px;
     justify-content: right;
   }
+  .header__button {
+    position: absolute;
+    top: 20px;
+    right: 8px;
+  }
   .menu {
     width: 320px;
     height: 100vh;
     background: rgba(146, 185, 172, .85);
-    border-right: 1px solid #000;
+    border-right: 1px solid rgb(156, 192, 148);
     position: fixed;
     top: 0px;
     left: -321px;
     transition: left .5s;
     font-family: 'Linotype Didot', 'Lavanderia', serif;
-    display: block;
+    display: flex;
     z-index: 3;
   }
   .menu_is-open {
@@ -372,34 +375,54 @@
   .menu__container {
     padding-left: 10px;
   }
-  .menu__mobile {
-    min-height: 300px;
+  .menu__logo-title {
     display: flex;
-    flex-direction: column;
+    margin: 30px 0 0 5px;
+  }
+  .logo__image-menu {
+    width: 60px;
+    height: 58px;
+    object-fit: contain;
+    margin: auto 0;
+  }
+  .menu__name-org {
+    margin: 7px 0 0 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .menu__name-org-subtitle {
+    margin: 0;
+    font-size: 20px;
+  }
+  .menu__mobile {
+    min-height: 175px;
+    display: flex;
   }
   .menu__body {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 0;
     margin: 0;  
   }
-    .manu__item {
-    margin: 20px;
+  .menu__item {
+    width: 100px;
+    padding: 6px 5px;
   }
-    .menu__item:last-child {
-   margin: 0;
+  .menu__item:hover {
+    background-color: rgb(76, 129, 111);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px;
   }
-  
   .menu__link {
     font-size: 22px;
     line-height: 22px;
     text-decoration: none;
     color: rgba(1, 2, 1, 0.9);
   }
-  
-  .menu__button {
+    .menu__button {
     background: rgba(255, 255, 255, 0.85);
     box-sizing: border-box;
     border-radius: 5px;
@@ -420,11 +443,9 @@
   .logo__image {
     display: none;
   }
-  .header__button {
-    position: absolute;
-    top: 20px;
-    right: 8px;
-  }
+    .greeting {
+    background-position: center;
+    }
   .specialist__card {
     min-width: 300px;
     max-width: 600px;

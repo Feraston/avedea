@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Lavanderia';
-    src: local('Lavanderia Sturdy'), local('Lavanderia-Sturdy'),
-        url('Lavanderia-Sturdy.woff2') format('woff2'),
-        url('Lavanderia-Sturdy.woff') format('woff'),
-        url('Lavanderia-Sturdy.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Great Vibes';
+    src: local('Great Vibes Regular'), local('Great-Vibes-Regular'),
+        url('GreatVibes-Regular.woff2') format('woff2'),
+        url('GreatVibes-Regular.woff') format('woff'),
+        url('GreatVibes-Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
   }
