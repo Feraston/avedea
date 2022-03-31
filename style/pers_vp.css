@@ -1,13 +1,18 @@
 @import url(normalize.css);
 @import url(fonts.css);
 
+.body_background {
+  background: rgb(107, 156, 133);
+}
+
 .page {
-  max-width: 100vw;
-  margin: 0;
+  max-width: 60vw;
+  margin: 0 auto;
   font-family: 'Linotype Didot', 'Lavanderia', serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  position: relative;
 }
 
 /* header */
