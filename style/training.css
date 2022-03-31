@@ -119,7 +119,6 @@
   font-size: 40px;
   line-height: 40px;
   font-style: italic;
-  z-index: 2;
 }
 
 .greeting__title:hover {
@@ -142,7 +141,13 @@
   transition: 0.5s;
 }
 
-.description {
+.greeting__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* Remont */
+.remont {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -154,108 +159,29 @@
   background-image: url(../image/description.jpg);
 }
 
-.description_content {
+.personal__fio {
+  margin: 30px auto 0;
+  min-width: 300px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.remont__img {
+  width: 275px;
+  height: 413px;
+  border-radius: 2%;
+  pointer-events: none;
+  margin: 20px auto;
+}
+
+.personal_content {
   min-width: 20%;
   max-width: 70%;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
-  font-style: italic;
   margin: 10px auto;
-}
-
-.description_content:not(:last-child) {
-  margin: 30px auto 0;
-}
-
-/* Specialist */
-
-.specialist {
-  width: 100%;
-  background-color: rgb(35, 73, 62);
-  background-image: url(../image/description.jpg);
-  background-size: cover;
-  background-position: 38% 50%;
-  background-repeat: no-repeat;
-  min-height: 300px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.specialist_content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.specialist__title {
-  font-size: 40px;
-  line-height: 40px;
-  margin: 30px auto 30px;
-  font-style: italic;
-  color: rgb(0, 0, 0);
-}
-
-.specialist__body {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.specialist__card {
-  min-width: 300px;
-  max-width: 600px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
-}
-
-.specialist__card-img {
-  width: 275px;
-  height: 413px;
-  border-radius: 2%;
-  pointer-events: none;
-}
-
-.specialist__card-title {
-  display: flex;
-  width: 250px;
-  max-height: 300px;
-}
-
-.dropbtn {
-  width: 65%;
-  height: 50px;
-  margin: 100px 0 0 5px;
-  font-size: 26px;
-  line-height: 26px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-.specialist__link {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  }
-
-.dropbtn:hover {
-  transform: scale(1.1,1.1);
-  transition: 0.5s;
 }
 
 /* footer */
@@ -330,15 +256,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .description_content {
-    font-size: 21px;
-    line-height: 21px;
-    margin: 10px auto;
-    max-width: 90%;
-  }
-  .description_content:not(:last-child) {
-    margin: 10px auto 0;
-  }
   .header {
     padding-right: 5px;
     justify-content: right;
@@ -390,6 +307,8 @@
   }
   .menu__container {
     padding-left: 10px;
+    display: flex;
+    flex-direction: column;
   }
   .menu__logo-title {
     display: flex;
@@ -429,8 +348,7 @@
   }
   .menu__item:last-child {
     width: 120px;
-   }
-
+  }
   .menu__item:hover {
     background-color: rgb(76, 129, 111);
     color: rgb(255, 255, 255);
@@ -443,45 +361,31 @@
     text-decoration: none;
     color: rgba(1, 2, 1, 0.9);
   }
-    .menu__button {
-    background: rgba(255, 255, 255, 0.85);
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgb(9, 19, 15);
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 15px;
-  }
-
-  .header__button-close {
-    display: none;
-  }
-  .navigation {
-    display: none;
-  }
-  .logo__image {
-    display: none;
-  }
-  .greeting {
-    background-position: center;
-  }
-  .greeting__title {
-    margin: 120px auto 0;
-  }
-  .specialist__card {
-    min-width: 300px;
-    max-width: 600px;
-    min-height: 450px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-  .specialist__card-title {
-    min-height: 120px;
-  }
-  .dropbtn {
-    margin: 10px 0 0 20px;
-  }
+.menu__button {
+  background: rgba(255, 255, 255, 0.85);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(9, 19, 15);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  width: 140px;
+}
+.header__button-close {
+  display: none;
+}
+.navigation {
+  display: none;
+}
+.logo__image {
+  display: none;
+}
+.greeting {
+  background-position: center;
+}
+.greeting__title {
+  margin: 120px auto 0;
+}
 }
