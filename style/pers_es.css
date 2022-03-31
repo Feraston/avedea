@@ -260,7 +260,10 @@
   margin: 0px 0px 0px 15px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
+  .page {
+    max-width: 100vw;
+  }
   .header {
     padding-right: 5px;
     justify-content: right;
