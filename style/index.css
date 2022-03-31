@@ -334,7 +334,7 @@
   margin: 0px 0px 0px 15px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 926px) {
   .page {
     max-width: 100vw;
   }
