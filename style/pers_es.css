@@ -177,16 +177,74 @@
   height: 413px;
   border-radius: 2%;
   pointer-events: none;
-  margin: 20px auto;
+  margin: 20px auto 5px;
 }
 
-.personal_content {
+.personal__contents-skills {
+  background-color: rgb(210, 233, 225);
+  width: 85%;
+  margin: 10px auto;
+  border-radius: 30px;
+}
+
+.personal__content {
   min-width: 20%;
   max-width: 70%;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: center;
+  font-size: 19px;
+  line-height: 21px;
+  margin: 10px 0 5px 20px;
+}
+
+.personal__skills {
+  margin: 0 0 10px 20px;
+}
+
+.personal__training {
+  margin: 0 5px 10px 0;
+  list-style: none;
+  padding: 0 0 0 30px;
+}
+
+.personal__contents-certificates {
+  background-color: rgb(210, 233, 225);
+  width: 85%;
   margin: 10px auto;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+	margin: 30px; 
+	float: left;
+	cursor: pointer;
+	max-height: 100px;
+}
+
+.popup {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+.popup_bg {
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	z-index: 4;
+	height: 100%;
+	width: 100%;
+}
+
+.popup_img {
+	position: relative;
+	z-index: 5;
+	max-height: 90%;
+	max-width: 90%;
+	margin: 3% 0 0 0;
 }
 
 /* footer */
@@ -398,5 +456,8 @@
 }
 .greeting__title {
   margin: 120px auto 0;
+}
+.popup_img {
+	margin: 50% 0;
 }
 }
