@@ -212,13 +212,33 @@
   border-radius: 30px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.personal__certificates {
+  min-width: 20%;
+  max-width: 70%;
+  font-size: 19px;
+  line-height: 21px;
+  font-weight: 600;
+  margin: 20px auto 5px;
+}
+
+.personal__box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .image {
-	margin: 30px; 
-	float: left;
-	cursor: pointer;
-	max-height: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 40%;
+  height: 40%;
 }
 
 .popup {
@@ -246,6 +266,7 @@
 	max-width: 90%;
 	margin: 3% 0 0 0;
 }
+
 
 /* footer */
 
@@ -458,6 +479,6 @@
   margin: 120px auto 0;
 }
 .popup_img {
-	margin: 50% 0;
+	margin: 30% 0 0;
 }
 }

@@ -254,11 +254,10 @@
 }
 
 .specialist__link {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+  color: rgb(22, 83, 52);
   }
 
-.dropbtn:hover {
+.specialist__link:hover {
   transform: scale(1.1,1.1);
   transition: 0.5s;
 }
@@ -485,7 +484,7 @@
   margin-bottom: 15px;
 }
 .specialist__card-title {
-  min-height: 120px;
+  min-height: 140px;
 }
 .dropbtn {
   margin: 10px 0 0 0;
