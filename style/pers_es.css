@@ -499,4 +499,13 @@
 .popup_img {
 	margin: 30% 0 0;
 }
+.personal__main {
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-direction: column;
+}
+.personal__card-img {
+  margin: 20px auto;
+}
 }
