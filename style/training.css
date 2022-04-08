@@ -151,8 +151,8 @@
   text-decoration: none;
 }
 
-/* Remont */
-.remont {
+/* Traning */
+.training {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -164,7 +164,7 @@
   background-image: url(../image/description.jpg);
 }
 
-.personal__fio {
+.training__name {
   margin: 30px auto 0;
   min-width: 300px;
   text-align: center;
@@ -172,21 +172,56 @@
   line-height: 40px;
 }
 
-.remont__img {
-  width: 275px;
-  height: 413px;
-  border-radius: 2%;
-  pointer-events: none;
+.training__contents-mail {
+  background-color: rgb(210, 233, 225);
+  width: 90%;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.training__contents-mail:last-child {
   margin: 20px auto;
 }
 
-.personal_content {
-  min-width: 20%;
-  max-width: 70%;
-  font-size: 30px;
-  line-height: 30px;
+.training__content {
+  font-size: 19px;
+  line-height: 21px;
+  font-weight: 600;
+  margin: 10px 0 5px 20px;
+}
+
+.training__main {
+  margin: 10px 0 5px 20px;
+  font-size: 19px;
+  line-height: 21px;
+}
+
+.training__weight {
+  font-weight: 600;
+}
+
+.training__buttons {
+  margin: 20px auto;
   text-align: center;
-  margin: 10px auto;
+}
+
+.training__button {
+  background: rgba(146, 185, 172, 1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff0f0;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: 0.7s;
+}
+
+.training__button:hover {
+  background: rgba(61, 80, 74, 0.85);
 }
 
 /* footer */
