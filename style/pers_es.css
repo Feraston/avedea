@@ -503,8 +503,13 @@
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
+  padding: 0;
 }
 .personal__card-img {
   margin: 20px auto;
+}
+.personal__contents-skills {
+  width: 90%;
+  margin: 10px auto;
 }
 }
