@@ -186,6 +186,7 @@
   font-size: 26px;
   line-height: 28px;
   font-weight: 600;
+  margin: 0 auto 10px;
 }
 
 .services__block {
@@ -229,6 +230,7 @@
   width: 95%;
   height: 250px;
   margin: 5px auto;
+  border-radius: 10px;
 }
 
 .services__description {
@@ -258,13 +260,11 @@
   padding: 10px 15px;
   transition: 0.7s;
 }
-
 .services__button:hover {
   background: rgba(61, 80, 74, 0.85);
 }
-
 .services__content p {
-  margin: 1em;
+  margin: 10px auto 15px;
 }
 
 /* :checked */
@@ -365,6 +365,18 @@
 
 .footer__privacy {
   margin: 0px 0px 0px 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .page {
+    max-width: 75vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .page {
+    max-width: 85vw;
+  }
 }
 
 @media screen and (max-width: 926px) {
@@ -506,9 +518,15 @@
 .greeting__title {
   margin: 120px auto 0;
 }
+.services__description {
+  flex-direction: column;
+}
 .services__description-main {
   font-size: 14px;
   line-height: 14px;
-  width: 62%;
+  width: 97%;
+}
+.services__buttons {
+  margin: 5px auto 17px;
 }
 }
