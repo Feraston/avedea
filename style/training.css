@@ -179,6 +179,8 @@
   border-radius: 30px;
   box-sizing: border-box;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .training__contents-mail:last-child {
@@ -186,10 +188,23 @@
 }
 
 .training__content {
-  font-size: 19px;
-  line-height: 21px;
+  font-size: 28px;
+  line-height: 28px;
   font-weight: 600;
   margin: 10px 0 5px 20px;
+  text-align: center;
+  background: #415886;
+  background: -webkit-linear-gradient(to top right, #415886 33%, #708f5d 63%, #21560a 100%);
+  background: -moz-linear-gradient(to top right, #415886 33%, #708f5d 63%, #21560a 100%);
+  background: linear-gradient(to top right, #415886 33%, #708f5d 63%, #21560a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.training__img {
+  width: 60%;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .training__main {
@@ -442,5 +457,9 @@
 }
 .greeting__title {
   margin: 120px auto 0;
+}
+.training__img {
+  width: 100%;
+  border-radius: 10px;
 }
 }
