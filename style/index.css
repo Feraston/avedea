@@ -509,7 +509,7 @@
   border-radius: 10px;
 }
 .specialist__card {
-  grid: 1fr 100px 1fr 100px/ 1fr;
+  grid: 1fr 130px 1fr 130px/ 1fr;
   justify-items: center;
 }
 .specialist__card-img {
