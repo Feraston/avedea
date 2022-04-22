@@ -567,8 +567,15 @@
 .greeting__title {
   margin: 120px auto 0;
 }
-.services__description {
-  
+.services__cost {
+  flex-wrap: wrap;
+}
+.services__cost-text {
+  font-size: 18px;
+  line-height: 18px;
+}
+.services__buttons {
+  margin: 20px auto 10px;
 }
 .services__description-main {
   font-size: 16px;
