@@ -4,103 +4,154 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="//web-ptica.ru/VRV-files/jquery-2.1.3.min.js">
-  </script>
-  <link rel="stylesheet" href="style/index.css" type="text/css">
+  <link rel="stylesheet" href="css/index.css" type="text/css">
   <title>Avedea</title>
 </head>
-<body class="body_background">
-  <div class="page">
+<body class="page">
     <header class="header" id="header">
-      <section class="menu">
-        <div class="menu__toggle">
-          <img class="menu__toggle-image" src="image/menu.png">
+      <section class="header__menu">
+        <div class="header__toggle">
+          <img class="header__toggle-image" src="blocks/header/file/menu.png">
         </div>
-        <div class="menu__container">
-          <div class="menu__logo-title">
-            <img class="logo__image-menu" src="image/logo.png" alt="Avedea">
-            <div>
-              <p class="menu__name-org">AVEDEA</p>
-              <p class="menu__name-org-subtitle">Holistic cosmetology</p>
-            </div>
-          </div>
-          <nav class="menu__mobile">
-            <ul class="menu__body">
-              <li class="menu__item animation"><a class="menu__link" href="services.html">УСЛУГИ</a></li>
-              <li class="menu__item animation"><a class="menu__link" href="catalog.html">КАТАЛОГ</a></li>
-              <li class="menu__item animation"><a class="menu__link" href="training.html">ОБУЧЕНИЕ</a></li>
+        <div class="header__menu-container">
+            <img class="header__menu-logo" src="blocks/header/file/logo.svg" alt="Avedea">
+          <nav class="header__menu-nav">
+            <ul class="header__menu-body">
+              <li class="header__menu-item animation"><a class="header__menu-link" href="services.html">УСЛУГИ</a></li>
+              <li class="header__menu-item animation"><a class="header__menu-link" href="catalog.html">КАТАЛОГ</a></li>
+              <li class="header__menu-item animation"><a class="header__menu-link" href="training.html">ОБУЧЕНИЕ</a></li>
             </ul>
           </nav>
-          <a class="menu__button" href="https://b182496.yclients.com/company/185262/menu?o=" target="_blank">Записаться</a>
+          <a class="header__menu-button" href="https://b182496.yclients.com/company/185262/menu?o=" target="_blank">Запись онлайн</a>
         </div>
       </section>
-      <img class="logo__image" src="image/logo.png" alt="Логотип">
-      <nav class="navigation">
-        <ul class="navigation__body navigation__body_place_header">
-          <li class="navigation__item animation"><a class="navigation__link animation" href="catalog.html">Каталог</a></li>
-          <li class="navigation__item animation"><a class="navigation__link animation" href="services.html">Услуги</a></li>
-          <li class="navigation__item animation"><a class="navigation__link animation" href="training.html">Обучение</a></li>
+      <img class="logo" src="blocks/header/file/logo.svg" alt="Логотип">
+      <nav class="header__nav">
+        <ul class="header__nav-body">
+          <li class="header__nav-item animation"><a class="header__nav-link" href="catalog.html">Каталог</a></li>
+          <li class="header__nav-item animation"><a class="header__nav-link" href="services.html">Услуги</a></li>
+          <li class="header__nav-item animation"><a class="header__nav-link" href="training.html">Обучение</a></li>
         </ul>
       </nav>
-      <a class="header__button" href="https://b182496.yclients.com/company/185262/menu?o=" target="_blank">Записаться</a>
+      <div class="header__contacts">
+        <a href="#adress" class="header__adress">г. Краснодар, ул.&nbsp;Баканская 73В, 4 этаж, 42 офис</a>
+        <a class="header__tel" href="tel:+79184641096">
+          <img class="header__tel-img" src="blocks/header/file/tel.svg" alt="Tel">
+          <span class="header__tel-text">Записаться по телефону</span>
+        </a>
+        <a class="header__button" href="https://b182496.yclients.com/company/185262/menu?o=" target="_blank">Запись онлайн</a>
+      </div>
     </header>
   <main class="content">
       <section class="greeting">
-        <div class="greeting_background">
-            <h1 class="greeting__title animation">AVEDEA</h1>
-            <p class="greating__subtitle animation">Holistic cosmetology</p>
+        <div class="greeting__grad-one"></div>
+        <h1 class="greeting__title">Cтудия эстетической косметологии</h1>
+        <p class="greating__subtitle">Осознанная забота о себе.</p>
+        <div class="greeting__grad-two"></div>
+      </section>
+      <section class="sale">
+        <h3 class="sale__title">Весенние предложения</h3>
+        <div class="sale__content">
+          <div class="sale__card">
+            <div class="sale__card-img">
+              <img src="blocks/sale/file/sale1.jpg" class="sale__img">
+            </div>
+            <div class="sale__card-content">
+              <div class="sale__details sale__details_normal-one">
+                <h2 class="sale__card-title">
+                  <a href="abon1.html" class="sale__card-link">«Стройность кипариса»</a>
+                  <br>
+                  <span class="sale__card-subtitle">Абонемент</span></h2>
+                <div class="sale__main">
+                  <h3 class="sale__weight">Стоимость: <span class="sale__text">33 600 руб (выгода до 8 000 рублей).</span></h3>
+                  <h3 class="sale__weight">Что входит: <span class="sale__text">6 процедур «Биоактивное похудение».</span></h3>
+                  <h3 class="sale__weight">Подарок: <span class="sale__text">на сумму 5600 рублей.</span></h3>
+                </div>
+                <div class="sale__btn">
+                  <button class="sale__botton">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+<!---->
+          <div class="sale__card">
+            <div class="sale__card-img">
+              <img src="blocks/sale/file/sale2.jpg" class="sale__img">
+            </div>
+            <div class="sale__card-content">
+              <div class="sale__details sale__details_normal-two">
+                <h2 class="sale__card-title">
+                  <a href="abon2.html" class="sale__card-link">«Стройность кипариса»</a>
+                  <br>
+                  <span class="sale__card-subtitle">Абонемент</span></h2>
+                <div class="sale__main">
+                  <h3 class="sale__weight">Стоимость: <span class="sale__text">18 900 руб (выгода до 3 000 рублей).</span></h3>
+                  <h3 class="sale__weight">Что входит: <span class="sale__text">5 процедур для всего тела.</span></h3>
+                  <h3 class="sale__weight">Подарок: <span class="sale__text">на сумму 2700 рублей.</span></h3>
+                </div>
+                <div class="sale__btn">
+                  <button class="sale__botton">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+<!---->
+          <div class="sale__card">
+            <div class="sale__card-img">
+              <img src="blocks/sale/file/sale3.jpg" class="sale__img">
+            </div>
+            <div class="sale__card-content">
+              <div class="sale__details sale__details_normal-three">
+                <h2 class="sale__card-title">
+                  <a href="abon3.html" class="sale__card-link">«Стройность кипариса»</a>
+                  <br>
+                  <span class="sale__card-subtitle">Абонемент</span></h2>
+                <div class="sale__main">
+                  <h3 class="sale__weight">Стоимость: <span class="sale__text">37 000 руб (выгода до 8 000 рублей).</span></h3>
+                  <h3 class="sale__weight">Что входит: <span class="sale__text">4 «Комплексных ухода для мужчин»</span></h3>
+                  <h3 class="sale__weight">Подарок: <span class="sale__text">на сумму 7 500 рублей.</span></h3>
+                </div>
+                <div class="sale__btn">
+                  <button class="sale__botton">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="description">
-        <div class="sale">
-          <div class="sale_img-content">
-          <img src="image/akciya.png" class="sale__img-akc" alt="Акция">
-          <img src="image/sale.gif" class="sale__img" alt="Скидка">
-        </div>
-          <div class="sale__content">
-              <div class="sale__main">
-                <a href="abon1.html"><img src="image/sale1.jpg" class="sale__img-link" alt="Стройность кипариса"></a>
-                <a href="abon1.html" class="sale__item">Абонемент «Стройность кипариса»</a>
-              </div>
-              <div class="sale__main">
-                <a href="abon2.html"><img src="image/sale2.jpg" class="sale__img-link" alt="Шелковая кожа"></a>
-                <a href="abon2.html" class="sale__item">Абонемент «Шелковая кожа»</a>
-              </div>
-              <div class="sale__main">
-                <a href="abon3.html"><img src="image/sale3.jpg" class="sale__img-link" alt="Император мечты"></a>
-                <a href="abon3.html" class="sale__item">Абонемент «Император мечты»</a>
-              </div>
-          </div>
-        </div>
-        <div class="sale">
+        <div class="sale_one">
           <p class="description_content">AVEDEA - студия эстетической косметологии, где объединены самые эффективные и безопасные техники омоложения лица и тела, основанные на использовании традиций восточной и западной медицины. Здесь Вы отдохнете и получите решение проблемы кожи лица и тела.</p>
           <p class="description_content">Наши мастера прошли обучения в мировых косметических школах, в таких странах как Корея, Индия, Франция, Италия и Россия.</p>
           <p class="description_content">Мы работаем на натуральных брендах косметики, таких как PHYT'S, SIMONE MAHLER, VAGHEGGI. Данная продукция имеет стандарты ECOCERT  и безопасна для беременных, кормящих мам и подростков.</p>
           <p class="description_content">Вы можете записаться на любую процедуру, которая Вам созвучна, а после очной консультации с нашим специалистом, Вам будет подобран уход, необходимый для вашей кожи. За 24 часа Вам будет направлено напоминание о предстоящей записи.</p>
           <p class="description_content">Приходите к нам и Вы останетесь довольны!</p>
         </div>
-        <div class="specialist_content">
-        <h2 class="specialist__title">Наши специалисты</h2>
-        <div class="specialist__body">
-          <div class="specialist__card">
-            <img class="specialist__card-img" src="image/spec_es.jpg">
-            <div class="specialist__card-title">
-              <h3 class="dropbtn">Елена Сорокина косметолог-натуроэстетист - <a href="pers_es.html" class="specialist__link animation">подробнее о специалисте</a></h3>
-            </div> 
-            <img class="specialist__card-img" src="image/services-two.jpg">
-            <div class="specialist__card-title">
-              <h3 class="dropbtn">Виктория Приемская косметолог-натуроэстетист - <a href="pers_vp.html" class="specialist__link animation">подробнее о специалисте</a></h3>
-            </div>
+      </section>
+      <h2 class="master__title">Наши специалисты</h2>
+      <section class="master">
+        <div class="master__box">
+          <div class="master__content">
+            <img class="master__img" src="blocks/master/file/spec_es.jpg">
+            <h2 class="master__name">Елена Сорокина<br><span class="master__post">Косметолог-натуроэстетист</span></h2>
+            <a href="#" class="master__link">Подробнее</a>
+          </div>
         </div>
-      </div>
+        <div class="master__box">
+          <div class="master__content">
+            <img class="master__img" src="blocks/master/file/spec_vp.png">
+            <h2 class="master__name">Виктория Приемская<br><span class="master__post">Косметолог-натуроэстетист</span></h2>
+            <a href="#" class="master__link">Подробнее</a>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer_title">Как нас найти:</div>
-      <div class="footer_map">
+      <div class="footer_map" id="adress">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae455a16e4c826e85868b4ad78e932ef9ede2e660dfd696f4bbef361bd83ecec8&amp;source=constructor" width="70%" height="400" frameborder="0"></iframe>
       </div>
-      <div class="footer_adress"> г. Краснодар, ул. Баканская 73В, 4 этаж, 42 офис</div>
+      <div class="footer_adress">г. Краснодар, ул. Баканская 73В, 4 этаж, 42 офис</div>
       <div class="footer__divider"></div>
       <div class="footer__socials">
         <a href="#header" class="footer__link animation">
@@ -126,6 +177,5 @@
       </div>
     </footer>
     <a href="#" class="scrollup">Наверх</a>
-  </div>
-  <script src="JS/javascripts.js"></script>
+  <script src="js/javascripts.js"></script>
 </body></html>

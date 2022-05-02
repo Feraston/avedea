@@ -1,0 +1,14 @@
+.header__tel-text {
+  max-width: 130px;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #41856e;
+  display: flex;
+  flex-direction: column;
+  transition: .5s;
+}
+
+.header__tel-text:hover {
+  text-shadow: 2px 2px 3px rgba(65,133,110,0.9);
+}

@@ -1,0 +1,9 @@
+.master__content .master__name {
+  position: relative;
+  font-size: 1.2em;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

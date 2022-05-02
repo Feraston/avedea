@@ -1,0 +1,12 @@
+.master__content {
+  position: absolute;
+  inset: 30px;
+  border: 6px solid #3b9660;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

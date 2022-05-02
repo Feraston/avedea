@@ -1,0 +1,4 @@
+.sale {
+  display: flex;
+  flex-direction: column;
+}

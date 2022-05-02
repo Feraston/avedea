@@ -1,0 +1,15 @@
+.master__content .master__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.master__box:hover .master__content .master__img {
+  opacity: 0;
+}
