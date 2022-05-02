@@ -82,10 +82,6 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  background: #ffffff;
-  background: radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
-  background: -webkit-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
-  background: -moz-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
 }
 
 .sale_one {
