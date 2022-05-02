@@ -86,8 +86,6 @@
   background: radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
   background: -webkit-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
   background: -moz-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
-  background-size: cover;
-  background-image: url(../image/description.jpg);
 }
 
 .sale_one {
