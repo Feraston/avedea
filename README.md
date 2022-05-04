@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://feraston.github.io/my-first-serious-project/">Сайт на тему косметологии</a></h1>
+<h1 align="center"><a href="https://avedea.ru/">Сайт на тему косметологии</a></h1>
 <p align="center"><img src="https://pei.ucoz.net/yp/lead-polka.jpg" width="80%"></p>
 <h2 align="center">Это мой первый по настоящему серьёзный проект о путешествии</h2>
 

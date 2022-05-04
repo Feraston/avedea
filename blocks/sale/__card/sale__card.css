@@ -16,4 +16,7 @@
   .sale__card {
     margin: 30px auto;
   }
+  .sale__card:hover {
+    height: 190px;
+  }
 }

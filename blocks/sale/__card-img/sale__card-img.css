@@ -17,3 +17,10 @@
   width: 90%;
   height: 250px;
 }
+
+@media screen and (max-width: 926px) {
+  .sale__card:hover .sale__card-img {
+    width: 80%;
+    height: 150px;
+  }
+}
