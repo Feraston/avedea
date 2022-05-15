@@ -5,3 +5,9 @@
   grid: auto/repeat(3, 1fr);
   gap: 10px;
 }
+
+@media screen and (max-width: 926px) {
+  .sale__content {
+    grid: auto/1fr;
+  }
+  }
