@@ -2,3 +2,9 @@
   width: 100%;
   pointer-events: none;
 }
+
+@media screen and (max-width: 926px) {
+  .description__images {
+    width: 70%;
+  }
+}

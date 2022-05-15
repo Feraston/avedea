@@ -3,4 +3,13 @@
   grid-row: 1/8;
   position: relative;
   align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    grid-row: 1/2;
+    justify-content: center;
+  }
 }
