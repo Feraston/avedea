@@ -1,0 +1,15 @@
+.footer__tel-text {
+  max-width: 230px;
+  font-size: 19px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #41856e;
+  display: flex;
+  flex-direction: column;
+  transition: .5s;
+  padding-left: 10px;
+}
+
+.footer__tel-text:hover {
+  text-shadow: 2px 2px 3px rgba(65,133,110,0.9);
+}

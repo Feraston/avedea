@@ -1,0 +1,10 @@
+.footer__maps {
+  width: 40%;
+}
+
+@media screen and (max-width: 926px) {
+  .footer__maps {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

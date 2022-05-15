@@ -1,0 +1,8 @@
+.footer__terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 140.62%;
+  margin-top: 20px;
+}

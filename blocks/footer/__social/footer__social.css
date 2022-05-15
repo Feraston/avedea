@@ -1,0 +1,9 @@
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  padding-left: 33px;
+  color: #3b9660;
+  font-size: 22px;
+  line-height: 22px;
+  gap: 15px;
+}

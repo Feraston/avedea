@@ -1,0 +1,10 @@
+.footer__image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: 0.5s;
+}
+
+.footer__image:hover {
+  transform: scale(1.2,1.2);
+}

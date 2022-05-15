@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 600px) {
   .greeting__title {
-    margin: 65px auto 0;
+    margin: 65px 30px 0;
     font-size: 36px;
     line-height: 36x;
   }

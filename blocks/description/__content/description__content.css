@@ -6,6 +6,10 @@
   align-self: center;
 }
 
+.description__content:last-of-type {
+  color: #41856e;
+}
+
 @media screen and (max-width: 1024px) {
   .description__content {
     font-size: 18px;
@@ -15,6 +19,11 @@
     .description__content {
       font-size: 22px;
       line-height: 22px;
+    }
+    .description__content:last-of-type {
+      color: #41856e;
+      text-align: center;
+      grid-row: 8/9;
     }
   }
 }
