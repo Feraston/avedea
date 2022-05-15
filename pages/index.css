@@ -1,5 +1,5 @@
-@import url(normalize.css);
-@import url(fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../style/fonts.css);
 
 /* Mix */
 @import url(../blocks/animation/animation.css);

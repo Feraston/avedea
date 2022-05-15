@@ -1,10 +1,122 @@
-@import url(normalize.css);
-@import url(fonts.css);
+@import url(../../vendor/normalize.css);
+@import url(../../style/fonts.css);
 
-.body_background {
-  background: rgb(107, 156, 133);
+/* Mix */
+@import url(../../blocks/animation/animation.css);
+
+/* Page */
+@import url(../../blocks/page/page.css);
+
+/* Header */
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/logo/logo.css);
+@import url(../../blocks/header/__nav/header__nav.css);
+@import url(../../blocks/header/__nav-body/header__nav-body.css);
+@import url(../../blocks/header/__nav-item/header__nav-item.css);
+@import url(../../blocks/header/__nav-link/header__nav-link.css);
+@import url(../../blocks/header/__button/header__button.css);
+@import url(../../blocks/header/__menu/header__menu.css);
+@import url(../../blocks/header/__toggle/header__toggle.css);
+@import url(../../blocks/header/__toggle-image/header__toggle-image.css);
+@import url(../../blocks/header/__menu-container/header__menu-container.css);
+@import url(../../blocks/header/__menu-logo/header__menu-logo.css);
+@import url(../../blocks/header/__menu-nav/header__menu-nav.css);
+@import url(../../blocks/header/__menu-body/header__menu-body.css);
+@import url(../../blocks/header/__menu-item/header__menu-item.css);
+@import url(../../blocks/header/__menu-link/header__menu-link.css);
+@import url(../../blocks/header/__menu-button/header__menu-button.css);
+@import url(../../blocks/header/__contacts/header__contacts.css);
+@import url(../../blocks/header/__adress/header__adress.css);
+@import url(../../blocks/header/__tel/header__tel.css);
+@import url(../../blocks/header/__tel-img/header__tel-img.css);
+@import url(../../blocks/header/__tel-text/header__tel-text.css);
+
+/* Footer */
+
+@import url(../../blocks/footer/footer.css);
+@import url(../../blocks/footer/__content/footer__content.css);
+@import url(../../blocks/footer/__socials/footer__socials.css);
+@import url(../../blocks/footer/__telefone/footer__telefone.css);
+@import url(../../blocks/footer/__tel-icon/footer__tel-icon.css);
+@import url(../../blocks/footer/__tel/footer__tel.css);
+@import url(../../blocks/footer/__tel-img/footer__tel-img.css);
+@import url(../../blocks/footer/__tel-text/footer__tel-text.css);
+@import url(../../blocks/footer/__adress/footer__adress.css);
+@import url(../../blocks/footer/__adr-icon/footer__adr-icon.css);
+@import url(../../blocks/footer/__adr/footer__adr.css);
+@import url(../../blocks/footer/__social/footer__social.css);
+@import url(../../blocks/footer/__social-text/footer__social-text.css);
+@import url(../../blocks/footer/__social-links/footer__social-links.css);
+@import url(../../blocks/footer/__image/footer__image.css);
+@import url(../../blocks/footer/__link/footer__link.css);
+@import url(../../blocks/footer/__button/footer__button.css);
+@import url(../../blocks/footer/__maps/footer__maps.css);
+@import url(../../blocks/footer/__map/footer__map.css);
+@import url(../../blocks/footer/__terms/footer__terms.css);
+@import url(../../blocks/footer/__copyright/footer__copyright.css);
+@import url(../../blocks/footer/__privacy/footer__privacy.css);
+
+/* ВАЖНОЕ ПОТОМ РАЗОБРАТЬСЯ */
+.menu_is-open .header__toggle-image {
+  transform: rotate(180deg);
+  transition: .5s;
 }
 
+.remont {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #ffffff;
+  background: radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
+  background: -webkit-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
+  background: -moz-radial-gradient(circle farthest-side at center center, #ffffff 70%, #449d41 120%);
+  background-size: cover;
+  background-image: url(../image/description.jpg);
+}
+
+.personal__fio {
+  margin: 30px auto 0;
+  min-width: 300px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.remont__img {
+  width: 275px;
+  height: 413px;
+  border-radius: 2%;
+  pointer-events: none;
+  margin: 20px auto;
+}
+
+.scrollup{
+  width: 60px;
+  height: 60px;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  text-indent: -9999px;
+  background: url(../image/icon_top.png) no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 926px) {
+.menu_is-open {
+  left: 0px;
+}
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  bottom: 30px;
+  right: 30px;
+}
+}
+
+/* 
 .page {
   max-width: 60vw;
   margin: 0 auto;
@@ -13,9 +125,11 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   position: relative;
-}
+} */
+
 
 /* header */
+/* 
 .animation {
   transition: 0.5s;
 }
@@ -92,10 +206,10 @@
   background-color: rgb(146, 185, 172);
   color: rgb(255, 255, 255);
   transition: 0.5s;
-}
+} */
 
 /* Greeting */
-
+/* 
 .greeting {
   max-width: 100%;
   background-color: rgb(93, 199, 164);
@@ -149,9 +263,10 @@
 .greeting__link {
   color: rgb(0, 0, 0);
   text-decoration: none;
-}
+} */
 
 /* Personal */
+/* 
 .personal {
   display: flex;
   width: 100%;
@@ -248,10 +363,10 @@
 }
 .services__button:hover {
   background: rgba(61, 80, 74, 0.85);
-}
+} */
 
 /* footer */
-
+/* 
 .footer {
   min-height: 200px;
   margin: 0 auto;
@@ -332,8 +447,9 @@
   text-indent: -9999px;
   background: url(../image/icon_top.png) no-repeat;
   background-size: 100%;
-}
+} */
 
+/* 
 @media screen and (max-width: 1300px) {
   .page {
     max-width: 75vw;
@@ -510,4 +626,4 @@
   bottom: 30px;
   right: 30px;
 }
-}
+} */
