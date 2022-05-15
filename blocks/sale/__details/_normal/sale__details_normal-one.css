@@ -1,0 +1,40 @@
+@media screen and (max-width: 1389px) {
+  .sale__card .sale__card-content .sale__details_normal-one {
+    transform: translateY(180px);
+  }
+  .sale__card:hover .sale__card-content .sale__details_normal-one {
+    transform: translateY(10px);
+  }
+  @media screen and (max-width: 1334px) {
+    .sale__card .sale__card-content .sale__details_normal-one {
+      transform: translateY(205px);
+    }
+    .sale__card:hover .sale__card-content .sale__details_normal-one {
+      transform: translateY(25px);
+    }
+  }
+  @media screen and (max-width: 926px) {
+    .sale__card .sale__card-content .sale__details_normal-one {
+      transform: translateY(155px);
+    }
+    .sale__card:hover .sale__card-content .sale__details_normal-one {
+      transform: translateY(155px);
+    }
+  }
+  @media screen and (max-width: 468px) {
+    .sale__card .sale__card-content .sale__details_normal-one {
+      transform: translateY(178px);
+    }
+    .sale__card:hover .sale__card-content .sale__details_normal-one {
+      transform: translateY(178px);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .sale__card .sale__card-content .sale__details_normal-one {
+      transform: translateY(204px);
+    }
+    .sale__card:hover .sale__card-content .sale__details_normal-one {
+      transform: translateY(204px);
+    }
+  } 
+}

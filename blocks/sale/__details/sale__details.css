@@ -1,0 +1,12 @@
+.sale__card .sale__card-content .sale__details {
+  padding: 40px 0 20px;
+  text-align: center;
+  width: 95%;
+  transition: .5s;
+  transform: translateY(152px);
+}
+
+.sale__card:hover .sale__details {
+  transform: translateY(0px);
+}
+

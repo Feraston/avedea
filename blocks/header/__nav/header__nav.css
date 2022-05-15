@@ -1,0 +1,5 @@
+@media screen and (max-width: 926px) {
+  .header__nav {
+    display: none;
+  }
+}

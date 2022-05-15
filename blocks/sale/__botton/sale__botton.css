@@ -1,0 +1,20 @@
+.sale__botton {
+  padding: 10px 20px;
+  border: 1px solid #3b9660;
+  background-color: #fff;
+  color: #3b9660;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.sale__botton:hover {
+  letter-spacing: 0.2em;
+  background-color: #3b9660;
+  color: rgb(255, 255, 255);
+}

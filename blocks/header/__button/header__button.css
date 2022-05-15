@@ -1,0 +1,29 @@
+.header__button {
+  border: 2px solid #3b9660;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  color: #3b9660;
+  text-decoration: none;
+  padding: 15px 15px 7px;
+  transition: 0.7s;
+}
+
+.header__button:hover {
+  background-color: #3b9660;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 926px) {
+  .header__button {
+    position: absolute;
+    right: 8px;
+    padding: 9px 15px 10px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .header__button-close {
+    display: none;
+  }
+}

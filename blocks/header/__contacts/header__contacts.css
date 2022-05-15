@@ -1,0 +1,10 @@
+.header__contacts {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 926px) {
+  .header__contacts {
+    padding-left: 60px;
+  }
+}
