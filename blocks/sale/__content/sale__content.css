@@ -1,7 +1,0 @@
-.sale__content {
-  width: 95%;
-  margin: 30px auto 10px;
-  display: grid;
-  grid: auto/repeat(3, 1fr);
-  gap: 10px;
-}

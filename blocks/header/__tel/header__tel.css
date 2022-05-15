@@ -1,9 +1,0 @@
-.header__tel {
-  text-decoration: none;
-}
-
-@media screen and (max-width: 575px) {
-  .header__tel {
-    display: none;
-  }
-}
