@@ -10,6 +10,7 @@
   letter-spacing: 0.05em;
   text-decoration: none;
   transition: .5s;
+  cursor: pointer;
 }
 
 .sale__botton:hover {

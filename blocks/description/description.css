@@ -1,0 +1,7 @@
+.description {
+  width: 95%;
+  display: grid;
+  grid: auto/1fr 2fr;
+  gap: 10px;
+  margin: 10px auto;
+}
