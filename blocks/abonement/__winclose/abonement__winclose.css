@@ -1,0 +1,8 @@
+.abonement__winclose {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  height: 0;
+}

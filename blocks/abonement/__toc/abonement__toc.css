@@ -1,0 +1,4 @@
+.abonement__toc {
+  display: flex;
+  flex-direction: column;
+}

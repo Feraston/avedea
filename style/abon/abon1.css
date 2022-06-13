@@ -43,12 +43,16 @@
 @import url(../../blocks/abonement/__title/abonement__title.css);
 @import url(../../blocks/abonement/__contents/abonement__contents.css);
 @import url(../../blocks/abonement/__img/abonement__img.css);
+@import url(../../blocks/abonement/__toc/abonement__toc.css);
 @import url(../../blocks/abonement/__content/abonement__content.css);
 @import url(../../blocks/abonement/__images/abonement__images.css);
 @import url(../../blocks/abonement/__weight/abonement__weight.css);
 @import url(../../blocks/abonement/__list/abonement__list.css);
 @import url(../../blocks/abonement/__button/abonement__button.css);
 @import url(../../blocks/abonement/__button-abon/abonement__button-abon.css);
+@import url(../../blocks/abonement/__hidwin/abonement__hidwin.css);
+@import url(../../blocks/abonement/__winclose/abonement__winclose.css);
+@import url(../../blocks/abonement/__winopen/abonement__winopen.css);
 
 /* Ремонт */
 @import url(../../blocks/remont/remont.css);
@@ -99,6 +103,10 @@
   background: url(../image/icon_top.png) no-repeat;
   background-size: 100%;
 }
+
+
+
+
 
 @media screen and (max-width: 926px) {
 .menu_is-open {

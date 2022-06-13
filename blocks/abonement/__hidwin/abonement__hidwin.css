@@ -1,0 +1,20 @@
+.abonement__hidwin {
+  max-width: 450px;
+  min-height: 40px;
+  border: 2px solid #41856e;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #41856e;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.7s;
+  cursor: pointer;
+  margin: 7px 0;
+  background: none;
+  font-size: 20px;
+}
+
+.active, .abonement__hidwin:hover {
+  background-color: #41856e;
+  color: rgb(255, 255, 255);
+}
