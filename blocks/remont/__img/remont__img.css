@@ -1,0 +1,7 @@
+.remont__img {
+  width: 275px;
+  height: 413px;
+  border-radius: 2%;
+  pointer-events: none;
+  margin: 20px auto;
+}

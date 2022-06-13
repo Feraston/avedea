@@ -1,0 +1,16 @@
+.abonement__img {
+  width: 100%;
+  grid-row: 1/24;
+  position: relative;
+  align-self: start;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .abonement__img {
+    grid-row: 1/2;
+    justify-content: center;
+  }
+}

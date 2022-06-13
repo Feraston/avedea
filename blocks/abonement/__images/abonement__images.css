@@ -1,0 +1,10 @@
+.abonement__images {
+  width: 100%;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 926px) {
+  .abonement__images {
+    width: 70%;
+  }
+}

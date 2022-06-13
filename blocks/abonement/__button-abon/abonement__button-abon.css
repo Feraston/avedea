@@ -1,0 +1,44 @@
+.abonement__button-abon {
+  width: 30%;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: 0.7s;
+  text-align: center;
+  font-style: italic;
+  border: 2px solid #41856e;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #41856e;
+  margin: 0 0 20px 0;
+}
+
+.abonement__button-abon:hover {
+  background-color: #41856e;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1426px) {
+  .abonement__button-abon {
+    width: 40%;
+  }
+  @media screen and (max-width: 1080px) {
+    .abonement__button-abon {
+      width: 50%;
+      justify-self: center;
+    }
+  }
+  @media screen and (max-width: 572px) {
+    .abonement__button-abon {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .abonement__button-abon {
+      width: 90%;
+      align-self: center;
+    }
+  }
+}
