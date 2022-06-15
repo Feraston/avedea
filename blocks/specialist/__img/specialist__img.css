@@ -1,0 +1,11 @@
+.specialist__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .specialist__img {
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+  }
+  }

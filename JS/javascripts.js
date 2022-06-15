@@ -37,9 +37,8 @@ anchors.forEach(function(item) {
   });
 });
 
+// Кнопка, которая открывает блок ниже
 const acc = document.getElementsByClassName("abonement__hidwin");
-
-
 for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,
@@ -55,3 +54,14 @@ for (let i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// Слайдер swiper
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  centeredSlides: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
