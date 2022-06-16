@@ -3,3 +3,10 @@
   max-height: 75vh;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1024px) {
+  .popup__zoom-photo {
+    max-width: 85vw;
+    max-height: 85vh;
+  }
+}

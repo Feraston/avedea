@@ -55,13 +55,61 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
 
-// Слайдер swiper
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
-  spaceBetween: 30,
-  centeredSlides: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+if(window.innerWidth >= 1024){
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    centeredSlides: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+} else {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    centeredSlides: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+}
+// ПОПАП
+const cardImg = document.querySelectorAll('.image');
+const windowPopupZoomImg = document.querySelector('#img-zoom');
+const imgZoom = document.querySelector('.popup__zoom-photo');
+const popupList = document.querySelectorAll('.popup');
+
+function openPopup(window) {
+  window.classList.add('popup_open');
+}
+
+function closePopup(window) {
+  window.classList.remove('popup_open');
+}
+
+
+function popupPhotoZoom(link) {
+  imgZoom.setAttribute('src', link);
+  openPopup(windowPopupZoomImg);
+}
+
+cardImg.forEach((item) => {
+  item.addEventListener('click', ()=>{
+    popupPhotoZoom(item.src);
+  });
+})
+
+popupList.forEach((popup) => {
+  popup.addEventListener('mousedown', (event)=> {
+    if(event.target.classList.contains('popup__close') || event.target === event.currentTarget) {
+      closePopup(popup)
+    }
+  });
 });
