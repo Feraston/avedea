@@ -1,0 +1,107 @@
+@import url(../vendor/normalize.css);
+@import url(../style/fonts.css);
+
+/* Mix */
+@import url(../blocks/animation/animation.css);
+
+/* Page */
+@import url(../blocks/page/page.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav-body/header__nav-body.css);
+@import url(../blocks/header/__nav-item/header__nav-item.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__toggle/header__toggle.css);
+@import url(../blocks/header/__toggle-image/header__toggle-image.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);
+@import url(../blocks/header/__menu-logo/header__menu-logo.css);
+@import url(../blocks/header/__menu-nav/header__menu-nav.css);
+@import url(../blocks/header/__menu-body/header__menu-body.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__adress/header__adress.css);
+@import url(../blocks/header/__tel/header__tel.css);
+@import url(../blocks/header/__tel-img/header__tel-img.css);
+@import url(../blocks/header/__tel-text/header__tel-text.css);
+
+/* Greeting */
+@import url(../blocks/greeting/greeting.css);
+@import url(../blocks/greeting/__title/greeting__title.css);
+@import url(../blocks/greeting/__subtitle/greating__subtitle.css);
+@import url(../blocks/greeting/__grad-one/greeting__grad-one.css);
+@import url(../blocks/greeting/__grad-two/greeting__grad-two.css);
+
+/* Training */
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__title/training__title.css);
+@import url(../blocks/training/__img/training__img.css);
+@import url(../blocks/training/__name/training__name.css);
+@import url(../blocks/training/__hr/training__hr.css);
+@import url(../blocks/training/__content/training__content.css);
+@import url(../blocks/training/__main/training__main.css);
+@import url(../blocks/training/__weight/training__weight.css);
+@import url(../blocks/training/__button/training__button.css);
+
+/* Footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__telefone/footer__telefone.css);
+@import url(../blocks/footer/__tel-icon/footer__tel-icon.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
+@import url(../blocks/footer/__tel-img/footer__tel-img.css);
+@import url(../blocks/footer/__tel-text/footer__tel-text.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
+@import url(../blocks/footer/__adr-icon/footer__adr-icon.css);
+@import url(../blocks/footer/__adr/footer__adr.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-text/footer__social-text.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__maps/footer__maps.css);
+@import url(../blocks/footer/__map/footer__map.css);
+@import url(../blocks/footer/__terms/footer__terms.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__privacy/footer__privacy.css);
+
+/* ВАЖНОЕ ПОТОМ РАЗОБРАТЬСЯ */
+.menu_is-open .header__toggle-image {
+  transform: rotate(180deg);
+  transition: .5s;
+}
+
+.scrollup{
+  width: 60px;
+  height: 60px;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  text-indent: -9999px;
+  background: url(../image/icon_top.png) no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 926px) {
+.menu_is-open {
+  left: 0px;
+}
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  bottom: 30px;
+  right: 30px;
+}
+}

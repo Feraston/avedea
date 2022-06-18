@@ -1,0 +1,16 @@
+.training__img {
+  width: 50%;
+  border-radius: 5% 5% 0 0;
+  margin-bottom: 20px;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  -webkit-box-reflect: below -2px linear-gradient(transparent,transparent, 97%, #fff);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 926px) {
+  .training__img {
+    width: 80%;
+    margin-bottom: 0;
+  }
+}

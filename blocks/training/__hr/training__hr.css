@@ -1,0 +1,14 @@
+.training__hr {
+  margin: 5px auto;
+	padding: 0;
+	height: 0;
+  width: 70%;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 6px 1px #3b9660;
+	overflow: hidden;
+}
+
+.training__hr:nth-of-type(2n+2) {
+	margin: 15px auto;
+}

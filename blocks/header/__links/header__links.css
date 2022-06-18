@@ -1,0 +1,30 @@
+/* .header__links {
+  font-size: 22px;
+  line-height: 22px;
+  color: #3b9660;
+  text-decoration: none;
+  transition: 0.1s;
+} */
+ 
+.header__links {
+  position: relative;
+  color: #3b9660;
+  z-index: 1;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: .7s;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.header__button:hover .header__links {
+  letter-spacing: 3px;
+}
+/*
+@media screen and (max-width: 926px) {
+  .header__links {
+    font-size: 20px;
+    line-height: 20px;
+  }
+} */
+
