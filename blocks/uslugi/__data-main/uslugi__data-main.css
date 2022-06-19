@@ -3,3 +3,10 @@
   gap: 20px;
   margin: 0 0 0 40px;
 }
+
+@media screen and (max-width: 960px) {
+  .uslugi__data-main {
+    margin: 0 auto;
+    gap: 10px;
+  }
+}
