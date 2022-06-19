@@ -27,5 +27,5 @@
 }
 
 .services__service:hover::before {
-  transform: skew(45deg) translateX(250%);
+  transform: skew(45deg) translateX(300%);
 }
