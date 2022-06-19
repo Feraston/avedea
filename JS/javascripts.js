@@ -37,7 +37,7 @@ anchors.forEach(function(item) {
   });
 });
 
-// Кнопка, которая открывает блок ниже
+// Кнопка, которая открывает блок ниже в абонементе
 const acc = document.getElementsByClassName("abonement__hidwin");
 for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
@@ -51,6 +51,20 @@ for (let i = 0; i < acc.length; i++) {
       panel.classList.toggle("abonement__winopen");
     } else {
       panel.classList.toggle("abonement__winopen");
+    }
+  });
+}
+
+// Кнопка, которая открывает блок ниже в услугах
+const uslug = document.getElementsByClassName("services__category");
+for (let i = 0; i < uslug.length; i++) {
+  uslug[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "flex") {
+      panel.classList.toggle("services__winopen");
+    } else {
+      panel.classList.toggle("services__winopen");
     }
   });
 }

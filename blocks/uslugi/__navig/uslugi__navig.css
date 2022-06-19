@@ -1,0 +1,6 @@
+.uslugi__navig {
+  width: 95%;
+  display: flex;
+  margin: 0 auto 10px;
+  justify-content: space-between;
+}

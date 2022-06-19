@@ -1,0 +1,8 @@
+.services__service-name {
+  margin: 10px auto 5px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #313330;
+  /* background: rgba(255,255,255, .7); */
+}

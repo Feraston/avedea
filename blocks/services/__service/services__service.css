@@ -1,0 +1,31 @@
+.services__service {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 20px;
+  padding: 0 0 7px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+  background: radial-gradient(ellipse farthest-side at top left, #ffffff 1%, #58cb89 10%, #3fad6b 30%);
+  background: -webkit-radial-gradient(ellipse farthest-side at top left, #ffffff 1%, #58cb89 10%, #3fad6b 30%);
+  background: -moz-radial-gradient(ellipse farthest-side at top left, #ffffff 1%, #58cb89 10%, #3fad6b 30%);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .7);
+}
+
+.services__service::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+  transform: skew(45deg) translateX(0);
+  transition: .5s;
+}
+
+.services__service:hover::before {
+  transform: skew(45deg) translateX(250%);
+}

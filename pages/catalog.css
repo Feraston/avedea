@@ -38,21 +38,11 @@
 @import url(../blocks/greeting/__grad-one/greeting__grad-one.css);
 @import url(../blocks/greeting/__grad-two/greeting__grad-two.css);
 
-/* Services */
-@import url(../blocks/services/services.css);
-@import url(../blocks/services/__title/services__title.css);
-@import url(../blocks/services/__category/services__category.css);
-@import url(../blocks/services/__winclose/services__winclose.css);
-@import url(../blocks/services/__winopen/services__winopen.css);
-@import url(../blocks/services/__hr/services__hr.css);
-@import url(../blocks/services/__service/services__service.css);
-@import url(../blocks/services/__img/services__img.css);
-@import url(../blocks/services/__service-name/services__service-name.css);
-@import url(../blocks/services/__data/services__data.css);
-@import url(../blocks/services/__icon/services__icon.css);
-@import url(../blocks/services/__money/services__money.css);
-@import url(../blocks/services/__weight/services__weight.css);
-@import url(../blocks/services/__button/services__button.css);
+/* Ремонт */
+@import url(../blocks/remont/remont.css);
+@import url(../blocks/remont/__title/remont__title.css);
+@import url(../blocks/remont/__img/remont__img.css);
+
 
 /* Footer */
 

@@ -1,0 +1,7 @@
+.services__data {
+  display: flex;
+  width: 95%;
+  gap: 10px;
+  margin: 0 auto 10px;
+  align-items: center;
+}

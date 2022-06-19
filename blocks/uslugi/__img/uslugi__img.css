@@ -1,8 +1,7 @@
-.abonement__img {
+.uslugi__img {
   width: 100%;
   position: relative;
-  align-self: start;
+  align-self: center;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
 }

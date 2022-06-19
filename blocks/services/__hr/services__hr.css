@@ -1,0 +1,14 @@
+.services__hr {
+  margin: 10px auto;
+	padding: 0;
+	height: 0;
+  width: 70%;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 6px 1px #3b9660;
+	overflow: hidden;
+}
+
+.training__hr:nth-of-type(1) {
+	margin: 0 auto 10px;
+}

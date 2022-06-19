@@ -1,0 +1,12 @@
+.uslugi__contents {
+  width: 95%;
+  display: flex;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .uslugi__contents {
+    flex-direction: column;
+  }
+}
