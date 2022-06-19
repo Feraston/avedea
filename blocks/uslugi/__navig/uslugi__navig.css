@@ -1,6 +1,13 @@
 .uslugi__navig {
   width: 95%;
   display: flex;
-  margin: 0 auto 10px;
+  margin: 10px auto;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 660px) {
+  .uslugi__navig {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,0 +1,9 @@
+.uslugi__navig-categ {
+  display: flex;
+}
+
+@media screen and (max-width: 850px) {
+  .uslugi__navig-categ {
+    flex-direction: column;
+  }
+}

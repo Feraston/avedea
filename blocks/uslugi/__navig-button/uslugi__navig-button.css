@@ -1,4 +1,4 @@
-.uslugi__navig-prev {
+.uslugi__navig-button {
   position: relative;
   height: 50px;
   margin-bottom: 20px;
@@ -21,11 +21,11 @@
   padding: 0 10px;
 }
 
-.uslugi__navig-prev:hover {
+.uslugi__navig-button:hover {
   letter-spacing: 3px;
 }
 
-.uslugi__navig-prev::before {
+.uslugi__navig-button::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -42,7 +42,7 @@
   0 0 15px #3b9660;
 }
 
-.uslugi__navig-prev:hover::before {
+.uslugi__navig-button:hover::before {
   bottom: 0;
   height: 10%;
   width: 90%;
@@ -50,7 +50,7 @@
   transition-delay: .2s;
 }
 
-.uslugi__navig-prev::after {
+.uslugi__navig-button::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -66,7 +66,7 @@
   0 0 15px #3b9660;
 }
 
-.uslugi__navig-prev:hover::after {
+.uslugi__navig-button:hover::after {
   top: 0;
   height: 10%;
   width: 90%;
@@ -75,19 +75,19 @@
 }
 
 @media screen and (max-width: 960px) {
-  .uslugi__navig-prev {
+  .uslugi__navig-button {
     font-size: 18px;
   }
-  .uslugi__navig-prev:hover {
+  .uslugi__navig-button:hover {
     letter-spacing: 1px;
   }
   @media screen and (max-width: 621px) {
-    .uslugi__navig-prev {
+    .uslugi__navig-button {
       font-size: 16px;
     }
   }
   @media screen and (max-width: 510px) {
-    .uslugi__navig-prev {
+    .uslugi__navig-button {
       font-size: 14px;
     }
   } 
