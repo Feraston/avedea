@@ -55,6 +55,7 @@
 @import url(../../blocks/uslugi/__navig-prev/uslugi__navig-prev.css);
 @import url(../../blocks/uslugi/__navig-categ/uslugi__navig-categ.css);
 @import url(../../blocks/uslugi/__navig-button/uslugi__navig-button.css);
+@import url(../../blocks/uslugi/__list/uslugi__list.css);
 
 /* Ремонт */
 @import url(../../blocks/remont/remont.css);
