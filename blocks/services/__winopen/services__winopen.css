@@ -2,4 +2,26 @@
   visibility: visible;
   opacity: 1;
   height: auto;
+  grid: auto/repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1330px) {
+  .services__winopen {
+    grid: auto/repeat(4, 1fr);
+  }
+  @media screen and (max-width: 1024px) {
+    .services__winopen {
+      grid: auto/repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .services__winopen {
+      grid: auto/repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .services__winopen {
+      grid: auto/repeat(1, 1fr);
+    }
+  }
 }
