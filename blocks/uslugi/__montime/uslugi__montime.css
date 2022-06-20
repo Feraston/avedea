@@ -6,3 +6,9 @@
   margin: 0;
   color: #313330;
 }
+
+@media screen and (max-width: 540px) {
+  .uslugi__montime {
+    font-size: 16px;
+  }
+}
