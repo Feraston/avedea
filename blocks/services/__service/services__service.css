@@ -1,7 +1,7 @@
 .services__service {
   position: relative;
   width: 100%;
-  min-height: 300px;
+  /* min-height: 300px; */
   border-radius: 20px;
   padding: 0 0 7px;
   display: flex;
