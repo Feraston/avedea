@@ -8,6 +8,15 @@
 
 .description__content:last-of-type {
   color: #41856e;
+  font-size: 20px;
+}
+
+.description__content:last-of-type::before {
+  content: open-quote;
+}
+
+.description__content:last-of-type::after {
+  content: close-quote;
 }
 
 @media screen and (max-width: 1024px) {
