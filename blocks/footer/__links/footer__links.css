@@ -1,0 +1,10 @@
+.footer__links {
+  width: 20%;
+  min-height:80px;
+}
+
+@media screen and (max-width: 926px) {
+  .footer__links {
+    width: 100%;
+  }
+}

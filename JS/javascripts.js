@@ -1,3 +1,35 @@
+const buttonServiceMobile = document.querySelector('.header__menu-container');
+const buttonServiceHeader = document.querySelector('.header__contacts');
+const buttonServiceFooter = document.querySelector('.footer__links');
+
+function linkServisMobile () {
+  const linkService = document.createElement('a');
+  linkService.className = "header__menu-button";
+  linkService.setAttribute('href', 'https://b182496.yclients.com/company/185262/record-type?o=s7743448');
+  linkService.innerHTML = "Запись онлайн";
+  buttonServiceMobile.append(linkService);
+}
+
+function linkServisHeader () {
+  const linkService = document.createElement('a');
+  linkService.className = "header__button";
+  linkService.setAttribute('href', 'https://b182496.yclients.com/company/185262/record-type?o=s7743448');
+  linkService.innerHTML = "Запись онлайн";
+  buttonServiceHeader.append(linkService);
+}
+
+function linkServisFooter () {
+  const linkService = document.createElement('a');
+  linkService.className = "footer__button";
+  linkService.setAttribute('href', 'https://b182496.yclients.com/company/185262/record-type?o=s7743448');
+  linkService.innerHTML = "Запись онлайн";
+  buttonServiceFooter.append(linkService);
+}
+
+linkServisMobile();
+linkServisHeader();
+linkServisFooter();
+
 document.querySelector('.header__toggle').onclick = () => {
   document.querySelector('.header__menu').classList.toggle('menu_is-open');
   document.querySelector('.header__button').classList.toggle('header__button-close');
@@ -127,3 +159,4 @@ popupList.forEach((popup) => {
     }
   });
 });
+
