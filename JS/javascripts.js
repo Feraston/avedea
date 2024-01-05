@@ -1,7 +1,9 @@
 const buttonServiceMobile = document.querySelector('.header__menu-container');
 const buttonServiceHeader = document.querySelector('.header__contacts');
 const buttonServiceFooter = document.querySelector('.footer__links');
+const mainSelection = document.querySelector('.main');
 
+// Общая кнопка Заказа услуги в мобильных
 function linkServisMobile () {
   const linkService = document.createElement('a');
   linkService.className = "header__menu-button";
@@ -10,6 +12,7 @@ function linkServisMobile () {
   buttonServiceMobile.append(linkService);
 }
 
+// Общая кнопка Заказа услуги в десктоп
 function linkServisHeader () {
   const linkService = document.createElement('a');
   linkService.className = "header__button";
@@ -18,6 +21,7 @@ function linkServisHeader () {
   buttonServiceHeader.append(linkService);
 }
 
+// Общая кнопка Заказа услуги в футере
 function linkServisFooter () {
   const linkService = document.createElement('a');
   linkService.className = "footer__button";
@@ -26,9 +30,38 @@ function linkServisFooter () {
   buttonServiceFooter.append(linkService);
 }
 
+// Общий запуск
 linkServisMobile();
 linkServisHeader();
 linkServisFooter();
+
+// Общая шапка
+function greeting () {
+  const greetingBody = document.createElement('section');
+  greetingBody.className = "greeting";
+  mainSelection.prepend(greetingBody);
+
+  const greetingGradOne = document.createElement('div');
+  greetingGradOne.className = "greeting__grad-one";
+  greetingBody.append(greetingGradOne);
+
+  const greetingTitle = document.createElement('h1');
+  greetingTitle.className = "greeting__title";
+  greetingTitle.innerHTML = "Cтудия эстетической косметологии";
+  greetingBody.append(greetingTitle);
+
+  const greetingSubTitle = document.createElement('p');
+  greetingSubTitle.className = "greating__subtitle";
+  greetingSubTitle.innerHTML = "Осознанная забота о себе.";
+  greetingBody.append(greetingSubTitle);
+
+  const greetingGradTwo = document.createElement('div');
+  greetingGradTwo.className = "greeting__grad-two";
+  greetingBody.append(greetingGradTwo);
+}
+
+// Запуск шапки
+greeting();
 
 document.querySelector('.header__toggle').onclick = () => {
   document.querySelector('.header__menu').classList.toggle('menu_is-open');
@@ -159,4 +192,3 @@ popupList.forEach((popup) => {
     }
   });
 });
-
