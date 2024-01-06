@@ -75,7 +75,7 @@ function greeting() {
 
   const greetingNewSubTitle = document.createElement("div");
   greetingNewSubTitle.className = "greeting__new_subtitle";
-  greetingNewSubTitle.innerHTML = "Аппаратная косметология «Шарм»";
+  greetingNewSubTitle.innerHTML = "Лазерная эпиляция";
   greetingNew.append(greetingNewSubTitle);
 
   const greetingNewButton = document.createElement("button");
