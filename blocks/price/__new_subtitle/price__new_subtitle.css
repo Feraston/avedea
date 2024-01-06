@@ -1,0 +1,11 @@
+.price__new_subtitle {
+  text-align: center;
+  width: 60%;
+  padding: 0;
+  margin: 10px 0 0;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #3b9660;
+  line-height: 1.2em;
+  font-style: italic;
+}

@@ -36,7 +36,17 @@
 @import url(../blocks/greeting/__title/greeting__title.css);
 @import url(../blocks/greeting/__subtitle/greating__subtitle.css);
 @import url(../blocks/greeting/__grad-one/greeting__grad-one.css);
+@import url(../blocks/greeting/__new/greeting__new.css);
+@import url(../blocks/greeting/__new_title/greeting__new_title.css);
+@import url(../blocks/greeting/__new_subtitle/greeting__new_subtitle.css);
+@import url(../blocks/greeting/__new_button/greeting__new_button.css);
 @import url(../blocks/greeting/__grad-two/greeting__grad-two.css);
+
+/* New */
+@import url(../blocks/price/__new/price__new.css);
+@import url(../blocks/price/__new_title/price__new_title.css);
+@import url(../blocks/price/__new_subtitle/price__new_subtitle.css);
+@import url(../blocks/price/__new_button/price__new_button.css);
 
 /* Sale */
 @import url(../blocks/sale/sale.css);
@@ -101,6 +111,21 @@
 @import url(../blocks/footer/__terms/footer__terms.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
+
+/* Попап New */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__new/popup__new.css);
+@import url(../blocks/popup/__button-close/popup__button-close.css);
+@import url(../blocks/popup/__new_body/popup__new_body.css);
+@import url(../blocks/popup/__new_title/popup__new_title.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__list/popup__list.css);
+@import url(../blocks/popup/__list_cards/popup__list_cards.css);
+@import url(../blocks/popup/__list_card/popup__list_card.css);
+@import url(../blocks/popup/__card_price/popup__card_price.css);
+@import url(../blocks/popup/__icon/popup__icon.css);
+@import url(../blocks/popup/__button_link/popup__button_link.css);
 
 /* ВАЖНОЕ ПОТОМ РАЗОБРАТЬСЯ */
 .menu_is-open .header__toggle-image {

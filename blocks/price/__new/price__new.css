@@ -1,0 +1,19 @@
+.price__new {
+  display: none;
+  right: 125px;
+  top: 50px;
+  height: 175px;
+  width: 450px;
+  background: #fff;
+  background: url(../../greeting/file/apparat.png) 0 0 repeat-x;
+  background-size: contain;
+  border: 2px solid #00973c;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1060px) {
+  .price__new {
+    display: block;
+  }
+}  

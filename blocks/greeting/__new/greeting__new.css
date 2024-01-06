@@ -1,0 +1,25 @@
+.greeting__new {
+  position: absolute;
+  right: 125px;
+  top: 50px;
+  height: 175px;
+  width: 450px;
+  background: #fff;
+  background: url(../file/apparat.png) 0 0 repeat-x;
+  background-size: contain;
+  border: 2px solid #00973c;
+  border-radius: 25px;
+  
+}
+
+@media screen and (max-width: 1300px) {
+  .greeting__new {
+    right: 75px;
+  }
+}  
+
+@media screen and (max-width: 1060px) {
+  .greeting__new {
+    display: none;
+  }
+}  

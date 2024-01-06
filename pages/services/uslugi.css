@@ -36,6 +36,10 @@
 @import url(../../blocks/greeting/__title/greeting__title.css);
 @import url(../../blocks/greeting/__subtitle/greating__subtitle.css);
 @import url(../../blocks/greeting/__grad-one/greeting__grad-one.css);
+@import url(../../blocks/greeting/__new/greeting__new.css);
+@import url(../../blocks/greeting/__new_title/greeting__new_title.css);
+@import url(../../blocks/greeting/__new_subtitle/greeting__new_subtitle.css);
+@import url(../../blocks/greeting/__new_button/greeting__new_button.css);
 @import url(../../blocks/greeting/__grad-two/greeting__grad-two.css);
 
 /* Uslugi */

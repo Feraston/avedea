@@ -1,0 +1,40 @@
+:root {
+  --scrollbarBg: rgba(255, 255, 255, 1);
+  --scrollbarThumb: rgba(59, 150, 96, 0.5);
+  --scrollbarWidth: 12px;
+  --scrollbarBorder: 3px solid var(--scrollbarBg);
+  --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
+}
+
+.popup__new_body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background-color: #fff;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #3b9660;
+}
+
+.popup__new_body {
+  scrollbar-width: var(--scrollbarWidth);
+  scrollbar-color: var(--scrollbarThumb) var(--scrollbarBg);
+}
+.popup__new_body::-webkit-scrollbar {
+  width: var(--scrollbarWidth);
+}
+.popup__new_body::-webkit-scrollbar-track {
+  background: var(--scrollbarBg);
+  border-radius: var(--scrollbarBorderRadius);
+}
+.popup__new_body::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarThumb);
+  border-radius: var(--scrollbarBorderRadius);
+  border: var(--scrollbarBorder);
+}

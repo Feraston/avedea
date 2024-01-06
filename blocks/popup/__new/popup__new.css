@@ -1,0 +1,9 @@
+.popup__new {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  border-radius: 25px;
+  background-color: #fff;
+}

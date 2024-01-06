@@ -1,0 +1,22 @@
+.popup__button_link {
+  border: 2px solid #3b9660;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #3b9660;
+  text-decoration: none;
+  margin: 35px 0 0 40px;
+  padding: 8px 17px 7px;
+  transition: 0.7s;
+  background: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  width: 220px;
+}
+
+.popup__button_link:hover {
+  background-color: #3b9660;
+  color: #fff;
+}

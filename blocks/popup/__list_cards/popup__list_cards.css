@@ -1,0 +1,9 @@
+.popup__list_cards {
+  margin: 15px 0 0;
+  width: 100%;
+}
+
+.popup__list_cards::marker {
+	color: #3b9660;
+	font-size: 24px;
+}
