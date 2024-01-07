@@ -35,6 +35,18 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .popup__new_body {
+    padding: 0 20px 0 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__new_body {
+    padding: 0 13px 0 30px;
+  }
+}
+
 .popup__new_body {
   scrollbar-width: var(--scrollbarWidth);
   scrollbar-color: var(--scrollbarThumb) var(--scrollbarBg);

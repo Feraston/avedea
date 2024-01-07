@@ -1,0 +1,9 @@
+.popup__list_card_content {
+  display: flex;
+  margin: 0 0 10px -15px;
+  width: 105%;
+}
+
+.popup__list_card_content:last-child {
+  margin: 0 0 0 -15px;
+}

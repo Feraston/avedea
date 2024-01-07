@@ -1,0 +1,22 @@
+.popup__card_content_two {
+  width: 100%;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 1330px) {
+  .popup__card_content_two {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .popup__card_content_two {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .popup__card_content_two {
+    font-size: 18px;
+  }
+}
