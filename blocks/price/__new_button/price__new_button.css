@@ -21,3 +21,9 @@
   letter-spacing: 0.2em;
   margin: 8px 0 0 35px;
 }
+
+@media screen and (max-width: 750px) {
+  .price__new_button {
+    margin: 8px 0 0 20px;
+  }
+}
