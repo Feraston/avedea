@@ -28,7 +28,7 @@ export default async function SpecialistPage({ params }: Props) {
   if (!specialist) notFound();
 
   return (
-    <main className="main">
+    <main>
       <SpecialistDetail specialist={specialist} />
     </main>
   );

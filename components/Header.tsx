@@ -1,115 +1,126 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { site } from "@/data/site";
 
 export function Header() {
+  const pathname = usePathname();
+  const overHero = pathname === "/";
   const [menuOpen, setMenuOpen] = useState(false);
-  const toggleMenu = () => setMenuOpen((v) => !v);
+  const [solid, setSolid] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setSolid(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
+
+  const close = () => setMenuOpen(false);
 
   return (
-    <header className="header" id="header">
-      <section className={`header__menu${menuOpen ? " menu_is-open" : ""}`}>
-        <button
-          type="button"
-          className="header__toggle"
-          onClick={toggleMenu}
-          aria-expanded={menuOpen}
-          aria-controls="mobile-nav"
-          aria-label={menuOpen ? "Закрыть меню" : "Открыть меню"}
-        >
-          <img
-            className="header__toggle-image"
-            src="/blocks/header/file/menu.png"
-            alt=""
-          />
-        </button>
-        <div className="header__menu-container" id="mobile-nav">
-          <img
-            className="header__menu-logo"
-            src="/blocks/header/file/logo.svg"
-            alt="Avedea"
-          />
-          <nav className="header__menu-nav" aria-label="Мобильная навигация">
-            <ul className="header__menu-body">
-              <li className="header__menu-item animation">
-                <Link
-                  className="header__menu-link"
-                  href="/"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  НА ГЛАВНУЮ
-                </Link>
-              </li>
-              <li className="header__menu-item animation">
-                <Link
-                  className="header__menu-link"
-                  href="/services/"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  УСЛУГИ
-                </Link>
-              </li>
-              <li className="header__menu-item animation">
-                <Link
-                  className="header__menu-link"
-                  href="/training/"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  ОБУЧЕНИЕ
-                </Link>
-              </li>
-            </ul>
+    <>
+      <header
+        className={`site-header${solid || menuOpen ? " is-solid" : ""}${overHero ? " is-over-hero" : ""}`}
+      >
+        <div className="site-header__inner">
+          <Link className="site-brand" href="/" onClick={close}>
+            <img
+              className="site-brand__mark"
+              src="/blocks/header/file/logo.svg"
+              alt=""
+            />
+            <span className="site-brand__name">{site.name}</span>
+          </Link>
+
+          <nav className="site-nav" aria-label="Основная навигация">
+            <Link href="/services/">Услуги</Link>
+            <Link href="/training/">Обучение</Link>
+            <a href="#contacts">Контакты</a>
           </nav>
+
+          <div className="site-header__actions">
+            <a className="site-header__phone" href={`tel:${site.phone}`}>
+              {site.phoneDisplay}
+            </a>
+            <a
+              className="btn btn--primary site-header__book"
+              href={site.yclientsBookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Запись
+            </a>
+            <button
+              type="button"
+              className="menu-toggle"
+              aria-expanded={menuOpen}
+              aria-controls="mobile-nav"
+              aria-label={menuOpen ? "Закрыть меню" : "Открыть меню"}
+              onClick={() => setMenuOpen((v) => !v)}
+            >
+              <span className="menu-toggle__bars" aria-hidden>
+                <span />
+                <span />
+                <span />
+              </span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div
+        className={`mobile-nav${menuOpen ? " is-open" : ""}`}
+        id="mobile-nav"
+        hidden={!menuOpen}
+      >
+        <nav aria-label="Мобильная навигация">
+          <ul className="mobile-nav__links">
+            <li>
+              <Link href="/" onClick={close}>
+                Главная
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/" onClick={close}>
+                Услуги
+              </Link>
+            </li>
+            <li>
+              <Link href="/training/" onClick={close}>
+                Обучение
+              </Link>
+            </li>
+            <li>
+              <a href="#contacts" onClick={close}>
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className="mobile-nav__meta">
+          <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a>
+          <p>{site.addressShort}</p>
           <a
-            className="header__menu-button"
+            className="btn btn--light"
             href={site.yclientsBookingUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={close}
           >
             Запись онлайн
           </a>
         </div>
-      </section>
-      <Link className="logo" href="/">
-        <img className="logo" src="/blocks/header/file/logo.svg" alt="Avedea" />
-      </Link>
-      <nav className="header__nav" aria-label="Основная навигация">
-        <ul className="header__nav-body">
-          <li className="header__nav-item animation">
-            <Link className="header__nav-link" href="/services/">
-              Услуги
-            </Link>
-          </li>
-          <li className="header__nav-item animation">
-            <Link className="header__nav-link" href="/training/">
-              Обучение
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <div className="header__contacts">
-        <a href="#adress" className="header__adress">
-          {site.addressShort.replace("Куникова, ", "Куникова,\u00a0")}
-        </a>
-        <a className="header__tel" href={`tel:${site.phone}`}>
-          <img
-            className="header__tel-img"
-            src="/blocks/header/file/tel.svg"
-            alt=""
-          />
-          <span className="header__tel-text">{site.phoneDisplay}</span>
-        </a>
-        <a
-          className={`header__button${menuOpen ? " header__button-close" : ""}`}
-          href={site.yclientsBookingUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Запись онлайн
-        </a>
       </div>
-    </header>
+    </>
   );
 }

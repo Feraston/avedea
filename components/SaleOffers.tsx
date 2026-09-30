@@ -2,8 +2,15 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Reveal } from "@/components/Reveal";
 import type { Abonement } from "@/lib/content";
 import { getSeasonalOffersTitle } from "@/lib/season";
+
+const OFFER_IMAGES = [
+  "/redesign/offer-1.jpg",
+  "/redesign/offer-2.jpg",
+  "/redesign/offer-3.jpg",
+];
 
 export function SaleOffers({ abonements }: { abonements: Abonement[] }) {
   const [title, setTitle] = useState(getSeasonalOffersTitle);
@@ -13,53 +20,39 @@ export function SaleOffers({ abonements }: { abonements: Abonement[] }) {
   }, []);
 
   return (
-    <section className="sale">
-      <h3 className="sale__title" suppressHydrationWarning>
-        {title}
-      </h3>
-      <div className="sale__content offer-grid">
-        {abonements.map((abon) => (
-          <article className="offer-card" key={abon.slug}>
-            <div className="offer-card__media">
-              <img
-                src={abon.cardImage}
-                className="offer-card__img"
-                alt={abon.preview.name}
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <div className="offer-card__body">
-              <h2 className="offer-card__title">
-                <Link href={`/abon/${abon.slug}/`} className="offer-card__link">
-                  {abon.preview.name}
-                </Link>
-              </h2>
-              <p className="offer-card__label">Абонемент</p>
-              <div className="offer-card__details">
-                <div className="offer-card__details-inner">
-                  <p className="offer-card__row">
-                    <span className="offer-card__key">Стоимость:</span>{" "}
-                    <span className="offer-card__value">{abon.preview.cost}</span>
-                  </p>
-                  <p className="offer-card__row">
-                    <span className="offer-card__key">Что входит:</span>{" "}
-                    <span className="offer-card__value">
-                      {abon.preview.includes}
-                    </span>
-                  </p>
-                  <p className="offer-card__row">
-                    <span className="offer-card__key">Подарок:</span>{" "}
-                    <span className="offer-card__value">{abon.preview.gift}</span>
-                  </p>
-                  <Link href={`/abon/${abon.slug}/`} className="offer-card__btn">
-                    Подробнее
-                  </Link>
+    <section className="section">
+      <div className="wrap">
+        <Reveal>
+          <p className="section__eyebrow">Абонементы</p>
+          <h2 className="section__title" suppressHydrationWarning>
+            {title}
+          </h2>
+          <p className="section__lead">
+            Курсы процедур с выгодой и подарками — спокойный темп заботы о коже и теле.
+          </p>
+        </Reveal>
+        <div className="offers__grid">
+          {abonements.map((abon, i) => (
+            <Reveal key={abon.slug} delay={i * 80}>
+              <Link className="offer" href={`/abon/${abon.slug}/`}>
+                <div className="offer__media">
+                  <img
+                    src={OFFER_IMAGES[i] || abon.cardImage}
+                    alt={abon.preview.name}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
-              </div>
-            </div>
-          </article>
-        ))}
+                <div className="offer__body">
+                  <p className="offer__label">Абонемент</p>
+                  <h3 className="offer__title">{abon.preview.name}</h3>
+                  <p className="offer__meta">{abon.preview.cost}</p>
+                  <p className="offer__meta">{abon.preview.includes}</p>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );

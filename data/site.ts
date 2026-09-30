@@ -20,7 +20,7 @@ export const site = {
     "https://yandex.ru/map-widget/v1/?um=constructor%3Ae455a16e4c826e85868b4ad78e932ef9ede2e660dfd696f4bbef361bd83ecec8&source=constructor",
   metrikaId: 93236783,
   copyrightYears: "2010 - 2026",
-  tagline: "Осознанная забота о себе.",
+  tagline: "Осознанная забота о себе в Краснодаре.",
   heroTitle: "Студия эстетической косметологии",
   promo: {
     title: "Новинка",

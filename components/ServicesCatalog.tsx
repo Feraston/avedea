@@ -1,8 +1,10 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { getCategoryCover } from "@/data/categories";
 import type { Service } from "@/lib/content";
+import { formatCategoryTitle, formatServiceCount } from "@/lib/format";
 
 type Group = {
   category: string;
@@ -11,76 +13,103 @@ type Group = {
 };
 
 export function ServicesCatalog({ groups }: { groups: Group[] }) {
-  const [open, setOpen] = useState<Record<string, boolean>>({});
+  const [open, setOpen] = useState<Record<string, boolean>>(() => {
+    const first = groups[0]?.category;
+    return first ? { [first]: true } : {};
+  });
+
+  useEffect(() => {
+    const hash = window.location.hash.replace(/^#/, "");
+    if (!hash) return;
+    if (!groups.some((g) => g.category === hash)) return;
+    setOpen((prev) => ({ ...prev, [hash]: true }));
+    requestAnimationFrame(() => {
+      document.getElementById(hash)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }, [groups]);
 
   return (
-    <section className="services">
-      <h2 className="services__title">Услуги</h2>
-      <hr className="services__hr" />
-      {groups.map((group) => {
-        const isOpen = open[group.category] ?? false;
-        return (
-          <Fragment key={group.category}>
-            <h3
-              className={`services__category${isOpen ? " active" : ""}`}
-              onClick={() =>
-                setOpen((prev) => ({
-                  ...prev,
-                  [group.category]: !prev[group.category],
-                }))
-              }
-              role="button"
-              tabIndex={0}
-              aria-expanded={isOpen}
-              aria-controls={`services-panel-${group.category}`}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  setOpen((prev) => ({
-                    ...prev,
-                    [group.category]: !prev[group.category],
-                  }));
-                }
-              }}
-            >
-              {group.categoryTitle}
-            </h3>
-            <div
-              id={`services-panel-${group.category}`}
-              className={`services__winclose${isOpen ? " services__winopen" : ""}`}
-            >
-              {group.items.map((service) => (
-                <div className="services__service" key={service.slug}>
+    <section className="section">
+      <div className="wrap">
+        <p className="section__eyebrow">Каталог</p>
+        <h2 className="section__title">Услуги студии</h2>
+        <p className="section__lead">
+          Выберите направление — внутри каждая процедура с описанием и записью онлайн.
+        </p>
+
+        <div className="svc-list" style={{ marginTop: "2rem" }}>
+          {groups.map((group) => {
+            const isOpen = open[group.category] ?? false;
+            const cover = getCategoryCover(group.category);
+            return (
+              <div className="svc-group" key={group.category} id={group.category}>
+                <button
+                  type="button"
+                  className="svc-group__head"
+                  aria-expanded={isOpen}
+                  aria-controls={`services-panel-${group.category}`}
+                  onClick={() =>
+                    setOpen((prev) => ({
+                      ...prev,
+                      [group.category]: !prev[group.category],
+                    }))
+                  }
+                >
                   <img
-                    className="services__img"
-                    src={service.cardImage || service.image}
-                    alt={service.title}
+                    className="svc-group__thumb"
+                    src={cover}
+                    alt=""
                     loading="lazy"
                     decoding="async"
                   />
-                  <h4 className="services__service-name">{service.title}</h4>
-                  {service.duration ? (
-                    <div className="services__data">
-                      <img
-                        className="services__icon"
-                        src="/blocks/services/file/time-left.png"
-                        alt=""
-                      />
-                      <p className="services__money">Время: {service.duration}</p>
+                  <div>
+                    <h3 className="svc-group__title">
+                      {formatCategoryTitle(group.category, group.categoryTitle)}
+                    </h3>
+                    <p className="svc-group__meta">
+                      {formatServiceCount(group.items.length)}
+                    </p>
+                  </div>
+                  <span className="svc-group__chev" aria-hidden>
+                    ▾
+                  </span>
+                </button>
+                <div
+                  id={`services-panel-${group.category}`}
+                  className={`svc-group__panel${isOpen ? " is-open" : ""}`}
+                >
+                  <div className="svc-group__panel-inner">
+                    <div className="svc-items">
+                      {group.items.map((service) => (
+                        <Link
+                          key={service.slug}
+                          className="svc-item"
+                          href={`/services/${service.category}/${service.slug}/`}
+                        >
+                          <img
+                            src={service.cardImage || service.image}
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                          />
+                          <div>
+                            <p className="svc-item__name">{service.title}</p>
+                            {service.duration ? (
+                              <p className="svc-item__time">
+                                {service.duration}
+                              </p>
+                            ) : null}
+                          </div>
+                        </Link>
+                      ))}
                     </div>
-                  ) : null}
-                  <Link
-                    className="services__button"
-                    href={`/services/${service.category}/${service.slug}/`}
-                  >
-                    Подробнее
-                  </Link>
+                  </div>
                 </div>
-              ))}
-            </div>
-          </Fragment>
-        );
-      })}
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 }

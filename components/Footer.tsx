@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/data/site";
 
 export function Footer() {
@@ -20,76 +21,81 @@ export function Footer() {
   ].filter(Boolean) as { href: string; src: string; alt: string }[];
 
   return (
-    <footer className="footer">
-      <div className="footer__content">
-        <div className="footer__socials">
-          <div className="footer__telefone">
-            <img
-              src="/blocks/footer/file/tel.png"
-              className="footer__tel-icon"
-              alt=""
-            />
-            <div>
-              <a className="footer__tel" href={`tel:${site.phone}`}>
-                <img
-                  className="footer__tel-img"
-                  src="/blocks/header/file/tel.svg"
-                  alt=""
-                />
-                <span className="footer__tel-text">{site.phoneDisplay}</span>
-              </a>
-            </div>
+    <footer className="site-footer" id="contacts">
+      <div className="wrap site-footer__grid">
+        <div>
+          <div className="site-footer__brand">{site.name}</div>
+          <p className="site-footer__tag">{site.tagline}</p>
+          <p className="site-footer__tag" style={{ marginTop: "1rem" }}>
+            {site.addressFull}
+          </p>
+          <div style={{ marginTop: "1.25rem" }}>
+            <a
+              className="btn btn--ghost"
+              href={site.yclientsBookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Запись онлайн
+            </a>
           </div>
-          <div className="footer__adress">
-            <img
-              src="/blocks/footer/file/gps.png"
-              className="footer__adr-icon"
-              alt=""
-            />
-            <p className="footer__adr">{site.addressFull}</p>
+        </div>
+
+        <div className="site-footer__cols">
+          <div>
+            <p className="site-footer__label">Навигация</p>
+            <ul className="site-footer__list">
+              <li>
+                <Link href="/">Главная</Link>
+              </li>
+              <li>
+                <Link href="/services/">Услуги</Link>
+              </li>
+              <li>
+                <Link href="/training/">Обучение</Link>
+              </li>
+            </ul>
           </div>
-          {socials.length ? (
-            <div className="footer__social">
-              <p className="footer__social-text">Мы в соцсетях:</p>
-              <div className="footer__social-links">
+          <div>
+            <p className="site-footer__label">Связь</p>
+            <ul className="site-footer__list">
+              <li>
+                <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a>
+              </li>
+            </ul>
+            {socials.length ? (
+              <div className="site-footer__socials" style={{ marginTop: "1rem" }}>
                 {socials.map((s) => (
                   <a
                     key={s.alt}
                     href={s.href}
-                    className="footer__link"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={s.alt}
                   >
-                    <img className="footer__image" src={s.src} alt={s.alt} />
+                    <img src={s.src} alt="" />
                   </a>
                 ))}
               </div>
-            </div>
-          ) : null}
+            ) : null}
+          </div>
         </div>
-        <div className="footer__links">
-          <a
-            className="footer__button"
-            href={site.yclientsBookingUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Запись онлайн
-          </a>
-        </div>
-        <div id="adress" className="footer__maps">
+
+        <div>
+          <p className="site-footer__label">Как нас найти</p>
           <iframe
             src={site.mapEmbedUrl}
-            className="footer__map"
+            className="site-footer__map"
             title="Карта Avedea"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
       </div>
-      <div className="footer__terms">
-        <p className="footer__copyright">© {site.copyrightYears}</p>
-        <p className="footer__privacy">Avedea Holistic cosmetology</p>
+
+      <div className="wrap site-footer__bottom">
+        <span>© {site.copyrightYears} {site.name}</span>
+        <span>Holistic cosmetology · Краснодар</span>
       </div>
     </footer>
   );
