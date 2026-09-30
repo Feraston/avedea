@@ -14,7 +14,7 @@ export default function TrainingPage() {
     <main>
       <section className="page-hero">
         <div className="page-hero__media" aria-hidden>
-          <img src="/redesign/training.jpg" alt="" />
+          <img src="/redesign/gen/banner.jpg" alt="" />
           <div className="page-hero__shade" />
         </div>
         <div className="page-hero__content">

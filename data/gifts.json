@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "gift-any",
+    "title": "Подарочный сертификат",
+    "eyebrow": "Подарок",
+    "lead": "На любую процедуру или сумму — красивый способ сказать «заботься о себе».",
+    "cta": "Выбрать в записи",
+    "href": "https://b182496.yclients.com/company/185262/personal/select-services?o=",
+    "image": "/redesign/soft/abon-2.jpg"
+  },
+  {
+    "slug": "gift-hydrafacial",
+    "title": "HydraFacial в подарок",
+    "eyebrow": "Сияние",
+    "lead": "Вакуумный гидропилинг и комплексный уход — готовое впечатление без раздумий.",
+    "cta": "К процедуре",
+    "href": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479311",
+    "image": "/redesign/soft/promo-laser.jpg"
+  },
+  {
+    "slug": "gift-abon",
+    "title": "Абонемент с подарком",
+    "eyebrow": "Курс",
+    "lead": "Несколько процедур выгоднее разовых визитов — и с бонусом для домашнего ухода.",
+    "cta": "Смотреть абонементы",
+    "href": "#abonements",
+    "image": "/redesign/soft/abon-1.jpg"
+  }
+]

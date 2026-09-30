@@ -8,8 +8,8 @@
       "Идейный вдохновитель",
       "Основатель студии Avedea"
     ],
-    "image": "/blocks/specialist/file/spec_es.jpg",
-    "homeImage": "/blocks/master/file/spec_es.jpg",
+    "image": "/redesign/soft/spec-es-detail.jpg",
+    "homeImage": "/redesign/soft/spec-es.jpg",
     "body": [
       {
         "type": "heading",
@@ -103,8 +103,8 @@
     "posts": [
       "Косметолог-натуроэстетист"
     ],
-    "image": "/blocks/specialist/file/spec_vp.jpg",
-    "homeImage": "/blocks/master/file/spec_vp.png",
+    "image": "/redesign/soft/spec-vp-detail.jpg",
+    "homeImage": "/redesign/soft/spec-vp.jpg",
     "body": [
       {
         "type": "list",

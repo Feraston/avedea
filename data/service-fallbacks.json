@@ -1,0 +1,45 @@
+[
+  { "category": "piercing", "slug": "prokol_uschey" },
+  { "category": "piercing", "slug": "prokol_nosa" },
+  { "category": "piercing", "slug": "prokol_guby" },
+  { "category": "permanent", "slug": "guby" },
+  { "category": "permanent", "slug": "mezhresnichka" },
+  { "category": "permanent", "slug": "brovi_mezhresnichka" },
+  { "category": "permanent", "slug": "brovi_guby" },
+  { "category": "permanent", "slug": "guby_mezhresnichka" },
+  { "category": "permanent", "slug": "pudrovye_brovi" },
+  { "category": "hydrafacial", "slug": "ionizatsiya_maski" },
+  {
+    "category": "esteticheskaya_kosmetologiya",
+    "slug": "lazernaya_biorevitalizatsiya_i_omolozhenie_na_diodnom_lazere"
+  },
+  { "category": "vizazh", "slug": "laminirovanie_resnits" },
+  { "category": "vizazh", "slug": "dolgovremennaya_ukladka_brovey" },
+  { "category": "vizazh", "slug": "botoks_resnits" },
+  { "category": "vizazh", "slug": "botoks_brovey" },
+  {
+    "category": "vizazh",
+    "slug": "laminirovanie_resnits_korrektsiya_i_okrashivanie_brovey"
+  },
+  { "category": "vizazh", "slug": "okrashivanie_i_botoks_resnitsy_i_brovi" },
+  { "category": "esteticheskaya_kosmetologiya", "slug": "palmarola" },
+  {
+    "category": "esteticheskaya_kosmetologiya",
+    "slug": "kombinirovannaya_chistka_lica"
+  },
+  {
+    "category": "esteticheskaya_kosmetologiya",
+    "slug": "ultrazvukovaya_chistka_lica"
+  },
+  {
+    "category": "apparatnaya",
+    "slug": "dermotoniya_lica_na_apparate_sharm"
+  },
+  { "category": "epilyaciya", "slug": "podborodok" },
+  { "category": "massazh_tela", "slug": "stopy_taj" },
+  { "category": "bernard_kasser", "slug": "glaza_kak_vasilki" },
+  { "category": "bernard_kasser", "slug": "korolevskoe_nasledie" },
+  { "category": "bernard_kasser", "slug": "yudzu" },
+  { "category": "bernard_kasser", "slug": "bambuk_i_aloe" },
+  { "category": "lazernaya_epilyaciya", "slug": "lico_polnostyu" }
+]

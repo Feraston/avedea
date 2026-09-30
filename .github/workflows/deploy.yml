@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master, main]
+    branches: [master, main, redesign]
   workflow_dispatch:
 
 permissions:
@@ -18,16 +18,59 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout current design (site root)
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: site-current
+
+      - name: Checkout redesign (/new preview)
+        uses: actions/checkout@v4
+        with:
+          ref: redesign
+          path: site-new
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
-      - run: npm ci
-      - run: npm run build
+          cache-dependency-path: |
+            site-current/package-lock.json
+            site-new/package-lock.json
+
+      - name: Build current design → /
+        working-directory: site-current
+        run: |
+          npm ci
+          npm run build
+
+      - name: Build redesign → /new/
+        working-directory: site-new
+        env:
+          NEXT_BASE_PATH: /new
+        run: |
+          npm ci
+          npm run build
+
+      - name: Merge static sites
+        run: |
+          mkdir -p dist
+          cp -a site-current/out/. dist/
+          mkdir -p dist/new
+          cp -a site-new/out/. dist/new/
+          # Custom domain for Pages
+          if [ -f site-current/public/CNAME ]; then
+            cp site-current/public/CNAME dist/CNAME
+          elif [ -f site-new/public/CNAME ]; then
+            cp site-new/public/CNAME dist/CNAME
+          fi
+          touch dist/.nojekyll
+          echo "Root entries:" && ls dist | head
+          echo "New entries:" && ls dist/new | head
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: dist
 
   deploy:
     needs: build

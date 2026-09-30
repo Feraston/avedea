@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outDir = path.join(__dirname, "..", "out");
+const basePath = (process.env.NEXT_BASE_PATH || "").replace(/\/$/, "");
 
 // GitHub Pages: skip Jekyll processing
 fs.writeFileSync(path.join(outDir, ".nojekyll"), "");
@@ -12,15 +13,15 @@ fs.writeFileSync(path.join(outDir, ".nojekyll"), "");
  * Static HTML redirects from legacy .html paths to new App Router paths.
  */
 const redirects = [
-  ["page/services.html", "/services/"],
-  ["page/catalog.html", "/"],
-  ["page/training.html", "/training/"],
-  ["page/abon/abon1.html", "/abon/abon1/"],
-  ["page/abon/abon2.html", "/abon/abon2/"],
-  ["page/abon/abon3.html", "/abon/abon3/"],
-  ["page/spec/pers_es.html", "/specialists/elena-sorokina/"],
-  ["page/spec/pers_vp.html", "/specialists/viktoria-priemskaya/"],
-  ["page/spec/pers_ak.html", "/"],
+  ["page/services.html", `${basePath}/services/`],
+  ["page/catalog.html", `${basePath}/`],
+  ["page/training.html", `${basePath}/training/`],
+  ["page/abon/abon1.html", `${basePath}/abon/abon1/`],
+  ["page/abon/abon2.html", `${basePath}/abon/abon2/`],
+  ["page/abon/abon3.html", `${basePath}/abon/abon3/`],
+  ["page/spec/pers_es.html", `${basePath}/specialists/elena-sorokina/`],
+  ["page/spec/pers_vp.html", `${basePath}/specialists/viktoria-priemskaya/`],
+  ["page/spec/pers_ak.html", `${basePath}/`],
 ];
 
 try {
@@ -30,7 +31,7 @@ try {
   for (const s of services) {
     redirects.push([
       `page/uslugi/${s.category}/${s.slug}.html`,
-      `/services/${s.category}/${s.slug}/`,
+      `${basePath}/services/${s.category}/${s.slug}/`,
     ]);
   }
 } catch {

@@ -3,12 +3,16 @@ import abonements from "@/data/abonements.json";
 import specialists from "@/data/specialists.json";
 import training from "@/data/training.json";
 import home from "@/data/home.json";
+import gifts from "@/data/gifts.json";
+import serviceFallbacks from "@/data/service-fallbacks.json";
 
 export type Service = (typeof services)[number];
 export type Abonement = (typeof abonements)[number];
 export type Specialist = (typeof specialists)[number];
 export type Seminar = (typeof training)[number];
 export type HomeContent = typeof home;
+export type Gift = (typeof gifts)[number];
+export type ServiceFallback = (typeof serviceFallbacks)[number];
 
 export function getServices(): Service[] {
   return services;
@@ -50,7 +54,12 @@ export function getServiceNeighbors(service: Service): {
 }
 
 export function getAllServiceParams() {
-  return services.map((s) => ({ category: s.category, slug: s.slug }));
+  const live = services.map((s) => ({ category: s.category, slug: s.slug }));
+  const liveKeys = new Set(live.map((p) => `${p.category}/${p.slug}`));
+  const archived = serviceFallbacks.filter(
+    (p) => !liveKeys.has(`${p.category}/${p.slug}`),
+  );
+  return [...live, ...archived];
 }
 
 export function getAbonements(): Abonement[] {
@@ -75,4 +84,8 @@ export function getTraining(): Seminar[] {
 
 export function getHome(): HomeContent {
   return home;
+}
+
+export function getGifts(): Gift[] {
+  return gifts;
 }

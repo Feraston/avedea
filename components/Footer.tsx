@@ -3,18 +3,18 @@ import { site } from "@/data/site";
 
 export function Footer() {
   const socials = [
-    { href: site.vkUrl, src: "/blocks/footer/file/vk.png", alt: "VK" },
+    { href: site.vkUrl, src: "/redesign/icons/vk.svg", alt: "VK" },
     site.telegramUrl
       ? {
           href: site.telegramUrl,
-          src: "/blocks/footer/file/telegram.png",
+          src: "/redesign/icons/telegram.svg",
           alt: "Telegram",
         }
       : null,
     site.whatsappUrl
       ? {
           href: site.whatsappUrl,
-          src: "/blocks/footer/file/WhatsApp.png",
+          src: "/redesign/icons/whatsapp.svg",
           alt: "WhatsApp",
         }
       : null,

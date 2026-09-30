@@ -46,7 +46,7 @@ export function HomePromo({ laserPopup }: Props) {
       <section className="hero" aria-label="Avedea">
         <div className="hero__media" aria-hidden>
           <img
-            src="/redesign/hero.jpg"
+            src="/redesign/gen/hero.jpg"
             alt=""
             fetchPriority="high"
             decoding="async"
@@ -77,14 +77,14 @@ export function HomePromo({ laserPopup }: Props) {
         <div className="wrap promo__grid">
           <div className="promo__copy">
             <p className="section__eyebrow">{site.promo.title}</p>
-            <h2 className="section__title" style={{ color: "#f4f8f6" }}>
+            <h2 className="section__title" style={{ color: "#f7fcf8" }}>
               {site.promo.subtitle}
             </h2>
-            <p className="section__lead" style={{ color: "rgba(244,248,246,0.82)" }}>
+            <p className="section__lead" style={{ color: "rgba(247,252,248,0.88)" }}>
               Современный лазерный уход с комфортной подготовкой и выгодными сетами
               зон. Подберём программу под вашу задачу.
             </p>
-            <div style={{ marginTop: "1.5rem", display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+            <div className="promo__actions">
               <button className="btn btn--light" type="button" onClick={openPopup}>
                 Подробнее
               </button>
@@ -98,7 +98,7 @@ export function HomePromo({ laserPopup }: Props) {
           </div>
           <div className="promo__media">
             <img
-              src="/redesign/promo-laser.jpg"
+              src="/redesign/gen/promo.jpg"
               alt="Лазерная эпиляция"
               loading="lazy"
               decoding="async"
@@ -139,21 +139,18 @@ export function PromoLaser({
         <div className="wrap promo__grid">
           <div className="promo__copy">
             <p className="section__eyebrow">{site.promo.title}</p>
-            <h2 className="section__title" style={{ color: "#f4f8f6" }}>
+            <h2 className="section__title" style={{ color: "#f7fcf8" }}>
               {site.promo.subtitle}
             </h2>
-            <button
-              className="btn btn--light"
-              type="button"
-              onClick={openPopup}
-              style={{ marginTop: "1.25rem" }}
-            >
-              Подробнее
-            </button>
+            <div className="promo__actions">
+              <button className="btn btn--light" type="button" onClick={openPopup}>
+                Подробнее
+              </button>
+            </div>
           </div>
           <div className="promo__media">
             <img
-              src="/redesign/promo-laser.jpg"
+              src="/redesign/gen/promo.jpg"
               alt=""
               loading="lazy"
               decoding="async"

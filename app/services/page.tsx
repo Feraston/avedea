@@ -16,14 +16,14 @@ export default function ServicesPage() {
     <main>
       <section className="page-hero">
         <div className="page-hero__media" aria-hidden>
-          <img src="/redesign/services-banner.jpg" alt="" />
+          <img src="/redesign/gen/banner.jpg" alt="" />
           <div className="page-hero__shade" />
         </div>
         <div className="page-hero__content">
           <h1 className="page-hero__title">Услуги</h1>
           <p className="page-hero__text">
-            Эстетическая косметология, уходы, массаж, депиляция и лазерная
-            эпиляция — в одном спокойном пространстве.
+            Hydrafacial, уходы брендов, массаж, депиляция, лазер, перманент —
+            актуальный каталог с записью онлайн.
           </p>
         </div>
       </section>

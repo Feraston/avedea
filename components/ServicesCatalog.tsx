@@ -94,11 +94,14 @@ export function ServicesCatalog({ groups }: { groups: Group[] }) {
                           />
                           <div>
                             <p className="svc-item__name">{service.title}</p>
-                            {service.duration ? (
-                              <p className="svc-item__time">
-                                {service.duration}
-                              </p>
-                            ) : null}
+                            <p className="svc-item__time">
+                              {[
+                                service.duration,
+                                "priceLabel" in service ? service.priceLabel : "",
+                              ]
+                                .filter(Boolean)
+                                .join(" · ")}
+                            </p>
                           </div>
                         </Link>
                       ))}

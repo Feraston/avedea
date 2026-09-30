@@ -7,16 +7,20 @@ import { site } from "@/data/site";
 
 export function Header() {
   const pathname = usePathname();
-  const overHero = pathname === "/";
+  const isHome = pathname === "/";
   const [menuOpen, setMenuOpen] = useState(false);
-  const [solid, setSolid] = useState(false);
+  const [solid, setSolid] = useState(!isHome);
 
   useEffect(() => {
+    if (!isHome) {
+      setSolid(true);
+      return;
+    }
     const onScroll = () => setSolid(window.scrollY > 24);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isHome]);
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -26,11 +30,13 @@ export function Header() {
   }, [menuOpen]);
 
   const close = () => setMenuOpen(false);
+  const frosted = solid || menuOpen || !isHome;
+  const overHero = isHome && !frosted;
 
   return (
     <>
       <header
-        className={`site-header${solid || menuOpen ? " is-solid" : ""}${overHero ? " is-over-hero" : ""}`}
+        className={`site-header${frosted ? " is-solid" : ""}${overHero ? " is-over-hero" : ""}`}
       >
         <div className="site-header__inner">
           <Link className="site-brand" href="/" onClick={close}>
@@ -81,7 +87,7 @@ export function Header() {
       <div
         className={`mobile-nav${menuOpen ? " is-open" : ""}`}
         id="mobile-nav"
-        hidden={!menuOpen}
+        aria-hidden={!menuOpen}
       >
         <nav aria-label="Мобильная навигация">
           <ul className="mobile-nav__links">

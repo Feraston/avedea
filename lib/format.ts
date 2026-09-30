@@ -1,15 +1,21 @@
 const CATEGORY_TITLES: Record<string, string> = {
+  hydrafacial: "SPA Vortex Hydrafacial",
   esteticheskaya_kosmetologiya: "Эстетическая косметология",
   apparatnaya: "Аппаратная",
-  vizazh: "Визаж",
+  vizazh: "Брови и ресницы",
   epilyaciya: "Депиляция",
   massazh_lica: "Массаж лица",
   massazh_tela: "Массаж тела",
   uhody_phuts_lico: "Уходы PHYT'S — лицо",
   uhody_phyts_telo: "Уходы PHYT'S — тело",
   bernard_kasser: "Уходы Бернард Кассьер",
+  simone_mahler: "Уходы Simone Mahler",
+  ella_bache: "Ella Baché",
+  thalgo: "Thalgo",
   obertyvanie_telo: "Обертывание тела",
   lazernaya_epilyaciya: "Лазерная эпиляция",
+  permanent: "Перманентный макияж",
+  piercing: "Пирсинг",
 };
 
 export function formatCategoryTitle(category: string, fallback: string): string {

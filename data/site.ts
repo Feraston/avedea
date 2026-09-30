@@ -10,7 +10,7 @@ export const site = {
   addressFull:
     "г. Краснодар, ул. Цезаря Куникова, 24 корп 3, 1 этаж, офис 107-110",
   yclientsBookingUrl:
-    "https://b182496.yclients.com/company/185262/record-type?o=s7743448",
+    "https://b182496.yclients.com/company/185262/personal/select-services?o=",
   vkUrl: "https://vk.com/public212582834",
   /** Set real link when available; null hides the icon */
   telegramUrl: null as string | null,

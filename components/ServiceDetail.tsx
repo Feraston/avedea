@@ -33,9 +33,14 @@ export function ServiceDetail({ service }: { service: Service }) {
           </div>
           <div className="detail__body">
             <h1 className="detail__title">{service.title}</h1>
-            {service.duration ? (
-              <p className="detail__time">Время: {service.duration}</p>
-            ) : null}
+            <div className="detail__meta-row">
+              {service.duration ? (
+                <p className="detail__time">{service.duration}</p>
+              ) : null}
+              {"priceLabel" in service && service.priceLabel ? (
+                <p className="detail__price">{service.priceLabel}</p>
+              ) : null}
+            </div>
             {service.description?.map((p) => (
               <p key={p.slice(0, 40)}>{p}</p>
             ))}

@@ -5,6 +5,7 @@ import { SaleOffers } from "@/components/SaleOffers";
 import { getCategoryCover } from "@/data/categories";
 import {
   getAbonements,
+  getGifts,
   getHome,
   getServicesByCategory,
   getSpecialists,
@@ -14,13 +15,14 @@ import { formatCategoryTitle, formatProcedureCount } from "@/lib/format";
 export default function HomePage() {
   const home = getHome();
   const abonements = getAbonements();
+  const gifts = getGifts();
   const specialists = getSpecialists();
   const groups = getServicesByCategory();
 
   return (
     <main>
       <HomePromo laserPopup={home.laserPopup} />
-      <SaleOffers abonements={abonements} />
+      <SaleOffers abonements={abonements} gifts={gifts} />
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
@@ -28,8 +30,8 @@ export default function HomePage() {
             <p className="section__eyebrow">Направления</p>
             <h2 className="section__title">Что мы делаем</h2>
             <p className="section__lead">
-              От уходов PHYT&apos;S и массажа до лазерной эпиляции — выберите
-              направление и найдите свою процедуру.
+              Hydrafacial, уходы PHYT&apos;S, массаж, депиляция, лазер и новое —
+              выберите направление и найдите свою процедуру.
             </p>
           </Reveal>
           <div className="cats__grid">
@@ -70,7 +72,7 @@ export default function HomePage() {
           <Reveal>
             <div className="about__media">
               <img
-                src="/redesign/about.jpg"
+                src="/redesign/gen/about.jpg"
                 alt="Студия Avedea"
                 loading="lazy"
                 decoding="async"
@@ -87,6 +89,28 @@ export default function HomePage() {
             </div>
           </Reveal>
         </div>
+      </section>
+
+      <section className="mood">
+        <div className="mood__bg" aria-hidden />
+        <div className="mood__veil" aria-hidden />
+        <Reveal>
+          <div className="wrap mood__inner">
+            <p className="mood__quote">
+              Осознанная забота — когда кожа, тело и ритм жизни
+              встречаются в одном спокойном пространстве.
+            </p>
+            <p className="mood__meta">Натуральные бренды · ECOCERT</p>
+            <div className="mood__chips">
+              <span className="mood__chip">PHYT&apos;S</span>
+              <span className="mood__chip">Bernard Cassière</span>
+              <span className="mood__chip">Simone Mahler</span>
+              <span className="mood__chip">Ella Baché</span>
+              <span className="mood__chip">Thalgo</span>
+              <span className="mood__chip">Hydrafacial</span>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
       <section className="section" style={{ paddingTop: 0 }}>

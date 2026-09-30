@@ -1,17 +1,24 @@
+/** Category covers — original color photos from the studio library */
 export const categoryCovers: Record<string, string> = {
-  esteticheskaya_kosmetologiya: "/redesign/cat-face.jpg",
-  apparatnaya: "/redesign/cat-device.jpg",
-  vizazh: "/redesign/cat-makeup.jpg",
-  epilyaciya: "/redesign/cat-depilation.jpg",
-  massazh_lica: "/redesign/cat-face.jpg",
-  massazh_tela: "/redesign/cat-body.jpg",
-  uhody_phuts_lico: "/redesign/cat-phyts.jpg",
-  uhody_phyts_telo: "/redesign/cat-body.jpg",
-  bernard_kasser: "/redesign/cat-bernard.jpg",
+  hydrafacial: "/redesign/cat-hydrafacial.jpg",
+  esteticheskaya_kosmetologiya: "/blocks/uslugi/file/usluga11.jpg",
+  apparatnaya: "/redesign/cat-apparat.jpg",
+  vizazh: "/blocks/uslugi/file/usluga31.jpg",
+  epilyaciya: "/redesign/dep/legs-thighs.jpg",
+  massazh_lica: "/blocks/uslugi/file/usluga21.jpg",
+  massazh_tela: "/blocks/uslugi/file/usluga61.jpg",
+  uhody_phuts_lico: "/blocks/uslugi/file/usluga51.jpg",
+  uhody_phyts_telo: "/blocks/uslugi/file/usluga64.jpg",
+  bernard_kasser: "/blocks/uslugi/file/usluga75.jpg",
+  simone_mahler: "/redesign/soft/about-soft.jpg",
+  ella_bache: "/redesign/gen/about.jpg",
+  thalgo: "/redesign/cat-thalgo.jpg",
   obertyvanie_telo: "/redesign/cat-wrap.jpg",
-  lazernaya_epilyaciya: "/redesign/cat-laser.jpg",
+  lazernaya_epilyaciya: "/blocks/uslugi/file/usluga81.jpg",
+  permanent: "/blocks/uslugi/file/usluga31.jpg",
+  piercing: "/redesign/gen/texture.jpg",
 };
 
 export function getCategoryCover(category: string): string {
-  return categoryCovers[category] || "/redesign/texture.jpg";
+  return categoryCovers[category] || "/redesign/gen/texture.jpg";
 }

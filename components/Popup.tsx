@@ -96,16 +96,18 @@ export function Popup({
         aria-labelledby={titleId}
         tabIndex={-1}
       >
-        <h2 id={titleId}>{title}</h2>
-        <button
-          className="popup-dialog__close"
-          type="button"
-          onClick={onClose}
-          aria-label="Закрыть"
-        >
-          ✕
-        </button>
-        {children}
+        <div className="popup-dialog__chrome">
+          <h2 id={titleId}>{title}</h2>
+          <button
+            className="popup-dialog__close"
+            type="button"
+            onClick={onClose}
+            aria-label="Закрыть"
+          >
+            ✕
+          </button>
+        </div>
+        <div className="popup-dialog__scroll">{children}</div>
       </div>
     </div>
   );
