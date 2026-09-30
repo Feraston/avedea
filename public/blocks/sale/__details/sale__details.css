@@ -1,0 +1,12 @@
+.sale__card .sale__card-content .sale__details {
+  padding: 40px 0 20px;
+  text-align: center;
+  width: 95%;
+  transition: .5s;
+  /* Collapsed: title sits below image, price stays clipped */
+  transform: translateY(205px);
+}
+
+.sale__card:hover .sale__details {
+  transform: translateY(0px);
+}

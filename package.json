@@ -1,0 +1,33 @@
+{
+  "name": "avedea",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "prebuild": "node scripts/build-site-css.mjs && node scripts/build-og.mjs",
+    "build": "next build && node scripts/postbuild.mjs",
+    "start": "next start",
+    "lint": "eslint",
+    "extract": "node scripts/extract-content.mjs",
+    "css": "node scripts/build-site-css.mjs",
+    "og": "node scripts/build-og.mjs",
+    "images": "node scripts/compress-images.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.26",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cheerio": "^1.2.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.26",
+    "sharp": "^0.35.5",
+    "typescript": "^5"
+  }
+}

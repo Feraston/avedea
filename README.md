@@ -1,26 +1,45 @@
-<h1 align="center"><a href="https://avedea.ru/">Сайт на тему косметологии</a></h1>
-<p align="center"><img src="https://pei.ucoz.net/git/2022-07-11_10-07-54.png" width="80%"></p>
-<h2 align="center">AVEDEA - студия эстетической косметологии.</h2>
+# Avedea
 
+Сайт студии эстетической косметологии [avedea.ru](https://avedea.ru).
 
-<h4 align="center"></h3>
-<p align="center"><img src="https://pei.ucoz.net/git/great.jpg" width="100%"></p>
+## Стек
 
----
+- Next.js 15 (App Router) + TypeScript
+- Static export → GitHub Pages
+- Контент услуг/абонементов/специалистов в `data/*.json` (без БД)
 
-<h3>При создании проекта применялась методология БЭМ.</h3>
+## Разработка
 
-<img src="https://pei.ucoz.net/yp/bem.jpg">
+```bash
+npm install
+npm run dev
+```
 
-- **Основные понятия** что есть что в мире БЭМ.
-- **HTML** разметка в БЭМ-терминах.
-- **CSS** верстка независимыми блоками.
-- **Файловая структура** единые правила организации кода по **Nested**.
-- **Классы**.
-- **Модули**.
+## Сборка
 
+```bash
+npm run build
+```
 
-<h3 align="right">Планы на проект</h3>
-<p align="right"><img src="https://pei.ucoz.net/yp/zakat.jpg" width="50%"></p>
-<p align="right"> Проект еще на ранней стадии, в переди доработки по JS,
-                 <br> добавление бэкенда и рефакторинг кода.</p>
+Результат в `out/` (включая редиректы со старых `.html` URL).
+
+## Контент
+
+- Услуги: [`data/services.json`](data/services.json) — цены не хранятся
+- YClients-ссылки правятся в JSON
+- Общие настройки сайта: [`data/site.ts`](data/site.ts)
+- Раздел «Каталог» скрыт из меню (старые URL редиректят на главную)
+
+Стили собираются в один файл:
+
+```bash
+npm run css
+```
+
+(`prebuild` делает это автоматически.)
+
+### Деплой
+
+GitHub Actions (`.github/workflows/deploy.yml`) публикует `out/` на GitHub Pages.
+В настройках репозитория: **Settings → Pages → Source → GitHub Actions**.
+Домен задаётся через `public/CNAME` (`avedea.ru`).
