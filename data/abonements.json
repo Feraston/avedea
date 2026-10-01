@@ -64,8 +64,9 @@
         ]
       }
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s9922152",
-    "order": 1
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9922152",
+    "order": 1,
+    "yclientsId": 9922152
   },
   {
     "slug": "abon2",
@@ -208,8 +209,9 @@
         ]
       }
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s9922190",
-    "order": 2
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9922190",
+    "order": 2,
+    "yclientsId": 9922190
   },
   {
     "slug": "abon3",
@@ -321,7 +323,8 @@
         ]
       }
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s9922367",
-    "order": 3
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9922367",
+    "order": 3,
+    "yclientsId": 9922367
   }
 ]

@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import { asset } from "@/lib/asset";
 import type { Specialist } from "@/lib/content";
 
 const CTA_BY_SLUG: Record<string, string> = {
@@ -10,127 +11,91 @@ const CTA_BY_SLUG: Record<string, string> = {
 
 export function SpecialistDetail({ specialist }: { specialist: Specialist }) {
   const [zoomSrc, setZoomSrc] = useState<string | null>(null);
-  const swiperRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    let swiper: { destroy: () => void } | null = null;
-    let cancelled = false;
-
-    async function init() {
-      if (!specialist.certificates.length || !swiperRef.current) return;
-      const { default: Swiper } = await import("swiper");
-      const { Navigation, Pagination } = await import("swiper/modules");
-      await import("swiper/css");
-      await import("swiper/css/navigation");
-      await import("swiper/css/pagination");
-      if (cancelled || !swiperRef.current) return;
-      swiper = new Swiper(swiperRef.current, {
-        modules: [Navigation, Pagination],
-        slidesPerView: window.innerWidth >= 1024 ? 4 : 2,
-        spaceBetween: window.innerWidth >= 1024 ? 30 : 20,
-        centeredSlides: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    }
-
-    init();
-    return () => {
-      cancelled = true;
-      swiper?.destroy();
-    };
-  }, [specialist.certificates.length]);
 
   return (
-    <section className="specialist">
-      <h2 className="specialist__title">{specialist.title}</h2>
-      <div className="specialist__main">
-        <img
-          className="specialist__img"
-          src={specialist.image}
-          alt={specialist.shortName}
-          loading="lazy"
-          decoding="async"
-        />
-        <div className="specialist__body">
-          {specialist.body.map((block, i) => {
-            if (block.type === "heading") {
+    <section className="detail">
+      <div className="wrap">
+        <div className="spec-hero">
+          <div className="spec-hero__photo">
+            <img
+              src={asset(specialist.image)}
+              alt={specialist.shortName}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="detail__body">
+            <h1 className="detail__title">{specialist.title}</h1>
+            <p className="section__lead" style={{ marginTop: 0 }}>
+              {specialist.posts.join(" · ")}
+            </p>
+            {specialist.body.map((block, i) => {
+              if (block.type === "heading") {
+                return <h3 key={`h-${i}`}>{block.text ?? ""}</h3>;
+              }
               return (
-                <p className="specialist__content" key={`h-${i}`}>
-                  {block.text ?? ""}
-                </p>
+                <ul key={`l-${i}`}>
+                  {(block.items ?? []).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
               );
-            }
-            return (
-              <ul className="specialist__list" key={`l-${i}`}>
-                {(block.items ?? []).map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            );
-          })}
-          <a
-            className="specialist__button"
-            href={specialist.yclientsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {CTA_BY_SLUG[specialist.slug] || "Записаться"}
-          </a>
+            })}
+            <div className="detail__actions">
+              <a
+                className="btn btn--primary"
+                href={specialist.yclientsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {CTA_BY_SLUG[specialist.slug] || "Записаться"}
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      {specialist.certificates.length ? (
-        <>
-          <h3 className="specialist__title">Сертификаты и дипломы</h3>
-          <div className="swiper mySwiper" ref={swiperRef}>
-            <div className="swiper-wrapper">
+
+        {specialist.certificates.length ? (
+          <div className="spec-certs">
+            <h2 className="section__title" style={{ fontSize: "1.8rem" }}>
+              Сертификаты и дипломы
+            </h2>
+            <div className="spec-certs__grid" style={{ marginTop: "1.25rem" }}>
               {specialist.certificates.map((cert) => (
-                <div className="swiper-slide" key={cert.src}>
-                  <img
-                    src={cert.src}
-                    className="image"
-                    alt={cert.alt}
-                    onClick={() => setZoomSrc(cert.src)}
-                  />
-                </div>
+                <button
+                  key={cert.src}
+                  type="button"
+                  onClick={() => setZoomSrc(asset(cert.src))}
+                  aria-label={`Открыть ${cert.alt}`}
+                >
+                  <img src={asset(cert.src)} alt={cert.alt} loading="lazy" />
+                </button>
               ))}
             </div>
-            <div className="swiper-button-next" />
-            <div className="swiper-button-prev" />
-            <div className="swiper-pagination" />
           </div>
-        </>
-      ) : null}
+        ) : null}
+      </div>
 
       {zoomSrc ? (
-        <section
-          className="popup popup_open"
-          id="img-zoom"
+        <div
+          className="popup-zoom"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Сертификат"
           onMouseDown={(e) => {
             if (e.target === e.currentTarget) setZoomSrc(null);
           }}
         >
-          <div className="popup__zoom">
-            <button
-              className="popup__button-close"
-              type="button"
-              onClick={() => setZoomSrc(null)}
-            >
-              <img
-                src="/blocks/popup/file/Close.svg"
-                alt="Закрыть"
-                className="popup__close"
-              />
-            </button>
-            <img src={zoomSrc} className="popup__zoom-photo" alt="Сертификат" />
-          </div>
-        </section>
+          <button
+            className="popup-dialog__close"
+            type="button"
+            style={{ position: "fixed", top: "1rem", right: "1rem" }}
+            onClick={() => setZoomSrc(null)}
+            aria-label="Закрыть"
+          >
+            ✕
+          </button>
+          <img src={zoomSrc} alt="Сертификат" />
+        </div>
       ) : null}
     </section>
   );

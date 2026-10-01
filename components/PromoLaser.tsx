@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Popup, usePopup } from "@/components/Popup";
 import { site } from "@/data/site";
+import { asset } from "@/lib/asset";
 import type { HomeContent } from "@/lib/content";
 
 type Props = {
@@ -11,107 +12,153 @@ type Props = {
 
 function LaserPopupBody({ laserPopup }: Props) {
   return (
-    <div className="popup__new_body">
-      <h2 className="popup__new_title">{laserPopup.title}</h2>
-      <p className="popup__content">{laserPopup.prepTitle}</p>
-      <ul className="popup__list">
+    <>
+      <p className="popup-kicker">{laserPopup.prepTitle}</p>
+      <ul>
         {laserPopup.prepItems.map((item) => (
-          <li key={item} className="popup__list_cards popup__list_card_content">
-            <div className="popup__list_card">
-              <div className="popup__card_content_two">{item}</div>
-            </div>
-          </li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
-      <p className="popup__content">{laserPopup.setsTitle}</p>
-      <ul className="popup__list">
+      <p className="popup-kicker">{laserPopup.setsTitle}</p>
+      <ul>
         {laserPopup.sets.map((item) => (
-          <li key={item} className="popup__list_cards">
-            <div className="popup__list_card">
-              <div className="popup__card_content">{item}</div>
-            </div>
-          </li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
-      <p className="popup__content">{laserPopup.zonesTitle}</p>
-      <ul className="popup__list">
+      <p className="popup-kicker">{laserPopup.zonesTitle}</p>
+      <ul>
         {laserPopup.zones.map((item) => (
-          <li key={item} className="popup__list_cards">
-            <div className="popup__list_card">
-              <div className="popup__card_content">{item}</div>
-            </div>
-          </li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
-      <p className="popup__content">
+      <p style={{ marginTop: "1.25rem" }}>
         Подробности и запись — в разделе{" "}
         <Link href="/services/lazernaya_epilyaciya/glubokoe_bikini/">услуг</Link>.
       </p>
-    </div>
+    </>
   );
 }
 
-/** Hero + mobile promo chip sharing one laser popup instance. */
 export function HomePromo({ laserPopup }: Props) {
   const { open, openPopup, closePopup } = usePopup();
 
   return (
     <>
-      <section className="greeting">
-        <div className="greeting__grad-one" />
-        <h1 className="greeting__title">{site.heroTitle}</h1>
-        <p className="greating__subtitle">{site.tagline}</p>
-        <div className="greeting__new">
-          <div className="greeting__new_title">{site.promo.title}</div>
-          <div className="greeting__new_subtitle">{site.promo.subtitle}</div>
-          <button
-            className="greeting__new_button"
-            type="button"
-            onClick={openPopup}
-          >
-            ПОДРОБНЕЕ
-          </button>
+      <section className="hero" aria-label="Avedea">
+        <div className="hero__media" aria-hidden>
+          <img
+            src={asset("/redesign/gen/hero.jpg")}
+            alt=""
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="hero__shade" />
         </div>
-        <div className="greeting__grad-two" />
+        <div className="hero__content">
+          <p className="hero__brand">{site.name}</p>
+          <h1 className="hero__title">{site.heroTitle}</h1>
+          <p className="hero__text">{site.tagline}</p>
+          <div className="hero__actions">
+            <a
+              className="btn btn--primary"
+              href={site.yclientsBookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Записаться
+            </a>
+            <Link className="btn btn--ghost" href="/services/">
+              Смотреть услуги
+            </Link>
+          </div>
+        </div>
       </section>
 
-      <div className="price__new">
-        <div className="price__new_title">{site.promo.title}</div>
-        <div className="price__new_subtitle">{site.promo.subtitle}</div>
-        <button className="price__new_button" type="button" onClick={openPopup}>
-          ПОДРОБНЕЕ
-        </button>
-      </div>
+      <section className="promo section--tight">
+        <div className="wrap promo__grid">
+          <div className="promo__copy">
+            <p className="section__eyebrow">{site.promo.title}</p>
+            <h2 className="section__title" style={{ color: "#f7fcf8" }}>
+              {site.promo.subtitle}
+            </h2>
+            <p className="section__lead" style={{ color: "rgba(247,252,248,0.88)" }}>
+              Современный лазерный уход с комфортной подготовкой и выгодными сетами
+              зон. Подберём программу под вашу задачу.
+            </p>
+            <div className="promo__actions">
+              <button className="btn btn--light" type="button" onClick={openPopup}>
+                Подробнее
+              </button>
+              <Link
+                className="btn btn--ghost"
+                href="/services/lazernaya_epilyaciya/glubokoe_bikini/"
+              >
+                К услугам
+              </Link>
+            </div>
+          </div>
+          <div className="promo__media">
+            <img
+              src={asset("/redesign/gen/promo.jpg")}
+              alt="Лазерная эпиляция"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
 
-      <Popup open={open} onClose={closePopup} id="new_popup" title={laserPopup.title}>
+      <Popup
+        open={open}
+        onClose={closePopup}
+        id="new_popup"
+        title={laserPopup.title}
+      >
         <LaserPopupBody laserPopup={laserPopup} />
       </Popup>
     </>
   );
 }
 
-/** Re-export for training/services pages that only need the mobile chip + popup. */
 export function PromoLaser({
   laserPopup,
   showChip = true,
 }: Props & { showChip?: boolean }) {
   const { open, openPopup, closePopup } = usePopup();
 
+  if (!showChip) {
+    return (
+      <Popup open={open} onClose={closePopup} id="laser_popup" title={laserPopup.title}>
+        <LaserPopupBody laserPopup={laserPopup} />
+      </Popup>
+    );
+  }
+
   return (
     <>
-      {showChip ? (
-        <div className="price__new">
-          <div className="price__new_title">{site.promo.title}</div>
-          <div className="price__new_subtitle">{site.promo.subtitle}</div>
-          <button
-            className="price__new_button"
-            type="button"
-            onClick={openPopup}
-          >
-            ПОДРОБНЕЕ
-          </button>
+      <section className="promo section--tight">
+        <div className="wrap promo__grid">
+          <div className="promo__copy">
+            <p className="section__eyebrow">{site.promo.title}</p>
+            <h2 className="section__title" style={{ color: "#f7fcf8" }}>
+              {site.promo.subtitle}
+            </h2>
+            <div className="promo__actions">
+              <button className="btn btn--light" type="button" onClick={openPopup}>
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div className="promo__media">
+            <img
+              src={asset("/redesign/gen/promo.jpg")}
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         </div>
-      ) : null}
+      </section>
       <Popup open={open} onClose={closePopup} id="laser_popup" title={laserPopup.title}>
         <LaserPopupBody laserPopup={laserPopup} />
       </Popup>

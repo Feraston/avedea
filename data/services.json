@@ -1,44 +1,139 @@
 [
   {
-    "slug": "palmarola",
-    "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
-    "title": "Пальмарола",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "duration": "2 ч 00 м",
+    "slug": "vakuumnyy_gidropiling_i_ochischenie_kozhi",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "Вакуумный гидропилинг и очищение кожи",
+    "image": "/redesign/svc/hydra-1-peel.jpg",
+    "cardImage": "/redesign/svc/hydra-1-peel.jpg",
+    "duration": "",
     "description": [
-      "Процедура выполняется на итальянской профессиональной марке VAGHEGGI. В процедуру входит: очищение, увлажняющая маска, фирменный массаж лица шёлковыми охлажденными спонжами, которые укрепляют сосуды, тонизируют кожу лица, а также нейтрализуют частички городских загрязнений.",
-      "Основные ингредиенты:",
-      "Мы поможем вам почувствовать себя на итальянском острове Пальмарола, благодаря протоколу процедуры и мелано-терапии (правильное музыкальное сопровождение)."
+      "ГИДРОПИЛИНГ",
+      "Это самая совершенная система для мягкого пилинга и деликатного очищения кожи. В ее основе лежит синергизм трех сил воздействия: механическая эксфолиация (за счет вихревого потока) воздействие специальными сыворотками и стимулирующее действие вакуума. Система VORTEX F имеет несколько ступеней ухода. Благодаря наличию специально разработанных сывороток, работа с манипулой проходит через несколько этапов. Глубокое очищение, увлажнение кожи и интенсивное питание."
     ],
-    "listItems": [
-      "нейропротектор, полученный из ламинарии, восстанавливает связь нервных клеток с фибробластами, активируя синтез коллагена и эластина;",
-      "энергизирующая морская вода: содержит молекулу Биоптерин, которая укрепляет волокна коллагена и даёт заметный лифтинг-эффект;",
-      "экстракт какао: защита от «цифрового» старения;",
-      "белый пион: защита от стрессов и пигментации."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s10353348",
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479311",
+    "yclientsId": 17479311,
+    "priceLabel": "4 000 ₽",
     "order": 1
   },
   {
-    "slug": "uhod_lica_holisticheskij",
-    "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
-    "title": "Уход лица холистический",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga11.jpg",
-    "duration": "2 ч 00 м",
+    "slug": "fonoforez_mikrotokovaya_terapiya",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "Фонофорез (микротоковая терапия)",
+    "image": "/redesign/svc/hydra-2-micro.jpg",
+    "cardImage": "/redesign/svc/hydra-2-micro.jpg",
+    "duration": "",
     "description": [
-      "Данная процедура отлично подходит для знакомства с мастером и подбора дальнейших процедур для кожи лица и тела. Во время процедуры Вам будет сделано очищение кожи, маска для лица, массаж лица. Во время маски мастер делает Вам массаж рук и ног, а также парафинотерапию рук. Процедура может быть дополнена stoune-терапией (горячие камни)."
+      "Микротоковая терапия используется в косметологии в качестве эффективного метода омоложения, обновления кожи и решения ряда эстетических задач. Импульсы минимального напряжения помогают повернуть время вспять, избавиться от темных кругов, восстановить эластичность тканей, сделать более четкими контуры лица. Микротоки действуют мягко, стимулируют регенеративные процессы, выводят лишнюю жидкость."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743477",
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479329",
+    "yclientsId": 17479329,
+    "priceLabel": "2 100 ₽",
     "order": 2
+  },
+  {
+    "slug": "rf_lifting",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "RF-лифтинг",
+    "image": "/redesign/svc/hydra-3-rf.jpg",
+    "cardImage": "/redesign/svc/hydra-3-rf.jpg",
+    "duration": "",
+    "description": [
+      "Радиочастота прогревает ткани на уровне коллагена и эластина, высокая температура нагрева заставляет волокна сокращаться, регенерироваться и скручиваться. Манипула V-LIFT имеет систему MULTI POLAR, состоящую из 6 связанных электродов. Связь между электродами создает матричную систему, которая обеспечивает контролируемый, точный и безопасный прогрев."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479340",
+    "yclientsId": 17479340,
+    "priceLabel": "3 000 ₽",
+    "order": 3
+  },
+  {
+    "slug": "spa_platforma_litso_sheya_dekolte_kompleks",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "SPA-платформа Лицо+шея+декольте (комплекс)",
+    "image": "/redesign/svc/hydra-4-complex.jpg",
+    "cardImage": "/redesign/svc/hydra-4-complex.jpg",
+    "duration": "",
+    "description": [
+      "Процедуры проводятся на  аппарате VORTEX F — система, которая позволяет провести целый комплекс процедур (лечение, омоложение, лифтинг, увлажнение, чистка) за один сеанс. Именно сочетание всех сил воздействия во время одного сеанса делает технологию уникальной и не имеющей аналогов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479399",
+    "yclientsId": 17479399,
+    "priceLabel": "5 100 ₽",
+    "order": 4
+  },
+  {
+    "slug": "vakuumnyy_gidropiling_ultrazvuk_elektroporatsiya",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "Вакуумный гидропилинг+ультразвук+электропорация",
+    "image": "/redesign/svc/hydra-5-ultra.jpg",
+    "cardImage": "/redesign/svc/hydra-5-ultra.jpg",
+    "duration": "",
+    "description": [
+      "F — система, которая позволяет провести целый комплекс процедур (лечение, омоложение, лифтинг, увлажнение, чистка) за один сеанс. Именно сочетание всех сил воздействия во время одного сеанса делает технологию уникальной и не имеющей аналогов.",
+      "Важно то, что все процедуры на аппарате VORTEX F абсолютно безопасны.",
+      "Все этапы комплексной процедуры VORTEX F максимально комфортны для пациента. Основной и базовой функцией аппарата явдяется манипула VORTEX -F V PEEL, имеющая уникальную технологию, позволяющую проводить пилинг, глубокое очищение, увлажнение и интенсивное питание зa один сеанс."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479455",
+    "yclientsId": 17479455,
+    "priceLabel": "5 100 ₽",
+    "order": 5
+  },
+  {
+    "slug": "vakuumnyy_gidropiling_ultrazvuk_mikrotoki_lifting_fonoforez",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "Вакуумный гидропилинг+ультразвук+микротоки+лифтинг фонофорез",
+    "image": "/redesign/svc/hydra-6-full.jpg",
+    "cardImage": "/redesign/svc/hydra-6-full.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479538",
+    "yclientsId": 17479538,
+    "priceLabel": "8 100 ₽",
+    "order": 6
+  },
+  {
+    "slug": "rf_lifting_ionizatsiya_maski",
+    "category": "hydrafacial",
+    "categoryTitle": "SPA Vortex Hydrafacial",
+    "title": "RF-лифтинг+ионизация маски",
+    "image": "/redesign/svc/hydra-7-mask.jpg",
+    "cardImage": "/redesign/svc/hydra-7-mask.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17479576",
+    "yclientsId": 17479576,
+    "priceLabel": "3 500 ₽",
+    "order": 7
+  },
+  {
+    "slug": "ochischenie_kozhi_na_apparate_sharm",
+    "category": "esteticheskaya_kosmetologiya",
+    "categoryTitle": "Эстетическая косметология",
+    "title": "Очищение кожи на аппарате Sharm",
+    "image": "https://assets.yclients.com/main_service_image/basic/5/58/58829db094aa1b7_20220329203646.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/5/58/58829db094aa1b7_20220329203646.png",
+    "duration": "",
+    "description": [
+      "Безболезненная эффективная аппаратная процедура.предназначенная для обновления и очищения кожи. Методика основана на механическом удалении слоев эпидермиса с помощью абразивной насадки с алмазным покрытием. Вращающаяся насадка аппарата не вызывает неприятных ощущений при глубокой шлифовке."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743475",
+    "yclientsId": 7743475,
+    "priceLabel": "5 100 ₽",
+    "order": 1
   },
   {
     "slug": "uhod_posle_chistki_lica",
     "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
+    "categoryTitle": "Эстетическая косметология",
     "title": "Уход после чистки лица",
     "image": "/blocks/uslugi/file/usluga12.jpg",
     "cardImage": "/blocks/services/file/usluga12.jpg",
@@ -47,26 +142,46 @@
       "Восстанавливающая процедура после чистки. Повышает иммунитет, закрепляет результат. Кожа приобретает здоровый, свежий, ухоженный вид. Потовые и сальные железы начинают правильно работать."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743486",
-    "order": 3
+    "order": 2,
+    "yclientsId": 7743486,
+    "priceLabel": "4 000 ₽"
   },
   {
-    "slug": "kombinirovannaya_chistka_lica",
+    "slug": "uhod_lica_holisticheskij",
     "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
-    "title": "Комбинированная чистка лица",
-    "image": "/blocks/uslugi/file/usluga13.jpg",
-    "cardImage": "/blocks/services/file/usluga13.jpg",
-    "duration": "1 ч 30 м",
+    "categoryTitle": "Эстетическая косметология",
+    "title": "Уход лица холистический",
+    "image": "/blocks/uslugi/file/usluga11.jpg",
+    "cardImage": "/blocks/services/file/usluga11.jpg",
+    "duration": "2 ч 00 м",
     "description": [
-      "Для жирной,комбинированной кожи с комедонами,гиперкератозом. Восстановление после процедуры 3-4 дня."
+      "Данная процедура отлично подходит для знакомства с мастером и подбора дальнейших процедур для кожи лица и тела. Во время процедуры Вам будет сделано очищение кожи, маска для лица, массаж лица. Во время маски мастер делает Вам массаж рук и ног, а также парафинотерапию рук. Процедура может быть дополнена stoune-терапией (горячие камни)."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12977437",
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743477",
+    "order": 3,
+    "yclientsId": 7743477,
+    "priceLabel": "4 000 ₽"
+  },
+  {
+    "slug": "karboksi_protsedura",
+    "category": "esteticheskaya_kosmetologiya",
+    "categoryTitle": "Эстетическая косметология",
+    "title": "Карбокси процедура",
+    "image": "https://assets.yclients.com/main_service_image/basic/f/fa/fae7d86d0682347_20220329204654.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/f/fa/fae7d86d0682347_20220329204654.png",
+    "duration": "",
+    "description": [
+      "Неинвазивная методика, насыщение кожи углекислым газом CO2. Кожа приобретает свежий вид, поры сужаются, заметно уменьшается пигментация."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743474",
+    "yclientsId": 7743474,
+    "priceLabel": "5 100 ₽",
     "order": 4
   },
   {
     "slug": "mekhanicheskaya_chistka_lica",
     "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
+    "categoryTitle": "Эстетическая косметология",
     "title": "Механическая чистка лица",
     "image": "/blocks/uslugi/file/usluga13.jpg",
     "cardImage": "/blocks/services/file/usluga13.jpg",
@@ -74,41 +189,31 @@
     "description": [
       "Для жирной/комбинированной кожи с черными точками,комедонами,гиперкератозом."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m2614063s12977518",
-    "order": 5
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12977518",
+    "order": 5,
+    "yclientsId": 12977518,
+    "priceLabel": "4 000 ₽"
   },
   {
-    "slug": "ultrazvukovaya_chistka_lica",
+    "slug": "gidrolift",
     "category": "esteticheskaya_kosmetologiya",
-    "categoryTitle": "ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ",
-    "title": "Ультразвуковая чистка лица",
-    "image": "/blocks/uslugi/file/usluga210.jpg",
-    "cardImage": "/blocks/services/file/usluga210.jpg",
-    "duration": "1 ч 00 м",
+    "categoryTitle": "Эстетическая косметология",
+    "title": "Гидролифт",
+    "image": "https://assets.yclients.com/main_service_image/basic/a/ab/ab613bc9c0cc328_20260501121305.jpeg",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/a/ab/ab613bc9c0cc328_20260501121305.jpeg",
+    "duration": "",
     "description": [
-      "После профессионального умывания и скрабирования, проводится уз чистка, с помощью спец лопатки. Заключительным этапом является нанесение сыворотки, маски и крема для защиты после процедуры."
+      "Гидролифтинг для лица подойдет любому клиенту, который желает не просто насытить кожу достаточным уровнем влаги, но еще повысить ее упругость, добиться выраженного эффекта подтяжки мягких тканей лица и замедлить/отсрочить появление выраженных возрастных изменений. Поэтому проводить ее можно и в 20 лет, и тем, кому за 35."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12977521",
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s26160294",
+    "yclientsId": 26160294,
+    "priceLabel": "14 000 ₽",
     "order": 6
   },
   {
-    "slug": "dermotoniya_lica_na_apparate_sharm",
-    "category": "apparatnaya",
-    "categoryTitle": "АППАРАТНАЯ",
-    "title": "Дермотония лица на аппарате Шарм",
-    "image": "/blocks/uslugi/file/usluga21.jpg",
-    "cardImage": "/blocks/services/file/usluga21.jpg",
-    "duration": "1 ч 00 м",
-    "description": [
-      "Уникальный аппарат Шарм Л моделирует лицо и дает хороший лимфодренажный эффект. Может сочетаться с другими аппаратными процедурами, например с микротоками. Также закрепляет эффект после любой ручной техники массажа. Очень комфортная процедура. Подходит всем."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743407",
-    "order": 7
-  },
-  {
     "slug": "dermophyts",
-    "category": "apparatnaya",
-    "categoryTitle": "АППАРАТНАЯ",
+    "category": "esteticheskaya_kosmetologiya",
+    "categoryTitle": "Эстетическая косметология",
     "title": "DERMOPHYT'S",
     "image": "/blocks/uslugi/file/usluga211.jpg",
     "cardImage": "/blocks/services/file/usluga211.jpg",
@@ -116,372 +221,52 @@
     "description": [
       "Вибрационный аппаратный массаж, воздействия на поверхностную мышечно-апоневротическую систему (SMAS), обеспечивает эффект лифтинга в области лица и шеи, активизирует кровообращение, улучшая доступ кислорода и питательных веществ к фибробластам которые синтезируют коллаген, эластин и глюкозаминогликаны."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s9804593",
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9804593",
+    "order": 7,
+    "yclientsId": 9804593,
+    "priceLabel": "2 000 ₽"
+  },
+  {
+    "slug": "kriolift_dopolnenie_k_osnovnoy_protsedure",
+    "category": "esteticheskaya_kosmetologiya",
+    "categoryTitle": "Эстетическая косметология",
+    "title": "Криолифт (дополнение к основной процедуре)",
+    "image": "https://assets.yclients.com/main_service_image/basic/4/4d/4d447c0b3f2b29c_20220331212948.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/4/4d/4d447c0b3f2b29c_20220331212948.png",
+    "duration": "",
+    "description": [
+      "Процедура криолифт – это точечное воздействие холода через аппарат на отдельные участки кожи лица. Кроме этого, в процедуре используются различные витаминные смеси для дополнительного питания эпидермиса. От аппарата исходят особые импульсы с холодом. Температура может достигать -18 градусов. Именно холод способствует более интенсивному кровообращению. Организм человека реагирует на резкое понижение температуры, и в участках, где проходит аппарат, повышает темп кровообращения. Именно этот процесс способствует питанию эпидермиса и приданию внешнему облику молодости и свежести."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743409",
+    "yclientsId": 7743409,
+    "priceLabel": "2 000 ₽",
     "order": 8
   },
   {
-    "slug": "okrashivanie_resnic",
-    "category": "vizazh",
-    "categoryTitle": "ВИЗАЖ",
-    "title": "Окрашивание ресниц",
-    "image": "/blocks/uslugi/file/usluga31.jpg",
-    "cardImage": "/blocks/services/file/usluga31.jpeg",
-    "duration": "0 ч 30 м",
+    "slug": "elektroporatsiya_litsa",
+    "category": "apparatnaya",
+    "categoryTitle": "Аппаратная косметология",
+    "title": "Электропорация лица",
+    "image": "/redesign/svc/electroporation.jpg",
+    "cardImage": "/redesign/svc/electroporation.jpg",
+    "duration": "",
     "description": [
-      "Работаем на европейской краске фирмы Intensive, одобренную офтальмологами. Окрашивание поможет визуально придать ресничкам объем, а взгляду — привлекательность."
+      "AURORA CEUTICAL G7– это абсолютно безопасная альтернатива мезотерапии и «мини-салон красоты», с помощью которого можно глубоко очистить кожу, провести аппаратный массаж, ввести в глубокие слои кожи экстракты и сыворотки, а также сделать экспресс процедуры «на выход» для получения мгновенного лифтинга.",
+      "Вместо болезненных уколов на кожу воздействуют ультразвуковые волны, инфракрасные лучи и поток электронов, способствуя глубокому проникновению активных компонентов косметических средств, что сопоставимо с эффектом от инъекций и дает мгновенный результат.",
+      "Рекомендован курс из 10 процедур.",
+      "Показания:",
+      "- все виды фото- и хроностарения;",
+      "- стрессовая, безжизненная кожа;"
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743416",
-    "order": 9
-  },
-  {
-    "slug": "okrashivanie_brovej",
-    "category": "vizazh",
-    "categoryTitle": "ВИЗАЖ",
-    "title": "Окрашивание бровей",
-    "image": "/blocks/uslugi/file/usluga32.jpg",
-    "cardImage": "/blocks/services/file/usluga32.jpg",
-    "duration": "0 ч 30 м",
-    "description": [
-      "Работаем на европейской краске фирмы Intensive, одобренную офтальмологами. Ухоженные брови не только украшают лицо и придают ему четкости, выразительности, но и делают создаваемый образ совершенным."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743415",
-    "order": 10
-  },
-  {
-    "slug": "korrekciya_brovej",
-    "category": "vizazh",
-    "categoryTitle": "ВИЗАЖ",
-    "title": "Коррекция бровей",
-    "image": "/blocks/uslugi/file/usluga33.jpg",
-    "cardImage": "/blocks/services/file/usluga33.jpg",
-    "duration": "0 ч 40 м",
-    "description": [
-      "Коррекция бровей проводится пинцетом и по необходимости воском.",
-      "Самый распространенный вариант коррекции бровей производится пинцетом. С его помощью удаляются лишние волоски, которые растут под бровью и портят форму.",
-      "Наши специалисты используют для процедуры коррекции качественные пинцеты от известных производителей и дезинфицируют их по всем правилам."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743414",
-    "order": 11
-  },
-  {
-    "slug": "nogi_vyshe_kolena",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Ноги выше колена",
-    "image": "/blocks/uslugi/file/usluga41.png",
-    "cardImage": "/blocks/services/file/usluga41.png",
-    "duration": "0 ч 40 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции ног выше колен мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743464",
-    "order": 12
-  },
-  {
-    "slug": "nogi_polnostyu",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Ноги полностью",
-    "image": "/blocks/uslugi/file/usluga42.png",
-    "cardImage": "/blocks/services/file/usluga42.png",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции ног полностью мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743466",
-    "order": 13
-  },
-  {
-    "slug": "yagodicy",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Ягодицы",
-    "image": "/blocks/uslugi/file/usluga43.jpg",
-    "cardImage": "/blocks/services/file/usluga43.jpg",
-    "duration": "1 ч 00 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции ягодиц мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743470",
-    "order": 14
-  },
-  {
-    "slug": "spina",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Спина",
-    "image": "/blocks/uslugi/file/usluga45.png",
-    "cardImage": "/blocks/services/file/usluga45.png",
-    "duration": "0 ч 40 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции спины мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743468",
-    "order": 15
-  },
-  {
-    "slug": "ruki",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Руки",
-    "image": "/blocks/uslugi/file/usluga46.png",
-    "cardImage": "/blocks/services/file/usluga46.png",
-    "duration": "0 ч 40 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции рук полностью мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743467",
-    "order": 16
-  },
-  {
-    "slug": "nogi_do_kolena",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Ноги до колена",
-    "image": "/blocks/uslugi/file/usluga47.png",
-    "cardImage": "/blocks/services/file/usluga47.png",
-    "duration": "0 ч 40 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции ног до колен мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743465",
-    "order": 17
-  },
-  {
-    "slug": "bikini_pod_trusiki",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Бикини под трусики",
-    "image": "/blocks/uslugi/file/usluga48.jpg",
-    "cardImage": "/blocks/services/file/usluga48.jpg",
-    "duration": "1 ч 00 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции бикини под трусики мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743461",
-    "order": 18
-  },
-  {
-    "slug": "bikini_glubokoe",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Бикини глубокое",
-    "image": "/blocks/uslugi/file/usluga49.jpg",
-    "cardImage": "/blocks/services/file/usluga49.jpg",
-    "duration": "1 ч 00 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции глубокого бикини мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743460",
-    "order": 19
-  },
-  {
-    "slug": "zona_podmyshek",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Зона подмышек",
-    "image": "/blocks/uslugi/file/usluga410.jpg",
-    "cardImage": "/blocks/services/file/usluga410.jpg",
-    "duration": "0 ч 30 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции подмышек мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743463",
-    "order": 20
-  },
-  {
-    "slug": "podborodok",
-    "category": "epilyaciya",
-    "categoryTitle": "ДЕПИЛЯЦИЯ",
-    "title": "Подбородок",
-    "image": "/blocks/uslugi/file/usluga411.png",
-    "cardImage": "/blocks/services/file/usluga411.png",
-    "duration": "0 ч 30 м",
-    "description": [
-      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
-      "Для эпиляции подбородка мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/menu?o=s7743462",
-    "order": 21
-  },
-  {
-    "slug": "ispanskij_massazh",
-    "category": "massazh_lica",
-    "categoryTitle": "МАССАЖ ЛИЦА",
-    "title": "Испанский массаж",
-    "image": "/blocks/uslugi/file/usluga51.jpg",
-    "cardImage": "/blocks/services/file/usluga51.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
-      "Хиромассаж лица настолько эффективен, что может с успехом заменить пластическую хирургию. Он обладает ярко выраженным антивозрастным эффектом, прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
-      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743419",
-    "order": 22
-  },
-  {
-    "slug": "mandarinovymi_palochkami",
-    "category": "massazh_lica",
-    "categoryTitle": "МАССАЖ ЛИЦА",
-    "title": "Мандариновыми палочками",
-    "image": "/blocks/uslugi/file/usluga53.jpg",
-    "cardImage": "/blocks/services/file/usluga53.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Массаж деревянными палочками в области лица, шеи и воротниковой зоны обеспечивает проработку наиболее проблемных зон — овала лица и морщин, что гарантирует выраженный разглаживающий эффект. Снимает отеки, нормализует сон. Дарит чувство полного блаженства. Данная процедура может быть встроена в протокол любой процедуры, а также может быть рекомендована для тех, кому временно противопоказан ручной массаж (после инъекций ботекса, филлеров, стоматолога). При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743421",
-    "order": 23
-  },
-  {
-    "slug": "stounmassazh",
-    "category": "massazh_lica",
-    "categoryTitle": "МАССАЖ ЛИЦА",
-    "title": "Стоунмассаж",
-    "image": "/blocks/uslugi/file/usluga54.jpg",
-    "cardImage": "/blocks/services/file/usluga54.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Массаж теплыми камнями по меридианам. Снимает мышечные зажимы, напряжение. Человек засыпает. Сон приравнивается к 4 часам. Данная процедура может быть встроена в протокол любой процедуры. При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743423",
-    "order": 24
-  },
-  {
-    "slug": "klassicheskij",
-    "category": "massazh_lica",
-    "categoryTitle": "МАССАЖ ЛИЦА",
-    "title": "Классический",
-    "image": "/blocks/uslugi/file/usluga56.jpg",
-    "cardImage": "/blocks/services/file/usluga56.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Классическая методика массажа по Ахабадзе. Профилактика старения необходима каждому. Заканчиваем процедуру теплым компрессом и финиш кремом. Данная процедура рекомендована курсом из 10 процедур. При покупке курса предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743420",
-    "order": 25
-  },
-  {
-    "slug": "nogi_taj_s_kamnyami_i_bambuk",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Ноги тай с камнями и бамбук",
-    "image": "/blocks/uslugi/file/usluga61.jpg",
-    "cardImage": "/blocks/services/file/usluga61.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Может быть самостоятельной процедурой или встроена в любую другую процедуру во время экспозиции на лице, мастер делает вам массаж стоп. Данная процедура возможна в 4 руки (один мастер делает лицо, второй ноги)."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743430",
-    "order": 26
-  },
-  {
-    "slug": "stopy_taj",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Стопы тай",
-    "image": "/blocks/uslugi/file/usluga62.jpg",
-    "cardImage": "/blocks/services/file/usluga62.jpg",
-    "duration": "1 ч 15 м",
-    "description": [
-      "Может быть самостоятельной процедурой или встроена в любую другую процедуру во время экспозиции на лице, мастер делает вам массаж стоп. Данная процедура возможна в 4 руки (один мастер делает лицо, второй ноги)."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743432",
-    "order": 27
-  },
-  {
-    "slug": "relaks_antistress",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Релакс/Антистресс",
-    "image": "/blocks/uslugi/file/usluga64.jpg",
-    "cardImage": "/blocks/services/file/usluga64.jpg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
-      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743431",
-    "order": 28
-  },
-  {
-    "slug": "detoks_massazh_anticellyulitnyj",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Детокс массаж антицеллюлитный",
-    "image": "/blocks/uslugi/file/usluga65.jpg",
-    "cardImage": "/blocks/services/file/usluga65.jpeg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Процедура представляет собой комплекс действий, направленных на нормализацию метаболизма в подкожном жировом слое. Массаж стимулирует обмен веществ, заставляет жировую ткань пропускать через себя значительное количество лимфы, крови. Происходит насыщение клеток кислородом, продукты жизнедеятельности активнее выходят, улучшается клеточное дыхание. Известно также, что жировые клетки дополнительно создаются для хранения излишков токсинов. Правильный антицеллюлитный массаж в салоне стимулирует выведение жидкости вместе с токсинами и объем жировой ткани становится заметно меньше, проявления целлюлита исчезают. В дополнение выравнивается и подтягивается кожа, уменьшаются объемы тела.",
-      "Массаж необходимо проводить курсом не менее 10 сеансов. При покупке курса сеансов предоставляется скидка. Подробности вы можете узнать у наших специалистов. Обычно результаты становятся очевидны уже после 3-5 приема."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743427",
-    "order": 29
-  },
-  {
-    "slug": "bambukovyj_massazh",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Бамбуковый массаж",
-    "image": "/blocks/uslugi/file/usluga66.jpg",
-    "cardImage": "/blocks/services/file/usluga66.jpeg",
-    "duration": "1 ч 30 м",
-    "description": [
-      "Бамбуковый массаж проводится специальными бамбуковыми палочками, которые называются «чо». Часть палки полая, а остальное пространство заполнено. Это позволяет не только создать звуковой эффект, но и сделать вес и баланс палок оптимальным.",
-      "Массаж бамбуковыми палочками выполняют под приятную ритмичную музыку. Ритм музыки задает темп массажным движениям.",
-      "Массаж включает прокатывающие движения одной палкой, вкручивающие, выкручивающие, выжимающие движения связкой из нескольких палок, легкие удары (дробь) по телу, растягивания, раскатывания. Удары бамбуковыми палочками направляются по касательной, поэтому пациент может ощущать только вибрацию, вызванную их внутренним содержимым. Стоит отметить, что данный массаж – это абсолютно безболезненная процедура. Массаж необходимо проводить курсом не менее 10 сеансов. При покупке курса сеансов предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743425",
-    "order": 30
-  },
-  {
-    "slug": "ispanskij_massazh_nog",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Испанский массаж ног",
-    "image": "/blocks/uslugi/file/usluga67.jpg",
-    "cardImage": "/blocks/services/file/usluga67.jpg",
-    "duration": "1 ч 10 м",
-    "description": [
-      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
-      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
-      "После массажа ног по всему телу ощущается легкость. Обладает мощным АНТИВАРИКОЗНЫМ свойством.",
-      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743428",
-    "order": 31
-  },
-  {
-    "slug": "ispanskij_massazh_spina",
-    "category": "massazh_tela",
-    "categoryTitle": "МАССАЖ ТЕЛА",
-    "title": "Испанский массаж спина",
-    "image": "/blocks/uslugi/file/usluga68.jpg",
-    "cardImage": "/blocks/services/file/usluga68.jpg",
-    "duration": "1 ч 10 м",
-    "description": [
-      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
-      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
-      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
-    ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m506704s7743429",
-    "order": 32
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743413",
+    "yclientsId": 7743413,
+    "priceLabel": "3 000 ₽",
+    "order": 1
   },
   {
     "slug": "uhod_fitssima",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход Фитссима",
     "image": "/blocks/uslugi/file/usluga71.jpg",
     "cardImage": "/blocks/services/file/usluga71.jpg",
@@ -499,12 +284,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743452",
-    "order": 33
+    "order": 1,
+    "yclientsId": 7743452,
+    "priceLabel": "5 100 ₽"
   },
   {
     "slug": "uhod_akva_phyts",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход Аква Phyts",
     "image": "/blocks/uslugi/file/usluga72.jpg",
     "cardImage": "/blocks/services/file/usluga72.jpg",
@@ -523,12 +310,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743448",
-    "order": 34
+    "order": 2,
+    "yclientsId": 7743448,
+    "priceLabel": "6 200 ₽"
   },
   {
     "slug": "otbelivayushchij_uhod",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Отбеливающий уход",
     "image": "/blocks/uslugi/file/usluga73.jpg",
     "cardImage": "/blocks/services/file/usluga73.jpg",
@@ -547,12 +336,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743446",
-    "order": 35
+    "order": 3,
+    "yclientsId": 7743446,
+    "priceLabel": "6 000 ₽"
   },
   {
     "slug": "uhod_sansi",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход Санси",
     "image": "/blocks/uslugi/file/usluga74.jpg",
     "cardImage": "/blocks/services/file/usluga74.jpg",
@@ -569,12 +360,14 @@
       "программа «Санси» (13 блистеров)."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743451",
-    "order": 36
+    "order": 4,
+    "yclientsId": 7743451,
+    "priceLabel": "5 300 ₽"
   },
   {
     "slug": "uhod_antikuperoz",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход Антикупероз",
     "image": "/blocks/uslugi/file/usluga75.jpg",
     "cardImage": "/blocks/services/file/usluga75.jpg",
@@ -592,12 +385,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743450",
-    "order": 37
+    "order": 5,
+    "yclientsId": 7743450,
+    "priceLabel": "5 300 ₽"
   },
   {
     "slug": "uhod_antikomedon",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход Антикомедон",
     "image": "/blocks/uslugi/file/usluga76.jpg",
     "cardImage": "/blocks/services/file/usluga76.jpg",
@@ -616,12 +411,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743449",
-    "order": 38
+    "order": 6,
+    "yclientsId": 7743449,
+    "priceLabel": "4 800 ₽"
   },
   {
     "slug": "uhod_za_vekami",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Уход за веками",
     "image": "/blocks/uslugi/file/usluga77.jpg",
     "cardImage": "/blocks/services/file/usluga77.jpg",
@@ -640,13 +437,15 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743453",
-    "order": 39
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743453",
+    "order": 7,
+    "yclientsId": 7743453,
+    "priceLabel": "5 300 ₽"
   },
   {
     "slug": "bio-piling",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Био-пилинг",
     "image": "/blocks/uslugi/file/usluga78.jpg",
     "cardImage": "/blocks/services/file/usluga78.jpg",
@@ -671,13 +470,15 @@
       "серая кисть для маски;",
       "веер PHYT`S."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743439",
-    "order": 40
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743439",
+    "order": 8,
+    "yclientsId": 7743439,
+    "priceLabel": "6 200 ₽"
   },
   {
     "slug": "chistaya_kozha",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Чистая кожа",
     "image": "/blocks/uslugi/file/usluga79.jpg",
     "cardImage": "/blocks/services/file/usluga79.jpg",
@@ -699,13 +500,15 @@
       "молочко «Очищающее»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743454",
-    "order": 41
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743454",
+    "order": 9,
+    "yclientsId": 7743454,
+    "priceLabel": "6 000 ₽"
   },
   {
     "slug": "antipolyushn_reviderm",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Антиполюшн ревидерм",
     "image": "/blocks/uslugi/file/usluga710.jpg",
     "cardImage": "/blocks/services/file/usluga710.jpeg",
@@ -723,13 +526,15 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743438",
-    "order": 42
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743438",
+    "order": 10,
+    "yclientsId": 7743438,
+    "priceLabel": "5 300 ₽"
   },
   {
     "slug": "vitaminnyj_buket",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Витаминный букет",
     "image": "/blocks/uslugi/file/usluga711.jpg",
     "cardImage": "/blocks/services/file/usluga711.jpg",
@@ -748,13 +553,15 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743440",
-    "order": 43
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743440",
+    "order": 11,
+    "yclientsId": 7743440,
+    "priceLabel": "5 100 ₽"
   },
   {
     "slug": "multivita",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Мультивита",
     "image": "/blocks/uslugi/file/usluga712.jpg",
     "cardImage": "/blocks/services/file/usluga712.jpg",
@@ -778,13 +585,15 @@
       "лосьон «Натуродерм».",
       "Деревянные палочки."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743445",
-    "order": 44
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743445",
+    "order": 12,
+    "yclientsId": 7743445,
+    "priceLabel": "6 200 ₽"
   },
   {
     "slug": "lifting",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Лифтинг",
     "image": "/blocks/uslugi/file/usluga713.jpg",
     "cardImage": "/blocks/services/file/usluga713.jpg",
@@ -805,13 +614,15 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743444",
-    "order": 45
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743444",
+    "order": 13,
+    "yclientsId": 7743444,
+    "priceLabel": "5 300 ₽"
   },
   {
     "slug": "panaceya",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Панацея",
     "image": "/blocks/uslugi/file/usluga714.jpg",
     "cardImage": "/blocks/services/file/usluga714.jpg",
@@ -830,13 +641,15 @@
       "лосьон «Натуродерм».",
       "Вибрационный аппарат."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743447",
-    "order": 46
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743447",
+    "order": 14,
+    "yclientsId": 7743447,
+    "priceLabel": "12 000 ₽"
   },
   {
     "slug": "limfo-energeticheskij_massazh_lica",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Лимфо-энергетический массаж лица",
     "image": "/blocks/uslugi/file/usluga715.jpg",
     "cardImage": "/blocks/services/file/usluga715.jpg",
@@ -861,13 +674,15 @@
       "улучшение проникновения активных ингредиентов из массажных сывороток и повышение их эффективности;",
       "улучшение структуры и качества кожи."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743455",
-    "order": 47
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743455",
+    "order": 15,
+    "yclientsId": 7743455,
+    "priceLabel": "3 100 ₽"
   },
   {
     "slug": "kompleksnyj_uhod_dlya_muzhchin",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Комплексный уход для мужчин",
     "image": "/blocks/uslugi/file/usluga716.jpg",
     "cardImage": "/blocks/services/file/usluga716.jpg",
@@ -892,13 +707,15 @@
       "лосьон «Гидроле Эвкалипт»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743443",
-    "order": 48
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743443",
+    "order": 16,
+    "yclientsId": 7743443,
+    "priceLabel": "5 100 ₽"
   },
   {
     "slug": "garmoniya_pitanie",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Гармония питание",
     "image": "/blocks/uslugi/file/usluga717.jpg",
     "cardImage": "/blocks/services/file/usluga717.jpg",
@@ -915,13 +732,15 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743442",
-    "order": 49
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743442",
+    "order": 17,
+    "yclientsId": 7743442,
+    "priceLabel": "4 400 ₽"
   },
   {
     "slug": "garmoniya_ochishchenie",
     "category": "uhody_phuts_lico",
-    "categoryTitle": "УХОДЫ PHYT’S ЛИЦО",
+    "categoryTitle": "Уходы PHYT'S — лицо",
     "title": "Гармония очищение",
     "image": "/blocks/uslugi/file/usluga718.jpg",
     "cardImage": "/blocks/services/file/usluga718.jpeg",
@@ -940,13 +759,63 @@
       "гоммаж «Контакт+» и/или гоммаж «Скраб Натурпил»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743441",
-    "order": 50
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743441",
+    "order": 18,
+    "yclientsId": 7743441,
+    "priceLabel": "4 400 ₽"
+  },
+  {
+    "slug": "kineplastika_soin_kineplastie",
+    "category": "uhody_phuts_lico",
+    "categoryTitle": "Уходы PHYT'S — лицо",
+    "title": "Кинепластика Soin Kineplastie",
+    "image": "/redesign/svc/kineplastic.jpg",
+    "cardImage": "/redesign/svc/kineplastic.jpg",
+    "duration": "",
+    "description": [
+      "Профессиональная тренировка лица.Руки и высокие технологии. Уход для лица от Франсуаз Морис с 1947 года. Аппаратный массаж активизирует циркуляцию крови и лимфы,уменьшает жировые отложения,разглаживает морщины и тонизирует ткани. Мануальный массаж воздействует на разные уровни кожи,разглаживание,придавая форму и активизируя все функции кожи."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s16344004",
+    "yclientsId": 16344004,
+    "priceLabel": "7 100 ₽",
+    "order": 19
+  },
+  {
+    "slug": "apparatnyy_massazh_dermophyts",
+    "category": "uhody_phuts_lico",
+    "categoryTitle": "Уходы PHYT'S — лицо",
+    "title": "Аппаратный массаж Dermophyts",
+    "image": "/blocks/uslugi/file/usluga51.jpg",
+    "cardImage": "/blocks/uslugi/file/usluga51.jpg",
+    "duration": "",
+    "description": [
+      "Эту процедуру ВЫ можете добавить к любому эстетическому уходу для большей эффективности. Противопоказания:раны, экземы,атеросклероз,эпилепсия,беременность,металлические импланты, Кардиостимулятор,церебральные стимуляторы,аритмии сердца,злокачественные опухоли,неделю после любых травмирующих процедур( чистка,пилинг,инъекции)"
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s16344307",
+    "yclientsId": 16344307,
+    "priceLabel": "3 000 ₽",
+    "order": 20
+  },
+  {
+    "slug": "millezim",
+    "category": "uhody_phuts_lico",
+    "categoryTitle": "Уходы PHYT'S — лицо",
+    "title": "Миллезим",
+    "image": "/redesign/svc/phyts-millezim.jpg",
+    "cardImage": "/redesign/svc/phyts-millezim.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s18705349",
+    "yclientsId": 18705349,
+    "priceLabel": "7 100 ₽",
+    "order": 21
   },
   {
     "slug": "uprugij_byust",
     "category": "uhody_phyts_telo",
-    "categoryTitle": "УХОДЫ PHYT’S ТЕЛО",
+    "categoryTitle": "Уходы PHYT'S — тело",
     "title": "Упругий бюст",
     "image": "/blocks/uslugi/file/usluga81.jpg",
     "cardImage": "/blocks/services/file/usluga81.jpg",
@@ -972,12 +841,14 @@
       "лосьон «Натуродерм»."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743459",
-    "order": 51
+    "order": 1,
+    "yclientsId": 7743459,
+    "priceLabel": "4 800 ₽"
   },
   {
     "slug": "legkie_nogi",
     "category": "uhody_phyts_telo",
-    "categoryTitle": "УХОДЫ PHYT’S ТЕЛО",
+    "categoryTitle": "Уходы PHYT'S — тело",
     "title": "Легкие ноги",
     "image": "/blocks/uslugi/file/usluga82.jpg",
     "cardImage": "/blocks/services/file/usluga82.jpg",
@@ -997,16 +868,18 @@
       "лосьон «Тонизирующий»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743458",
-    "order": 52
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743458",
+    "order": 2,
+    "yclientsId": 7743458,
+    "priceLabel": "2 400 ₽"
   },
   {
     "slug": "bioskulptor",
     "category": "uhody_phyts_telo",
-    "categoryTitle": "УХОДЫ PHYT’S ТЕЛО",
+    "categoryTitle": "Уходы PHYT'S — тело",
     "title": "Биоскульптор",
-    "image": "/blocks/uslugi/file/usluga83.jpg",
-    "cardImage": "/blocks/services/file/usluga83.jpg",
+    "image": "/redesign/svc/biosculptor.jpg",
+    "cardImage": "/redesign/svc/biosculptor.jpg",
     "duration": "2 ч 00 м",
     "description": [
       "Укрепляющая и моделирующая процедура оказывает общее тонизирующее действие на организм.",
@@ -1026,16 +899,18 @@
       "крем «Хрономоделирующий»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743457",
-    "order": 53
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743457",
+    "order": 3,
+    "yclientsId": 7743457,
+    "priceLabel": "6 200 ₽"
   },
   {
     "slug": "bioaktivnoe_pohudenie",
     "category": "uhody_phyts_telo",
-    "categoryTitle": "УХОДЫ PHYT’S ТЕЛО",
+    "categoryTitle": "Уходы PHYT'S — тело",
     "title": "Биоактивное похудение",
-    "image": "/blocks/uslugi/file/usluga84.jpg",
-    "cardImage": "/blocks/services/file/usluga84.jpg",
+    "image": "/redesign/svc/bioactive.jpg",
+    "cardImage": "/redesign/svc/bioactive.jpg",
     "duration": "2 ч 15 м",
     "description": [
       "Моделирующая процедура рекомендуется при локальных жировых отложениях, отечности, целлюлите, снижении тонуса тканей.",
@@ -1056,13 +931,15 @@
       "лосьон «Натуродерм».",
       "Бамбуковая палка."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s7743456",
-    "order": 54
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743456",
+    "order": 4,
+    "yclientsId": 7743456,
+    "priceLabel": "7 100 ₽"
   },
   {
     "slug": "shelkovyj_piling",
     "category": "uhody_phyts_telo",
-    "categoryTitle": "УХОДЫ PHYT’S ТЕЛО",
+    "categoryTitle": "Уходы PHYT'S — тело",
     "title": "Шелковый пилинг",
     "image": "/blocks/uslugi/file/usluga85.jpg",
     "cardImage": "/blocks/services/file/usluga85.jpg",
@@ -1079,77 +956,81 @@
       "Крем «Бальзам‑эксфолиант»;",
       "лосьон «Натуродерм»."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m5-1s9665000",
-    "order": 55
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9665000",
+    "order": 5,
+    "yclientsId": 9665000,
+    "priceLabel": "2 400 ₽"
   },
   {
     "slug": "omolozhenie_so_spirulinoj",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
+    "categoryTitle": "Уходы Бернард Кассьер",
     "title": "Омоложение со спирулиной",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "image": "/redesign/svc/bernard-1-spirulina.jpg",
+    "cardImage": "/redesign/svc/bernard-1-spirulina.jpg",
     "description": [
       "Оказывает выраженный омолаживающий эффект; повышает эластичность кожи; уменьшает количество и глубину морщин; восстанавливает волокна дермы; защищает от агрессивной среды ,в том числе синего излучения."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12201610",
-    "order": 56
+    "order": 1,
+    "yclientsId": 12201610,
+    "priceLabel": "4 400 ₽"
   },
   {
-    "slug": "glaza_kak_vasilki",
+    "slug": "uspokaivayuschaya_protsedura_dlya_chuvstvitelnoy_kozhi",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
-    "title": "Глаза, как васильки",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "categoryTitle": "Уходы Бернард Кассьер",
+    "title": "Успокаивающая процедура для чувствительной кожи",
+    "image": "/redesign/svc/bernard-soothing.jpg",
+    "cardImage": "/redesign/svc/bernard-soothing.jpg",
+    "duration": "",
     "description": [
-      "Сотрите признаки усталости со своего лица. Экстракт василька из Орийака укрепляет сосуды, снижает отечность, тонизирует и укрепляет кожу, увлажняет, тормозит процессы старения. Шелковое дерево способствует омоложению путем воздействия на патологический механизм гликиции белков коллагена. Экстракт белого люпина восстанавливает тонус кожи."
+      "Оказывает интенсивное питательное действие. Устраняет тянущие ощущения и возвращает комфорт. Восстанавливает сияние.",
+      "Смягчает, разглаживает кожу и улучшает цвет лица."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12203587",
-    "order": 57
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12252352",
+    "yclientsId": 12252352,
+    "priceLabel": "5 300 ₽",
+    "order": 2
   },
   {
-    "slug": "korolevskoe_nasledie",
+    "slug": "pitatelnaya_protsedura",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
-    "title": "Увлажняющая процедура Королевское наследие",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12252567",
-    "order": 58
+    "categoryTitle": "Уходы Бернард Кассьер",
+    "title": "Питательная процедура",
+    "image": "/redesign/svc/bernard-nourish.jpg",
+    "cardImage": "/redesign/svc/bernard-nourish.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12252376",
+    "yclientsId": 12252376,
+    "priceLabel": "5 100 ₽",
+    "order": 3
   },
   {
     "slug": "shokoladnoe_fondyu",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
+    "categoryTitle": "Уходы Бернард Кассьер",
     "title": "Антистрессовая процедура Шоколадное фондю",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "image": "/redesign/svc/bernard-2-chocolate.jpg",
+    "cardImage": "/redesign/svc/bernard-2-chocolate.jpg",
     "description": [
       "Снимает стресс,выводит токсины,нейтрализует свободные радикалы,стимулирует клеточное обновление,питает,Увлажняет,тонизирует,смягчает,защищает,обеспечивает релаксацию,придает коже сияние и комфорт."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12789971",
-    "order": 59
-  },
-  {
-    "slug": "yudzu",
-    "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
-    "title": "Осветление и сияние с Юдзу",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12977957",
-    "order": 60
+    "order": 4,
+    "yclientsId": 12789971,
+    "priceLabel": "4 200 ₽"
   },
   {
     "slug": "telo_s_ananasom",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
+    "categoryTitle": "Уходы Бернард Кассьер",
     "title": "Стройное тело с ананасом",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "image": "/redesign/svc/bernard-3-pineapple.jpg",
+    "cardImage": "/redesign/svc/bernard-3-pineapple.jpg",
     "description": [],
     "listItems": [
       "улучшает внешний вид кожи в проблемных зонах;",
@@ -1158,165 +1039,1132 @@
       "не рекомендуется беременным и кормящим женщинам."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12979503",
-    "order": 61
+    "order": 5,
+    "yclientsId": 12979503,
+    "priceLabel": "5 300 ₽"
   },
   {
-    "slug": "bambuk_i_aloe",
+    "slug": "osvetlenie_i_siyanie_s_yudzu_dlya_normalnoy_kozhi",
     "category": "bernard_kasser",
-    "categoryTitle": "УХОДЫ БЕРНАРД КАССЬЕР",
-    "title": "Питательно-увлажняющая процедура Бамбук и алое",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s13543722",
-    "order": 62
+    "categoryTitle": "Уходы Бернард Кассьер",
+    "title": "\"Осветление и сияние\" с Юдзу для нормальной кожи",
+    "image": "/redesign/svc/bernard-yuzu.jpg",
+    "cardImage": "/redesign/svc/bernard-yuzu.jpg",
+    "duration": "",
+    "description": [
+      "-Стимулирует регенерацию",
+      "-Разглаживает морщины",
+      "-Способствует сиянию кожи",
+      "-Улучшает цвет лица",
+      "Уменьшает проявление пигментных пятен"
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s13487971",
+    "yclientsId": 13487971,
+    "priceLabel": "5 300 ₽",
+    "order": 6
+  },
+  {
+    "slug": "avtograf_molodosti",
+    "category": "simone_mahler",
+    "categoryTitle": "Уходы Simone Mahler",
+    "title": "Автограф  молодости",
+    "image": "/redesign/svc/simone-1-youth.jpg",
+    "cardImage": "/redesign/svc/simone-1-youth.jpg",
+    "duration": "",
+    "description": [
+      "Процедура для лица. 100% омоложение от французского бренда Simone Mahler, японский массаж КоБиДо с теплыми камнями ,горячими полотенцами превосходно помогут восстановиться."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s13064138",
+    "yclientsId": 13064138,
+    "priceLabel": "3 500 ₽",
+    "order": 1
+  },
+  {
+    "slug": "skin_gravity",
+    "category": "simone_mahler",
+    "categoryTitle": "Уходы Simone Mahler",
+    "title": "Skin Gravity",
+    "image": "/redesign/svc/simone-2-gravity.jpg",
+    "cardImage": "/redesign/svc/simone-2-gravity.jpg",
+    "duration": "",
+    "description": [
+      "Антивозрастной подтягивающий уход с липофилингом.",
+      "Благодаря комбинированному воздействию на опорные волокна и подкожную жировую ткань,процедура возвращает коже упругость и эластичность,борется с обвисанием кожи."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s13720871",
+    "yclientsId": 13720871,
+    "priceLabel": "5 300 ₽",
+    "order": 2
+  },
+  {
+    "slug": "uhod_v_assortimente_po_tipu_kozhi_i_probleme_dlya_litsa",
+    "category": "simone_mahler",
+    "categoryTitle": "Уходы Simone Mahler",
+    "title": "Уход в ассортименте по типу кожи и проблеме для лица",
+    "image": "/redesign/svc/simone-3-assort.jpg",
+    "cardImage": "/redesign/svc/simone-3-assort.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14966325",
+    "yclientsId": 14966325,
+    "priceLabel": "5 300 ₽",
+    "order": 3
+  },
+  {
+    "slug": "obertyvanie",
+    "category": "simone_mahler",
+    "categoryTitle": "Уходы Simone Mahler",
+    "title": "Обертывание",
+    "image": "/redesign/svc/simone-4-wrap.jpg",
+    "cardImage": "/redesign/svc/simone-4-wrap.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s17810679",
+    "yclientsId": 17810679,
+    "priceLabel": "4 200 ₽",
+    "order": 4
+  },
+  {
+    "slug": "uhod_dlya_molodosti_i_siyaniya_ella_perfect",
+    "category": "ella_bache",
+    "categoryTitle": "Ella Baché",
+    "title": "Уход для молодости и сияния Ella Perfect",
+    "image": "/redesign/svc/ella-1-perfect.jpg",
+    "cardImage": "/redesign/svc/ella-1-perfect.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14847527",
+    "yclientsId": 14847527,
+    "priceLabel": "5 300 ₽",
+    "order": 1
+  },
+  {
+    "slug": "premium_uhod_skinssime_globalnyy_lifting",
+    "category": "ella_bache",
+    "categoryTitle": "Ella Baché",
+    "title": "Премиум уход Skinssime \"Глобальный лифтинг\"",
+    "image": "/redesign/svc/ella-2-lifting.jpg",
+    "cardImage": "/redesign/svc/ella-2-lifting.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14847769",
+    "yclientsId": 14847769,
+    "priceLabel": "6 000 ₽",
+    "order": 2
+  },
+  {
+    "slug": "uhod_morfostrukturirovaniya_age_doctor",
+    "category": "ella_bache",
+    "categoryTitle": "Ella Baché",
+    "title": "Уход морфоструктурирования Age doctor",
+    "image": "/redesign/svc/ella-3-age.jpg",
+    "cardImage": "/redesign/svc/ella-3-age.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14847787",
+    "yclientsId": 14847787,
+    "priceLabel": "6 000 ₽",
+    "order": 3
+  },
+  {
+    "slug": "mikronizirovannye_vodorosli_morskoe_obertyvanie",
+    "category": "thalgo",
+    "categoryTitle": "Thalgo",
+    "title": "Микронизированные водоросли. Морское обертывание",
+    "image": "/redesign/svc/thalgo-1-wrap.jpg",
+    "cardImage": "/redesign/svc/thalgo-1-wrap.jpg",
+    "duration": "",
+    "description": [
+      "Детоксикация,катализатор похудения и хорошего самочувствия.Для мужчин и женщин,кто желает познакомиться с талассотерапией."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s13863063",
+    "yclientsId": 13863063,
+    "priceLabel": "5 300 ₽",
+    "order": 1
+  },
+  {
+    "slug": "trio_morskih_vodorosley",
+    "category": "thalgo",
+    "categoryTitle": "Thalgo",
+    "title": "Трио морских водорослей",
+    "image": "/redesign/svc/thalgo-2-trio.jpg",
+    "cardImage": "/redesign/svc/thalgo-2-trio.jpg",
+    "duration": "",
+    "description": [
+      "Процедура для мужчин и женщин. Для глубокой детоксикации,насыщает энергией и восстановления баланса кожи."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14549213",
+    "yclientsId": 14549213,
+    "priceLabel": "4 400 ₽",
+    "order": 2
+  },
+  {
+    "slug": "uspokaivayuschiy_i_vosstanavlivayuschiy_ritual_cica_marine_s",
+    "category": "thalgo",
+    "categoryTitle": "Thalgo",
+    "title": "Успокаивающий и восстанавливающий ритуал Cica Marine с морскими пребиотиками",
+    "image": "/redesign/svc/thalgo-3-cica.jpg",
+    "cardImage": "/redesign/svc/thalgo-3-cica.jpg",
+    "duration": "",
+    "description": [
+      "Для мужчин и женщин.Мгновенно исчезают покраснения и чувство дискомфорта,стянутости,жжения. Восстанавливается иммунитет и баланс гидролипидной мантии.Ощущения комфорта сохраняются на долго."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s21965514",
+    "yclientsId": 21965514,
+    "priceLabel": "4 890 ₽",
+    "order": 3
+  },
+  {
+    "slug": "ekspress_uvlazhnenie",
+    "category": "thalgo",
+    "categoryTitle": "Thalgo",
+    "title": "Экспресс-увлажнение",
+    "image": "/redesign/svc/thalgo-4-hydrate.jpg",
+    "cardImage": "/redesign/svc/thalgo-4-hydrate.jpg",
+    "duration": "",
+    "description": [
+      "Для мужчин и женщин. Для обезвоженной кожи с морщинами обезвоженности и ощущением стянутости. Для кожи поврежденной из-за излишнего пребывания на солнце. После различных пилингов и уколов красоты."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s21965637",
+    "yclientsId": 21965637,
+    "priceLabel": "4 000 ₽",
+    "order": 4
+  },
+  {
+    "slug": "radikalnoe_obnovlenie_uhod_dlya_tela",
+    "category": "thalgo",
+    "categoryTitle": "Thalgo",
+    "title": "Радикальное обновление. Уход для тела",
+    "image": "https://assets.yclients.com/gallery_service_image/basic/e/ee/eefc25a817169d7_20251130171207.png",
+    "cardImage": "https://assets.yclients.com/gallery_service_image/basic/e/ee/eefc25a817169d7_20251130171207.png",
+    "duration": "",
+    "description": [
+      "Уход для тех,кто хочет улучшить текстуру и качество кожи,испытать приятные ощущения. Косметолог уделяет внимание каждой детали,делает все для получения поставленной задачи. Для этого в арсенале специалиста несколько эксклюзивных массажных техник."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s25255749",
+    "yclientsId": 25255749,
+    "priceLabel": "4 200 ₽",
+    "order": 5
+  },
+  {
+    "slug": "ispanskij_massazh",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Испанский массаж",
+    "image": "/blocks/uslugi/file/usluga51.jpg",
+    "cardImage": "/blocks/services/file/usluga51.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
+      "Хиромассаж лица настолько эффективен, что может с успехом заменить пластическую хирургию. Он обладает ярко выраженным антивозрастным эффектом, прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
+      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743419",
+    "order": 1,
+    "yclientsId": 7743419,
+    "priceLabel": "3 100 ₽"
+  },
+  {
+    "slug": "chakralnyy_massazh_poludragotsennymi_kamnyami",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Чакральный массаж полудрагоценными камнями",
+    "image": "https://assets.yclients.com/main_service_image/basic/0/0a/0a1dbb361c5a318_20220403180345.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/0/0a/0a1dbb361c5a318_20220403180345.png",
+    "duration": "",
+    "description": [
+      "Чакры – это особые области на теле человека, обладающие энергетическим потенциалом. При умелом воздействии  на чакры  каналы, по которым течет энергия, раскрываются, и энергетические потоки выравниваются.",
+      "В качестве чакральных чаще всего используют полудрагоценные, а то и драгоценные, камни: жадеит, яшма, нефрит, голубой агат и другие. Каждый камень применяется для определенных чакр.",
+      "Доктора Востока считают: легче предупредить болезнь, чем потом ее вылечить. Массаж горячими и холодными камнями отлично справляется с этой задачей! При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743424",
+    "yclientsId": 7743424,
+    "priceLabel": "3 000 ₽",
+    "order": 2
+  },
+  {
+    "slug": "mandarinovymi_palochkami",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Мандариновыми палочками",
+    "image": "/blocks/uslugi/file/usluga53.jpg",
+    "cardImage": "/blocks/services/file/usluga53.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Массаж деревянными палочками в области лица, шеи и воротниковой зоны обеспечивает проработку наиболее проблемных зон — овала лица и морщин, что гарантирует выраженный разглаживающий эффект. Снимает отеки, нормализует сон. Дарит чувство полного блаженства. Данная процедура может быть встроена в протокол любой процедуры, а также может быть рекомендована для тех, кому временно противопоказан ручной массаж (после инъекций ботекса, филлеров, стоматолога). При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743421",
+    "order": 3,
+    "yclientsId": 7743421,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "stounmassazh",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Стоунмассаж",
+    "image": "/blocks/uslugi/file/usluga54.jpg",
+    "cardImage": "/blocks/services/file/usluga54.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Массаж теплыми камнями по меридианам. Снимает мышечные зажимы, напряжение. Человек засыпает. Сон приравнивается к 4 часам. Данная процедура может быть встроена в протокол любой процедуры. При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743423",
+    "order": 4,
+    "yclientsId": 7743423,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "klassicheskij",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Классический",
+    "image": "/blocks/uslugi/file/usluga56.jpg",
+    "cardImage": "/blocks/services/file/usluga56.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Классическая методика массажа по Ахабадзе. Профилактика старения необходима каждому. Заканчиваем процедуру теплым компрессом и финиш кремом. Данная процедура рекомендована курсом из 10 процедур. При покупке курса предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743420",
+    "order": 5,
+    "yclientsId": 7743420,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "nezhnost_vostoka",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Нежность Востока",
+    "image": "https://assets.yclients.com/main_service_image/basic/8/81/8195754b45dd9c7_20220403183344.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/8/81/8195754b45dd9c7_20220403183344.png",
+    "duration": "",
+    "description": [
+      "В процедуру входит: очищение лица,  лимфо-энергетический массаж лица, маска и финиш-крем.",
+      "Во время экспозиции на лице мастер делает парафинотерапию рук и массаж ног.  Данная процедура отлично подходит для знакомства с мастером.",
+      "Работаем на органической косметике, подходит для детей с 10 лет, также для беременных и кормящих мам."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9642613",
+    "yclientsId": 9642613,
+    "priceLabel": "4 000 ₽",
+    "order": 6
+  },
+  {
+    "slug": "nezhnost_vostoka_max",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Нежность Востока max",
+    "image": "https://assets.yclients.com/main_service_image/basic/5/52/524f1aba93869d0_20220403183045.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/5/52/524f1aba93869d0_20220403183045.png",
+    "duration": "",
+    "description": [
+      "В процедуру входит: очищение лица,  лимфо-энергетический массаж лица, маска и финиш-крем.",
+      "Во время экспозиции на лица мастер делает парафинотерапию рук и массаж ног. В состав процедуры входит АЛЬГИНАТНАЯ маска, которая закрепляет эффект после массажа лица (memory эффект). В течении 4 дней у вас будет ощущение подтяжки лица и лифтинг-эффект. Данная процедура отлично подходит для знакомства с мастером.",
+      "Работаем на органической косметике, подходит для детей с 10 лет, также для беременных и кормящих мам."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s9664421",
+    "yclientsId": 9664421,
+    "priceLabel": "4 400 ₽",
+    "order": 7
+  },
+  {
+    "slug": "nezhnost_vostoka_po_abonementu",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Нежность Востока по Абонементу",
+    "image": "/redesign/svc/east-tenderness.jpg",
+    "cardImage": "/redesign/svc/east-tenderness.jpg",
+    "duration": "",
+    "description": [
+      "В процедуру входит: очищение лица,  лимфо-энергетический массаж лица, маска и финиш-крем.",
+      "Во время экспозиции на лице мастер делает парафинотерапию рук и массаж ног.  Данная процедура отлично подходит для знакомства с мастером.",
+      "Работаем на органической косметике, подходит для детей с 10 лет, также для беременных и кормящих мам."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s10232203",
+    "yclientsId": 10232203,
+    "priceLabel": "3 300 ₽",
+    "order": 8
+  },
+  {
+    "slug": "ruchnaya_plastika_30_min_alginatnaya_maska",
+    "category": "massazh_lica",
+    "categoryTitle": "СПА-массаж лица",
+    "title": "Ручная пластика 30 мин + альгинатная маска",
+    "image": "/redesign/svc/hand-plastic-mask.jpg",
+    "cardImage": "/redesign/svc/hand-plastic-mask.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14965960",
+    "yclientsId": 14965960,
+    "priceLabel": "4 000 ₽",
+    "order": 9
+  },
+  {
+    "slug": "nogi_taj_s_kamnyami_i_bambuk",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Ноги тай с камнями и бамбук",
+    "image": "/blocks/uslugi/file/usluga61.jpg",
+    "cardImage": "/blocks/services/file/usluga61.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Может быть самостоятельной процедурой или встроена в любую другую процедуру во время экспозиции на лице, мастер делает вам массаж стоп. Данная процедура возможна в 4 руки (один мастер делает лицо, второй ноги)."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743430",
+    "order": 1,
+    "yclientsId": 7743430,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "massazh_golovy_shirashanti",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Массаж головы-ширашанти",
+    "image": "https://assets.yclients.com/main_service_image/basic/c/ce/ce5ab93fa2c1532_20220403185835.png",
+    "cardImage": "https://assets.yclients.com/main_service_image/basic/c/ce/ce5ab93fa2c1532_20220403185835.png",
+    "duration": "",
+    "description": [
+      "Может быть самостоятельной процедурой или встроена в любую другую процедуру во время экспозиции на лице, мастер делает вам массаж головы. После данной процедуры улучшается самочувствие,  нормализуется давление. Благодаря массажу активизируется питание волосяных луковиц, что способствует росту волос. Дополнительно втирается сыворотка для роста волос. Для достижения стойкого результата рекомендовано сделать курс из 6-12 процедур.  При покупке курса предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743426",
+    "yclientsId": 7743426,
+    "priceLabel": "800 ₽",
+    "order": 2
+  },
+  {
+    "slug": "relaks_antistress",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Релакс/Антистресс",
+    "image": "/blocks/uslugi/file/usluga64.jpg",
+    "cardImage": "/blocks/services/file/usluga64.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
+      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743431",
+    "order": 3,
+    "yclientsId": 7743431,
+    "priceLabel": "3 500 ₽"
+  },
+  {
+    "slug": "detoks_massazh_anticellyulitnyj",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Детокс массаж антицеллюлитный",
+    "image": "/blocks/uslugi/file/usluga65.jpg",
+    "cardImage": "/blocks/services/file/usluga65.jpeg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Процедура представляет собой комплекс действий, направленных на нормализацию метаболизма в подкожном жировом слое. Массаж стимулирует обмен веществ, заставляет жировую ткань пропускать через себя значительное количество лимфы, крови. Происходит насыщение клеток кислородом, продукты жизнедеятельности активнее выходят, улучшается клеточное дыхание. Известно также, что жировые клетки дополнительно создаются для хранения излишков токсинов. Правильный антицеллюлитный массаж в салоне стимулирует выведение жидкости вместе с токсинами и объем жировой ткани становится заметно меньше, проявления целлюлита исчезают. В дополнение выравнивается и подтягивается кожа, уменьшаются объемы тела.",
+      "Массаж необходимо проводить курсом не менее 10 сеансов. При покупке курса сеансов предоставляется скидка. Подробности вы можете узнать у наших специалистов. Обычно результаты становятся очевидны уже после 3-5 приема."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743427",
+    "order": 4,
+    "yclientsId": 7743427,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "bambukovyj_massazh",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Бамбуковый массаж",
+    "image": "/blocks/uslugi/file/usluga66.jpg",
+    "cardImage": "/blocks/services/file/usluga66.jpeg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Бамбуковый массаж проводится специальными бамбуковыми палочками, которые называются «чо». Часть палки полая, а остальное пространство заполнено. Это позволяет не только создать звуковой эффект, но и сделать вес и баланс палок оптимальным.",
+      "Массаж бамбуковыми палочками выполняют под приятную ритмичную музыку. Ритм музыки задает темп массажным движениям.",
+      "Массаж включает прокатывающие движения одной палкой, вкручивающие, выкручивающие, выжимающие движения связкой из нескольких палок, легкие удары (дробь) по телу, растягивания, раскатывания. Удары бамбуковыми палочками направляются по касательной, поэтому пациент может ощущать только вибрацию, вызванную их внутренним содержимым. Стоит отметить, что данный массаж – это абсолютно безболезненная процедура. Массаж необходимо проводить курсом не менее 10 сеансов. При покупке курса сеансов предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743425",
+    "order": 5,
+    "yclientsId": 7743425,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "ispanskij_massazh_nog",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Испанский массаж ног",
+    "image": "/blocks/uslugi/file/usluga67.jpg",
+    "cardImage": "/blocks/services/file/usluga67.jpg",
+    "duration": "1 ч 10 м",
+    "description": [
+      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
+      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
+      "После массажа ног по всему телу ощущается легкость. Обладает мощным АНТИВАРИКОЗНЫМ свойством.",
+      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743428",
+    "order": 6,
+    "yclientsId": 7743428,
+    "priceLabel": "4 000 ₽"
+  },
+  {
+    "slug": "ispanskij_massazh_spina",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Испанский массаж спина",
+    "image": "/blocks/uslugi/file/usluga68.jpg",
+    "cardImage": "/blocks/services/file/usluga68.jpg",
+    "duration": "1 ч 10 м",
+    "description": [
+      "Хиромассаж, или испанский массаж, – это «изобретение» испанского врача Энрике Гарсиа Кастеллса. В его основе лежит методика, предложенная в начале 20 века врачом-натуропатом Феррандисом, основателем испанской школы массажа, который направлен не только на физическое, но и на психоэмоциональное состояние человека.",
+      "Данная процедура прекрасно омолаживает и подтягивает кожу, возвращает тканям свежесть и тонус. Во время сеанса задействуется более 100 приемов от простых: легкие фрикции пальцами по массажным точками до наиболее сложных: растяжка кожи и мышечно-сосудистые разминания.",
+      "При покупке курса сеансов из 4/6/10 штук предоставляется скидка. Подробности вы можете узнать у наших специалистов."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743429",
+    "order": 7,
+    "yclientsId": 7743429,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "chistka_spiny_fr_haut",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Чистка спины FR-HAUT",
+    "image": "/blocks/uslugi/file/usluga61.jpg",
+    "cardImage": "/blocks/uslugi/file/usluga61.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s16078976",
+    "yclientsId": 16078976,
+    "priceLabel": "8 000 ₽",
+    "order": 8
+  },
+  {
+    "slug": "obertyvanie_skrabirovanie_v_protsedure",
+    "category": "massazh_tela",
+    "categoryTitle": "СПА-массаж тела",
+    "title": "Обертывание / скрабирование в процедуре",
+    "image": "/redesign/svc/wrap-scrub.jpg",
+    "cardImage": "/redesign/svc/wrap-scrub.jpg",
+    "duration": "",
+    "description": [
+      "Эта процедура дополнение к основной! Вы можете ее добавить! Рекомендовано один раз в неделю! Сыворотки , основной программы будут лучше проникать, усиливать действия процедуры! Мастер скрабирует зоны тела выбранным скрабом, затем клиент может принять душ или мастер обтирает тело горячими полотенцами."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14966103",
+    "yclientsId": 14966103,
+    "priceLabel": "1 500 ₽",
+    "order": 9
   },
   {
     "slug": "model_obertyvanie",
     "category": "obertyvanie_telo",
-    "categoryTitle": "ОБЕРТЫВАНИЕ ТЕЛА",
+    "categoryTitle": "Обертывание тела",
     "title": "Моделирующее обертывание",
-    "image": "/blocks/uslugi/file/usluga11.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "image": "/redesign/cat-wrap.jpg",
+    "cardImage": "/redesign/cat-wrap.jpg",
     "duration": "0 ч 40 м",
     "description": [
       "Сначала скрабируется тело, специальным скрабом( подбираем перед процедурой) , снимаем горячими полотенцами и наносим состав для обертывания ( похудение или для укрепления) на 40 минут укутываем. Можем оставить отдыхать или поработать с лицом."
     ],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12623716",
-    "order": 63
+    "order": 1,
+    "yclientsId": 12623716,
+    "priceLabel": "4 200 ₽"
   },
   {
-    "slug": "glubokoe_bikini",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Глубокое бикини",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "slug": "okrashivanie_resnic",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Окрашивание ресниц",
+    "image": "/blocks/uslugi/file/usluga31.jpg",
+    "cardImage": "/blocks/services/file/usluga31.jpeg",
+    "duration": "0 ч 30 м",
     "description": [
-      "У нас есть душ, одноразовый бритвенный станок, если необходимо для Вашего комфорта."
+      "Работаем на европейской краске фирмы Intensive, одобренную офтальмологами. Окрашивание поможет визуально придать ресничкам объем, а взгляду — привлекательность."
     ],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389070",
-    "order": 64
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743416",
+    "order": 1,
+    "yclientsId": 7743416,
+    "priceLabel": "1 000 ₽"
   },
   {
-    "slug": "klassika_bikini",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Классика бикини",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389162",
-    "order": 65
+    "slug": "okrashivanie_brovej",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Окрашивание бровей",
+    "image": "/blocks/uslugi/file/usluga32.jpg",
+    "cardImage": "/blocks/services/file/usluga32.jpg",
+    "duration": "0 ч 30 м",
+    "description": [
+      "Работаем на европейской краске фирмы Intensive, одобренную офтальмологами. Ухоженные брови не только украшают лицо и придают ему четкости, выразительности, но и делают создаваемый образ совершенным."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743415",
+    "order": 2,
+    "yclientsId": 7743415,
+    "priceLabel": "1 000 ₽"
   },
   {
-    "slug": "podmyshechnye_vpadiny",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Подмышечные впадины",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389190",
-    "order": 66
+    "slug": "korrekciya_brovej",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Коррекция бровей",
+    "image": "/blocks/uslugi/file/usluga33.jpg",
+    "cardImage": "/blocks/services/file/usluga33.jpg",
+    "duration": "0 ч 40 м",
+    "description": [
+      "Коррекция бровей проводится пинцетом и по необходимости воском.",
+      "Самый распространенный вариант коррекции бровей производится пинцетом. С его помощью удаляются лишние волоски, которые растут под бровью и портят форму.",
+      "Наши специалисты используют для процедуры коррекции качественные пинцеты от известных производителей и дезинфицируют их по всем правилам."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s7743414",
+    "order": 3,
+    "yclientsId": 7743414,
+    "priceLabel": "1 500 ₽"
   },
   {
-    "slug": "nogi_polnostyu",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Ноги полностью",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389200",
-    "order": 67
+    "slug": "kompleks_dlya_brovey",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Комплекс для бровей",
+    "image": "https://assets.yclients.com/gallery_service_image/basic/7/7c/7ce13716b7b8e97_20260407201141.png",
+    "cardImage": "https://assets.yclients.com/gallery_service_image/basic/7/7c/7ce13716b7b8e97_20260407201141.png",
+    "duration": "",
+    "description": [
+      "Окрашивание и коррекция бровей — это идеальный способ подчеркнуть естественную красоту лица, сделать взгляд выразительным и ухоженным без ежедневного макияжа.",
+      "Наши мастера подбирают форму бровей индивидуально, учитывая особенности вашего лица, структуру волосков и желаемый результат. Коррекция выполняется аккуратно и безболезненно, позволяя создать гармоничный контур и избавиться от лишних волосков.",
+      "Окрашивание проводится профессиональными средствами, которые обеспечивают насыщенный, стойкий цвет и при этом бережно воздействуют на кожу и волоски. В результате брови выглядят более густыми, четкими и ухоженными.",
+      "Процедура подходит как для тех, кто хочет слегка подчеркнуть натуральную форму, так и для тех, кто мечтает о более выразительном и ярком образе. Эффект сохраняется до нескольких недель, позволяя вам экономить время на ежедневный макияж.",
+      "Доверьте свои брови профессионалам — и наслаждайтесь идеальным результатом каждый день!"
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s27357453",
+    "yclientsId": 27357453,
+    "priceLabel": "2 250 ₽",
+    "order": 4
+  },
+  {
+    "slug": "kompleks_resnitsy_i_brovi",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Комплекс ресницы и брови",
+    "image": "https://assets.yclients.com/gallery_service_image/basic/b/b7/b78fe0ea8fb232b_20260407202621.png",
+    "cardImage": "https://assets.yclients.com/gallery_service_image/basic/b/b7/b78fe0ea8fb232b_20260407202621.png",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s27357708",
+    "yclientsId": 27357708,
+    "priceLabel": "2 975 ₽",
+    "order": 5
+  },
+  {
+    "slug": "kompleks_okrashivanie_brovey_i_resnits",
+    "category": "vizazh",
+    "categoryTitle": "Оформление бровей и ресниц",
+    "title": "Комплекс окрашивание бровей и ресниц",
+    "image": "/blocks/uslugi/file/usluga31.jpg",
+    "cardImage": "/blocks/uslugi/file/usluga31.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s28444272",
+    "yclientsId": 28444272,
+    "priceLabel": "1 800 ₽",
+    "order": 6
   },
   {
     "slug": "nogi_do_kolena",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Ноги до колена (голени)",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389218",
-    "order": 68
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Ноги до колена",
+    "image": "/redesign/dep/legs-calves.jpg",
+    "cardImage": "/redesign/dep/legs-calves.jpg",
+    "duration": "0 ч 40 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции ног до колен мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902252",
+    "order": 1,
+    "yclientsId": 12902252,
+    "priceLabel": "1 500 ₽"
+  },
+  {
+    "slug": "usiki",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Усики",
+    "image": "/redesign/dep/mustache.jpg",
+    "cardImage": "/redesign/dep/mustache.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902248",
+    "yclientsId": 12902248,
+    "priceLabel": "800 ₽",
+    "order": 2
+  },
+  {
+    "slug": "boroda",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Борода",
+    "image": "/redesign/dep/beard.jpg",
+    "cardImage": "/redesign/dep/beard.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902257",
+    "yclientsId": 12902257,
+    "priceLabel": "800 ₽",
+    "order": 3
   },
   {
     "slug": "nogi_vyshe_kolena",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Ноги выше колена (бедра)",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389225",
-    "order": 69
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Ноги выше колена",
+    "image": "/redesign/dep/legs-thighs.jpg",
+    "cardImage": "/redesign/dep/legs-thighs.jpg",
+    "duration": "0 ч 40 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции ног выше колен мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902240",
+    "order": 4,
+    "yclientsId": 12902240,
+    "priceLabel": "1 500 ₽"
   },
   {
-    "slug": "ruki_do_loktya",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Руки до локтя",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389328",
-    "order": 70
+    "slug": "nogi_polnostyu",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Ноги полностью",
+    "image": "/redesign/dep/legs-full.jpg",
+    "cardImage": "/redesign/dep/legs-full.jpg",
+    "duration": "1 ч 30 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции ног полностью мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902201",
+    "order": 5,
+    "yclientsId": 12902201,
+    "priceLabel": "2 600 ₽"
   },
   {
-    "slug": "ruki_polnostyu",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Руки полностью",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389338",
-    "order": 71
+    "slug": "yagodicy",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Ягодицы",
+    "image": "/redesign/dep/glutes.jpg",
+    "cardImage": "/redesign/dep/glutes.jpg",
+    "duration": "1 ч 00 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции ягодиц мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902194",
+    "order": 6,
+    "yclientsId": 12902194,
+    "priceLabel": "1 200 ₽"
   },
   {
-    "slug": "malaya_zona",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Малая зона (ореолы, линия живота, усики, подбородок)",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429322",
-    "order": 72
+    "slug": "spina",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Спина",
+    "image": "/redesign/dep/back.jpg",
+    "cardImage": "/redesign/dep/back.jpg",
+    "duration": "0 ч 40 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции спины мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902189",
+    "order": 7,
+    "yclientsId": 12902189,
+    "priceLabel": "2 100 ₽"
   },
   {
-    "slug": "lico_polnostyu",
-    "category": "lazernaya_epilyaciya",
-    "categoryTitle": "Лазерная эпиляция",
-    "title": "Лицо полностью",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429334",
-    "order": 73
+    "slug": "ruki",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Руки",
+    "image": "/redesign/dep/arms.jpg",
+    "cardImage": "/redesign/dep/arms.jpg",
+    "duration": "0 ч 40 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции рук полностью мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902182",
+    "order": 8,
+    "yclientsId": 12902182,
+    "priceLabel": "1 500 ₽"
+  },
+  {
+    "slug": "zona_podmyshek",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Зона подмышек",
+    "image": "/redesign/dep/underarm.jpg",
+    "cardImage": "/redesign/dep/underarm.jpg",
+    "duration": "0 ч 30 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции подмышек мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902171",
+    "order": 9,
+    "yclientsId": 12902171,
+    "priceLabel": "1 200 ₽"
+  },
+  {
+    "slug": "bikini_pod_trusiki",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Бикини под трусики",
+    "image": "/redesign/dep/bikini-classic.jpg",
+    "cardImage": "/redesign/dep/bikini-classic.jpg",
+    "duration": "1 ч 00 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции бикини под трусики мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902155",
+    "order": 10,
+    "yclientsId": 12902155,
+    "priceLabel": "1 500 ₽"
+  },
+  {
+    "slug": "bikini_glubokoe",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Глубокое бикини",
+    "image": "/redesign/dep/bikini-deep.jpg",
+    "cardImage": "/redesign/dep/bikini-deep.jpg",
+    "duration": "1 ч 00 м",
+    "description": [
+      "Работаем на воске SKIN'S, BEAUTY IMAGE ayurveda, Italwax.",
+      "Для эпиляции глубокого бикини мастер использует теплый воск, позволяющий провести процедуру быстро и эффективно. Перед началом эпиляции косметолог обязательно подготовит кожу, очистив и продезинфицировав ее. Успокоить кожу после сеанса удаления волос поможет 10-минутная терапия ультразвуковым прибором Aurora, а также нанесение масла с экстрактом лаванды из серии профессионального постэпиляционного ухода ARAVIA proffesional или Eco Profi."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s12902056",
+    "order": 11,
+    "yclientsId": 12902056,
+    "priceLabel": "2 100 ₽"
   },
   {
     "slug": "zhivot",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Живот",
+    "image": "/redesign/dep/stomach.jpg",
+    "cardImage": "/redesign/dep/stomach.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s31611039",
+    "yclientsId": 31611039,
+    "priceLabel": "1 000 ₽",
+    "order": 12
+  },
+  {
+    "slug": "grud_dlya_muzhchin_protsedura",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Грудь, для мужчин процедура",
+    "image": "/redesign/dep/chest.jpg",
+    "cardImage": "/redesign/dep/chest.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s31611075",
+    "yclientsId": 31611075,
+    "priceLabel": "1 000 ₽",
+    "order": 13
+  },
+  {
+    "slug": "plechi",
+    "category": "epilyaciya",
+    "categoryTitle": "Депиляция",
+    "title": "Плечи",
+    "image": "/redesign/dep/shoulders.jpg",
+    "cardImage": "/redesign/dep/shoulders.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s31611099",
+    "yclientsId": 31611099,
+    "priceLabel": "500 ₽",
+    "order": 14
+  },
+  {
+    "slug": "usiki",
     "category": "lazernaya_epilyaciya",
     "categoryTitle": "Лазерная эпиляция",
-    "title": "Живот",
-    "image": "/blocks/uslugi/file/usluga1.1.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
-    "description": [],
-    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429339",
-    "order": 74
+    "title": "Усики",
+    "image": "/redesign/svc/laser-usiki.jpg",
+    "cardImage": "/redesign/svc/laser-usiki.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s18093122",
+    "yclientsId": 18093122,
+    "priceLabel": "1 200 ₽",
+    "order": 1
   },
   {
     "slug": "spina",
     "category": "lazernaya_epilyaciya",
     "categoryTitle": "Лазерная эпиляция",
     "title": "Спина",
-    "image": "/blocks/uslugi/file/usluga56.jpg",
-    "cardImage": "/blocks/services/file/usluga1.1.png",
+    "image": "/redesign/dep/back.jpg",
+    "cardImage": "/redesign/dep/back.jpg",
     "description": [],
     "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429348",
-    "order": 75
+    "order": 2,
+    "yclientsId": 14429348,
+    "priceLabel": "2 600 ₽"
+  },
+  {
+    "slug": "zhivot",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Живот",
+    "image": "/redesign/dep/stomach.jpg",
+    "cardImage": "/redesign/dep/stomach.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429339",
+    "order": 3,
+    "yclientsId": 14429339,
+    "priceLabel": "2 100 ₽"
+  },
+  {
+    "slug": "glubokoe_bikini_podmyshki_nogi_polnostyu_ruki_polnostyu_spin",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Глубокое бикини, подмышки, ноги полностью, руки полностью, спина, лицо",
+    "image": "/redesign/svc/laser-pack-full.jpg",
+    "cardImage": "/redesign/svc/laser-pack-full.jpg",
+    "duration": "",
+    "description": [
+      "Процедура на диодном лазере 808-810 nm Ruikd дает видимые результаты уже после первой обработки. Однако для достижения максимального эффекта важно учитывать противопоказания. Также с осторожностью следует относиться к тем, кто на ретиноидах или страдает фотодерматозами. Соблюдение этих рекомендаций поможет избежать осложнений и обеспечит безопасное использование лазера.",
+      "Подготовка к лазерной эпиляции включает несколько ключевых рекомендаций. За неделю до процедуры избегайте загара и посещения соляриев, чтобы снизить риск ожогов и повысить эффективность лазера. Не применяйте восковые полоски или эпиляторы за 4-6 недель до сеанса, чтобы волосы оставались в коже.",
+      "За 1-2 дня до процедуры аккуратно побрейте обрабатываемую область, чтобы предотвратить ожоги и улучшить результаты. В день сеанса избегайте использования косметики, включая кремы и лосьоны, на зоне обработки.",
+      "В течение недели до лазерной эпиляции не используйте агрессивные средства, такие как ретиноиды и кислотные пилинги. За несколько дней до процедуры откажитесь от сауны, горячих ванн и интенсивных физических нагрузок, чтобы минимизировать риск раздражения кожи. Следуя этим рекомендациям, вы сможете повысить эффективность лазерной эпиляции и уменьшить возможные риски."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429368",
+    "yclientsId": 14429368,
+    "priceLabel": "7 600 ₽",
+    "order": 4
+  },
+  {
+    "slug": "malaya_zona",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Малая зона (ореолы, линия живота, усики, подбородок)",
+    "image": "/redesign/dep/chin.jpg",
+    "cardImage": "/redesign/dep/chin.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429322",
+    "order": 5,
+    "yclientsId": 14429322,
+    "priceLabel": "1 200 ₽"
+  },
+  {
+    "slug": "ruki_polnostyu",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Руки полностью",
+    "image": "/redesign/dep/arms.jpg",
+    "cardImage": "/redesign/dep/arms.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389338",
+    "order": 6,
+    "yclientsId": 14389338,
+    "priceLabel": "2 600 ₽"
+  },
+  {
+    "slug": "ruki_do_loktya",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Руки до локтя",
+    "image": "/redesign/dep/shoulders.jpg",
+    "cardImage": "/redesign/dep/shoulders.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389328",
+    "order": 7,
+    "yclientsId": 14389328,
+    "priceLabel": "1 500 ₽"
+  },
+  {
+    "slug": "nogi_vyshe_kolena",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Ноги выше колена (бедра)",
+    "image": "/redesign/dep/legs-thighs.jpg",
+    "cardImage": "/redesign/dep/legs-thighs.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389225",
+    "order": 8,
+    "yclientsId": 14389225,
+    "priceLabel": "1 700 ₽"
+  },
+  {
+    "slug": "nogi_do_kolena",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Ноги до колена (голени)",
+    "image": "/redesign/dep/legs-calves.jpg",
+    "cardImage": "/redesign/dep/legs-calves.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389218",
+    "order": 9,
+    "yclientsId": 14389218,
+    "priceLabel": "1 700 ₽"
+  },
+  {
+    "slug": "nogi_polnostyu",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Ноги полностью",
+    "image": "/redesign/dep/legs-full.jpg",
+    "cardImage": "/redesign/dep/legs-full.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389200",
+    "order": 10,
+    "yclientsId": 14389200,
+    "priceLabel": "3 000 ₽"
+  },
+  {
+    "slug": "klassika_bikini",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Классика бикини",
+    "image": "/redesign/dep/bikini-classic.jpg",
+    "cardImage": "/redesign/dep/bikini-classic.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389162",
+    "order": 11,
+    "yclientsId": 14389162,
+    "priceLabel": "1 700 ₽"
+  },
+  {
+    "slug": "glubokoe_bikini_podmyshki_nogi_polnostyu",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Глубокое бикини, подмышки, ноги полностью",
+    "image": "/redesign/svc/laser-pack-bikini.jpg",
+    "cardImage": "/redesign/svc/laser-pack-bikini.jpg",
+    "duration": "",
+    "description": [
+      "Процедура на диодном лазере 808-810 nm Ruikd дает видимые результаты уже после первой обработки. Однако для достижения максимального эффекта важно учитывать противопоказания. Также с осторожностью следует относиться к тем, кто на ретиноидах или страдает фотодерматозами. Соблюдение этих рекомендаций поможет избежать осложнений и обеспечит безопасное использование лазера.",
+      "Подготовка к лазерной эпиляции включает несколько ключевых рекомендаций. За неделю до процедуры избегайте загара и посещения соляриев, чтобы снизить риск ожогов и повысить эффективность лазера. Не применяйте восковые полоски или эпиляторы за 4-6 недель до сеанса, чтобы волосы оставались в коже.",
+      "За 1-2 дня до процедуры аккуратно побрейте обрабатываемую область, чтобы предотвратить ожоги и улучшить результаты. В день сеанса избегайте использования косметики, включая кремы и лосьоны, на зоне обработки.",
+      "В течение недели до лазерной эпиляции не используйте агрессивные средства, такие как ретиноиды и кислотные пилинги. За несколько дней до процедуры откажитесь от сауны, горячих ванн и интенсивных физических нагрузок, чтобы минимизировать риск раздражения кожи. Следуя этим рекомендациям, вы сможете повысить эффективность лазерной эпиляции и уменьшить возможные риски."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14429377",
+    "yclientsId": 14429377,
+    "priceLabel": "5 300 ₽",
+    "order": 12
+  },
+  {
+    "slug": "glubokoe_bikini_podmyshki_nogi_do_kolena_goleni",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Глубокое бикини,подмышки,ноги до колена (голени)",
+    "image": "/redesign/svc/laser-pack-calves.jpg",
+    "cardImage": "/redesign/svc/laser-pack-calves.jpg",
+    "duration": "",
+    "description": [
+      "Процедура на диодном лазере 808-810 nm Ruikd дает видимые результаты уже после первой обработки. Однако для достижения максимального эффекта важно учитывать противопоказания. Также с осторожностью следует относиться к тем, кто на ретиноидах или страдает фотодерматозами. Соблюдение этих рекомендаций поможет избежать осложнений и обеспечит безопасное использование лазера.",
+      "Подготовка к лазерной эпиляции включает несколько ключевых рекомендаций. За неделю до процедуры избегайте загара и посещения соляриев, чтобы снизить риск ожогов и повысить эффективность лазера. Не применяйте восковые полоски или эпиляторы за 4-6 недель до сеанса, чтобы волосы оставались в коже.",
+      "За 1-2 дня до процедуры аккуратно побрейте обрабатываемую область, чтобы предотвратить ожоги и улучшить результаты. В день сеанса избегайте использования косметики, включая кремы и лосьоны, на зоне обработки.",
+      "В течение недели до лазерной эпиляции не используйте агрессивные средства, такие как ретиноиды и кислотные пилинги. За несколько дней до процедуры откажитесь от сауны, горячих ванн и интенсивных физических нагрузок, чтобы минимизировать риск раздражения кожи. Следуя этим рекомендациям, вы сможете повысить эффективность лазерной эпиляции и уменьшить возможные риски."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389442",
+    "yclientsId": 14389442,
+    "priceLabel": "4 800 ₽",
+    "order": 13
+  },
+  {
+    "slug": "glubokoe_bikini",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Глубокое бикини",
+    "image": "/redesign/dep/bikini-deep.jpg",
+    "cardImage": "/redesign/dep/bikini-deep.jpg",
+    "description": [
+      "У нас есть душ, одноразовый бритвенный станок, если необходимо для Вашего комфорта."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389070",
+    "order": 14,
+    "yclientsId": 14389070,
+    "priceLabel": "2 400 ₽"
+  },
+  {
+    "slug": "glubokoe_bikini_podmyshki",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Глубокое бикини,подмышки",
+    "image": "/redesign/svc/laser-bi-ua.jpg",
+    "cardImage": "/redesign/svc/laser-bi-ua.jpg",
+    "duration": "",
+    "description": [
+      "Процедура на диодном лазере 808-810 nm Ruikd дает видимые результаты уже после первой обработки. Однако для достижения максимального эффекта важно учитывать противопоказания. Также с осторожностью следует относиться к тем, кто на ретиноидах или страдает фотодерматозами. Соблюдение этих рекомендаций поможет избежать осложнений и обеспечит безопасное использование лазера.",
+      "Подготовка к лазерной эпиляции включает несколько ключевых рекомендаций. За неделю до процедуры избегайте загара и посещения соляриев, чтобы снизить риск ожогов и повысить эффективность лазера. Не применяйте восковые полоски или эпиляторы за 4-6 недель до сеанса, чтобы волосы оставались в коже.",
+      "За 1-2 дня до процедуры аккуратно побрейте обрабатываемую область, чтобы предотвратить ожоги и улучшить результаты. В день сеанса избегайте использования косметики, включая кремы и лосьоны, на зоне обработки.",
+      "В течение недели до лазерной эпиляции не используйте агрессивные средства, такие как ретиноиды и кислотные пилинги. За несколько дней до процедуры откажитесь от сауны, горячих ванн и интенсивных физических нагрузок, чтобы минимизировать риск раздражения кожи. Следуя этим рекомендациям, вы сможете повысить эффективность лазерной эпиляции и уменьшить возможные риски."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389416",
+    "yclientsId": 14389416,
+    "priceLabel": "3 100 ₽",
+    "order": 15
+  },
+  {
+    "slug": "podmyshechnye_vpadiny",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Подмышечные впадины",
+    "image": "/redesign/dep/underarm.jpg",
+    "cardImage": "/redesign/dep/underarm.jpg",
+    "description": [],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s14389190",
+    "order": 16,
+    "yclientsId": 14389190,
+    "priceLabel": "1 500 ₽"
+  },
+  {
+    "slug": "podmyshki_nogi_polnostyu_ruki_polnostyu",
+    "category": "lazernaya_epilyaciya",
+    "categoryTitle": "Лазерная эпиляция",
+    "title": "Подмышки,ноги полностью,руки полностью",
+    "image": "/redesign/svc/laser-pack-limbs.jpg",
+    "cardImage": "/redesign/svc/laser-pack-limbs.jpg",
+    "duration": "",
+    "description": [
+      "Запись онлайн через YClients. Уточните детали у администратора студии."
+    ],
+    "yclientsUrl": "https://b182496.yclients.com/company/185262/create-record?o=m-1s28899420",
+    "yclientsId": 28899420,
+    "priceLabel": "5 680 ₽",
+    "order": 17
   }
 ]

@@ -40,6 +40,18 @@ npm run css
 
 ### Деплой
 
-GitHub Actions (`.github/workflows/deploy.yml`) публикует `out/` на GitHub Pages.
+GitHub Actions (`.github/workflows/deploy.yml`) публикует на GitHub Pages:
+
+- [avedea.ru](https://avedea.ru/) — текущий дизайн (`master`)
+- [avedea.ru/new](https://avedea.ru/new/) — редизайн (`redesign`, `NEXT_BASE_PATH=/new`)
+
 В настройках репозитория: **Settings → Pages → Source → GitHub Actions**.
 Домен задаётся через `public/CNAME` (`avedea.ru`).
+
+Локально редизайн как на проде под `/new/`:
+
+```bash
+NEXT_BASE_PATH=/new npm run build
+```
+
+Обычная разработка без префикса: `npm run dev`.

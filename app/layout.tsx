@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { YandexMetrika } from "@/components/YandexMetrika";
 import { site } from "@/data/site";
+import "./globals.css";
+
+const manrope = Manrope({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  variable: "--font-figtree",
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -48,28 +63,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
-      <head>
-        <link
-          rel="preload"
-          href="/fonts/DidotLTPro-Italic.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Lavanderia-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link rel="stylesheet" href="/styles/site.css" />
-      </head>
-      <body className="page">
+    <html lang="ru" className={`${manrope.variable} ${cormorant.variable}`}>
+      <body className={`${manrope.className} page-shell`}>
         <YandexMetrika />
         <Header />
-        {children}
+        <div className="page-main">{children}</div>
         <Footer />
       </body>
     </html>

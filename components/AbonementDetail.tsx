@@ -1,67 +1,75 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 import type { Abonement } from "@/lib/content";
 
 export function AbonementDetail({ abonement }: { abonement: Abonement }) {
-  const [open, setOpen] = useState<Record<number, boolean>>({});
+  const [open, setOpen] = useState<Record<number, boolean>>({ 0: true });
 
   return (
-    <section className="abonement">
-      <h2 className="abonement__title">{abonement.title}</h2>
-      <div className="abonement__contents">
-        <div className="abonement__img">
-          <img
-            src={abonement.image}
-            className="abonement__images"
-            alt={abonement.title}
-            loading="lazy"
-            decoding="async"
-          />
-        </div>
-        <div className="abonement__toc">
-          {abonement.summary.map((p) => (
-            <p className="abonement__content" key={p.slice(0, 48)}>
-              {p}
-            </p>
-          ))}
-          {abonement.sections.map((section, index) => (
-            <div key={section.label}>
-              <button
-                className={`abonement__hidwin${open[index] ? " active" : ""}`}
-                type="button"
-                onClick={() =>
-                  setOpen((prev) => ({ ...prev, [index]: !prev[index] }))
-                }
-              >
-                {section.label}
-              </button>
-              <div
-                className={`abonement__winclose${open[index] ? " abonement__winopen" : ""}`}
-              >
-                {section.paragraphs.map((p) => (
-                  <p className="abonement__content" key={p.slice(0, 40)}>
-                    {p}
-                  </p>
-                ))}
-                {section.lists.map((list, li) => (
-                  <ul className="abonement__list" key={li}>
-                    {list.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                ))}
-              </div>
+    <section className="detail">
+      <div className="wrap">
+        <div className="detail__grid">
+          <div className="detail__media">
+            <img
+              src={asset(abonement.image)}
+              alt={abonement.title}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="detail__body">
+            <h1 className="detail__title">{abonement.title}</h1>
+            {abonement.summary.map((p) => (
+              <p key={p.slice(0, 48)}>{p}</p>
+            ))}
+
+            <div className="acc">
+              {abonement.sections.map((section, index) => (
+                <div key={section.label}>
+                  <button
+                    className="acc__btn"
+                    type="button"
+                    aria-expanded={!!open[index]}
+                    onClick={() =>
+                      setOpen((prev) => ({ ...prev, [index]: !prev[index] }))
+                    }
+                  >
+                    <span>{section.label}</span>
+                    <span aria-hidden>{open[index] ? "−" : "+"}</span>
+                  </button>
+                  <div
+                    className={`acc__panel${open[index] ? " is-open" : ""}`}
+                  >
+                    <div className="acc__panel-inner">
+                      {section.paragraphs.map((p) => (
+                        <p key={p.slice(0, 40)}>{p}</p>
+                      ))}
+                      {section.lists.map((list, li) => (
+                        <ul key={li}>
+                          {list.map((item) => (
+                            <li key={item}>{item}</li>
+                          ))}
+                        </ul>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-          <a
-            className="abonement__button-abon"
-            href={abonement.yclientsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Приобрести абонемент
-          </a>
+
+            <div className="detail__actions">
+              <a
+                className="btn btn--primary"
+                href={abonement.yclientsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Приобрести абонемент
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

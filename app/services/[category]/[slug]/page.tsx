@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { ServiceDetail } from "@/components/ServiceDetail";
 import { getAllServiceParams, getService } from "@/lib/content";
 
@@ -14,7 +14,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, slug } = await params;
   const service = getService(category, slug);
-  if (!service) return { title: "Услуга" };
+  if (!service) {
+    return {
+      title: "Услуга недоступна",
+      robots: { index: false, follow: false },
+    };
+  }
   return {
     title: service.title,
     description: service.description?.[0] || `${service.title} — Avedea`,
@@ -25,7 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ServicePage({ params }: Props) {
   const { category, slug } = await params;
   const service = getService(category, slug);
-  if (!service) notFound();
+  if (!service) {
+    redirect("/services/");
+  }
 
   return (
     <main>

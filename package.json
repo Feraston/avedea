@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "prebuild": "node scripts/build-site-css.mjs && node scripts/build-og.mjs",
+    "prebuild": "node scripts/build-og.mjs",
     "build": "next build && node scripts/postbuild.mjs",
     "start": "next start",
     "lint": "eslint",
     "extract": "node scripts/extract-content.mjs",
     "css": "node scripts/build-site-css.mjs",
     "og": "node scripts/build-og.mjs",
-    "images": "node scripts/compress-images.mjs"
+    "images": "node scripts/compress-images.mjs",
+    "redesign:images": "node scripts/prepare-redesign-images.mjs",
+    "redesign:vignette": "node scripts/remap-vignette.mjs"
   },
   "dependencies": {
     "next": "15.5.26",
@@ -27,6 +29,7 @@
     "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.5.26",
+    "playwright": "^1.63.0",
     "sharp": "^0.35.5",
     "typescript": "^5"
   }

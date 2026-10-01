@@ -1,7 +1,6 @@
-import { Fragment } from "react";
 import type { Metadata } from "next";
-import { PromoLaser } from "@/components/PromoLaser";
-import { getHome, getTraining } from "@/lib/content";
+import { asset } from "@/lib/asset";
+import { getTraining } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Обучение",
@@ -11,42 +10,62 @@ export const metadata: Metadata = {
 
 export default function TrainingPage() {
   const seminars = getTraining();
-  const home = getHome();
 
   return (
-    <main className="main">
-      <PromoLaser laserPopup={home.laserPopup} />
-      <section className="training">
-        <h2 className="training__title">Обучение и семинары</h2>
-        <hr className="training__hr" />
-        {seminars.map((seminar) => (
-          <Fragment key={seminar.slug}>
-            <h3 className="training__name">{seminar.title}</h3>
-            <hr className="training__hr" />
-            {seminar.image ? (
-              <img
-                className="training__img"
-                src={seminar.image}
-                alt={seminar.title}
-              />
-            ) : null}
-            <div className="training__main">
-              {seminar.paragraphs.map((p, i) => (
-                <p className="training__content" key={i}>
-                  {p.text}
-                </p>
-              ))}
-            </div>
-            <a
-              className="training__button"
-              href={seminar.ctaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Записаться
-            </a>
-          </Fragment>
-        ))}
+    <main>
+      <section className="page-hero">
+        <div className="page-hero__media" aria-hidden>
+          <img src={asset("/redesign/gen/banner.jpg")} alt="" />
+          <div className="page-hero__shade" />
+        </div>
+        <div className="page-hero__content">
+          <h1 className="page-hero__title">Обучение</h1>
+          <p className="page-hero__text">
+            Семинары и программы PHYT&apos;S для специалистов, которые хотят
+            глубже понимать натуральный уход.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          {seminars.map((seminar) => (
+            <article className="train-card" key={seminar.slug}>
+              {seminar.image ? (
+                <img
+                  src={asset(seminar.image)}
+                  alt={seminar.title}
+                  loading="lazy"
+                  decoding="async"
+                />
+              ) : (
+                <img
+                  src={asset("/redesign/training.jpg")}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
+              <div>
+                <h2 className="train-card__title">{seminar.title}</h2>
+                {seminar.paragraphs.map((p, i) => (
+                  <p key={i} style={{ color: "var(--ink-soft)" }}>
+                    {p.text}
+                  </p>
+                ))}
+                <a
+                  className="btn btn--primary"
+                  href={seminar.ctaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginTop: "1rem" }}
+                >
+                  Записаться
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
     </main>
   );

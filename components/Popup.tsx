@@ -81,7 +81,7 @@ export function Popup({
 
   return (
     <div
-      className="popup popup_open"
+      className="popup-root"
       id={id}
       role="presentation"
       onMouseDown={(e) => {
@@ -89,29 +89,25 @@ export function Popup({
       }}
     >
       <div
-        className="popup__new"
+        className="popup-dialog"
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
         tabIndex={-1}
       >
-        <span id={titleId} className="visually-hidden">
-          {title}
-        </span>
-        <button
-          className="popup__button-close"
-          type="button"
-          onClick={onClose}
-          aria-label="Закрыть"
-        >
-          <img
-            src="/blocks/popup/file/Close.svg"
-            alt=""
-            className="popup__close"
-          />
-        </button>
-        {children}
+        <div className="popup-dialog__chrome">
+          <h2 id={titleId}>{title}</h2>
+          <button
+            className="popup-dialog__close"
+            type="button"
+            onClick={onClose}
+            aria-label="Закрыть"
+          >
+            ✕
+          </button>
+        </div>
+        <div className="popup-dialog__scroll">{children}</div>
       </div>
     </div>
   );

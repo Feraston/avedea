@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 import type { Service } from "@/lib/content";
 import { getServiceNeighbors } from "@/lib/content";
 
@@ -6,76 +7,65 @@ export function ServiceDetail({ service }: { service: Service }) {
   const { prev, next } = getServiceNeighbors(service);
 
   return (
-    <section className="uslugi">
-      <div className="uslugi__navig">
-        <Link className="uslugi__navig-prev" href="/services/">
-          ← Все услуги
-        </Link>
-      </div>
-      <div className="uslugi__navig-categ">
-        {prev ? (
-          <Link
-            className="uslugi__navig-button"
-            href={`/services/${prev.category}/${prev.slug}/`}
-          >
-            ← {prev.title}
-          </Link>
-        ) : (
-          <span />
-        )}
-        {next ? (
-          <Link
-            className="uslugi__navig-button"
-            href={`/services/${next.category}/${next.slug}/`}
-          >
-            {next.title} →
-          </Link>
-        ) : null}
-      </div>
-      <h2 className="uslugi__title">{service.title}</h2>
-      <div className="uslugi__contents">
-        <div className="uslugi__img">
-          <img
-            src={service.image}
-            className="uslugi__images"
-            alt={service.title}
-            loading="lazy"
-            decoding="async"
-          />
+    <section className="detail">
+      <div className="wrap">
+        <div className="detail__nav">
+          <Link href="/services/">← Все услуги</Link>
+          {prev ? (
+            <Link href={`/services/${prev.category}/${prev.slug}/`}>
+              ← {prev.title}
+            </Link>
+          ) : null}
+          {next ? (
+            <Link href={`/services/${next.category}/${next.slug}/`}>
+              {next.title} →
+            </Link>
+          ) : null}
         </div>
-        <div className="uslugi__toc">
-          {service.duration ? (
-            <div className="uslugi__data-main">
-              <div className="uslugi__data">
-                <img
-                  className="uslugi__icon"
-                  src="/blocks/services/file/time-left.png"
-                  alt=""
-                />
-                <p className="uslugi__montime">Время: {service.duration}</p>
-              </div>
+
+        <div className="detail__grid">
+          <div className="detail__media">
+            <img
+              src={asset(service.image)}
+              alt={service.title}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="detail__body">
+            <h1 className="detail__title">{service.title}</h1>
+            <div className="detail__meta-row">
+              {service.duration ? (
+                <p className="detail__time">{service.duration}</p>
+              ) : null}
+              {"priceLabel" in service && service.priceLabel ? (
+                <p className="detail__price">{service.priceLabel}</p>
+              ) : null}
             </div>
-          ) : null}
-          {service.description?.map((p) => (
-            <p className="uslugi__content" key={p.slice(0, 40)}>
-              {p}
-            </p>
-          ))}
-          {service.listItems?.length ? (
-            <ul className="uslugi__list">
-              {service.listItems.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          ) : null}
-          <a
-            className="uslugi__button"
-            href={service.yclientsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Записаться
-          </a>
+            {service.description?.map((p) => (
+              <p key={p.slice(0, 40)}>{p}</p>
+            ))}
+            {service.listItems?.length ? (
+              <ul>
+                {service.listItems.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            ) : null}
+            <div className="detail__actions">
+              <a
+                className="btn btn--primary"
+                href={service.yclientsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Записаться
+              </a>
+              <Link className="btn btn--outline" href="/services/">
+                К каталогу
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
