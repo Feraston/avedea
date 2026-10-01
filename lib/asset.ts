@@ -1,4 +1,4 @@
-/** Prefix public asset paths with NEXT_PUBLIC_BASE_PATH (e.g. `/new` on preview deploy). */
+/** Prefix public asset paths with NEXT_PUBLIC_BASE_PATH when set. */
 export function asset(path: string): string {
   if (!path || path.startsWith("http://") || path.startsWith("https://") || path.startsWith("data:")) {
     return path;

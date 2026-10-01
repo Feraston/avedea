@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 import path from "node:path";
 
-/** Set NEXT_BASE_PATH=/new for preview deploy at https://avedea.ru/new/ */
+/** Optional subdirectory deploy: NEXT_BASE_PATH=/preview */
 const basePath = process.env.NEXT_BASE_PATH?.replace(/\/$/, "") || "";
 
 const nextConfig: NextConfig = {

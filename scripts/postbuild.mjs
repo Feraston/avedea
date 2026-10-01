@@ -64,14 +64,14 @@ for (const [from, to] of redirects) {
 
 /**
  * Next basePath does not rewrite absolute `/redesign/...` in HTML/CSS/JSON/JS.
- * When deploying under /new, prefix those paths so images resolve.
+ * When a subdirectory basePath is set, prefix those paths so images resolve.
  */
 function rewriteRedesignAssets(dir, prefix) {
   if (!prefix || !fs.existsSync(dir)) return 0;
   const exts = new Set([".html", ".css", ".js", ".json", ".txt", ".xml", ".map"]);
   let changed = 0;
   const stack = [dir];
-  // Avoid double-prefixing /new/redesign
+  // Avoid double-prefixing
   const re = new RegExp(`(?<!${prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})/redesign/`, "g");
   while (stack.length) {
     const cur = stack.pop();
