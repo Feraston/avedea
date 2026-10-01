@@ -62,4 +62,41 @@ for (const [from, to] of redirects) {
   writeRedirect(from, to);
 }
 
-console.log(`Wrote ${redirects.length} redirects + .nojekyll`);
+/**
+ * Next basePath does not rewrite absolute `/redesign/...` in HTML/CSS/JSON/JS.
+ * When deploying under /new, prefix those paths so images resolve.
+ */
+function rewriteRedesignAssets(dir, prefix) {
+  if (!prefix || !fs.existsSync(dir)) return 0;
+  const exts = new Set([".html", ".css", ".js", ".json", ".txt", ".xml", ".map"]);
+  let changed = 0;
+  const stack = [dir];
+  // Avoid double-prefixing /new/redesign
+  const re = new RegExp(`(?<!${prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})/redesign/`, "g");
+  while (stack.length) {
+    const cur = stack.pop();
+    for (const name of fs.readdirSync(cur)) {
+      const full = path.join(cur, name);
+      const st = fs.statSync(full);
+      if (st.isDirectory()) {
+        stack.push(full);
+        continue;
+      }
+      if (!exts.has(path.extname(name))) continue;
+      const before = fs.readFileSync(full, "utf8");
+      if (!before.includes("/redesign/")) continue;
+      const after = before.replace(re, `${prefix}/redesign/`);
+      if (after !== before) {
+        fs.writeFileSync(full, after, "utf8");
+        changed += 1;
+      }
+    }
+  }
+  return changed;
+}
+
+const rewritten = rewriteRedesignAssets(outDir, basePath);
+console.log(
+  `Wrote ${redirects.length} redirects + .nojekyll` +
+    (basePath ? `; rewrote /redesign/ → ${basePath}/redesign/ in ${rewritten} files` : ""),
+);

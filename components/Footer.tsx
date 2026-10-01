@@ -1,20 +1,21 @@
 import Link from "next/link";
 import { site } from "@/data/site";
+import { asset } from "@/lib/asset";
 
 export function Footer() {
   const socials = [
-    { href: site.vkUrl, src: "/redesign/icons/vk.svg", alt: "VK" },
+    { href: site.vkUrl, src: asset("/redesign/icons/vk.svg"), alt: "VK" },
     site.telegramUrl
       ? {
           href: site.telegramUrl,
-          src: "/redesign/icons/telegram.svg",
+          src: asset("/redesign/icons/telegram.svg"),
           alt: "Telegram",
         }
       : null,
     site.whatsappUrl
       ? {
           href: site.whatsappUrl,
-          src: "/redesign/icons/whatsapp.svg",
+          src: asset("/redesign/icons/whatsapp.svg"),
           alt: "WhatsApp",
         }
       : null,

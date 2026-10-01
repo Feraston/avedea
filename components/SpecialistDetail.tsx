@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 import type { Specialist } from "@/lib/content";
 
 const CTA_BY_SLUG: Record<string, string> = {
@@ -17,7 +18,7 @@ export function SpecialistDetail({ specialist }: { specialist: Specialist }) {
         <div className="spec-hero">
           <div className="spec-hero__photo">
             <img
-              src={specialist.image}
+              src={asset(specialist.image)}
               alt={specialist.shortName}
               loading="lazy"
               decoding="async"
@@ -63,10 +64,10 @@ export function SpecialistDetail({ specialist }: { specialist: Specialist }) {
                 <button
                   key={cert.src}
                   type="button"
-                  onClick={() => setZoomSrc(cert.src)}
+                  onClick={() => setZoomSrc(asset(cert.src))}
                   aria-label={`Открыть ${cert.alt}`}
                 >
-                  <img src={cert.src} alt={cert.alt} loading="lazy" />
+                  <img src={asset(cert.src)} alt={cert.alt} loading="lazy" />
                 </button>
               ))}
             </div>

@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Reveal } from "@/components/Reveal";
+import { asset } from "@/lib/asset";
 import type { Abonement } from "@/lib/content";
 import { getSeasonalOffersTitle } from "@/lib/season";
 
 const OFFER_IMAGES = [
-  "/redesign/soft/abon-1.jpg",
-  "/redesign/soft/abon-2.jpg",
-  "/redesign/soft/abon-3.jpg",
+  asset("/redesign/soft/abon-1.jpg"),
+  asset("/redesign/soft/abon-2.jpg"),
+  asset("/redesign/soft/abon-3.jpg"),
 ];
 
 export type GiftOffer = {
@@ -69,7 +70,7 @@ export function SaleOffers({
                     <div className="gift__glow" aria-hidden />
                     <div className="gift__media">
                       <img
-                        src={gift.image}
+                        src={asset(gift.image)}
                         alt=""
                         loading="lazy"
                         decoding="async"
@@ -113,7 +114,7 @@ export function SaleOffers({
               <Link className="offer" href={`/abon/${abon.slug}/`}>
                 <div className="offer__media">
                   <img
-                    src={OFFER_IMAGES[i] || abon.cardImage}
+                    src={OFFER_IMAGES[i] || asset(abon.cardImage)}
                     alt={abon.preview.name}
                     loading="lazy"
                     decoding="async"

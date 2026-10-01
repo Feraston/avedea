@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Popup, usePopup } from "@/components/Popup";
 import { site } from "@/data/site";
+import { asset } from "@/lib/asset";
 import type { HomeContent } from "@/lib/content";
 
 type Props = {
@@ -46,7 +47,7 @@ export function HomePromo({ laserPopup }: Props) {
       <section className="hero" aria-label="Avedea">
         <div className="hero__media" aria-hidden>
           <img
-            src="/redesign/gen/hero.jpg"
+            src={asset("/redesign/gen/hero.jpg")}
             alt=""
             fetchPriority="high"
             decoding="async"
@@ -98,7 +99,7 @@ export function HomePromo({ laserPopup }: Props) {
           </div>
           <div className="promo__media">
             <img
-              src="/redesign/gen/promo.jpg"
+              src={asset("/redesign/gen/promo.jpg")}
               alt="Лазерная эпиляция"
               loading="lazy"
               decoding="async"
@@ -150,7 +151,7 @@ export function PromoLaser({
           </div>
           <div className="promo__media">
             <img
-              src="/redesign/gen/promo.jpg"
+              src={asset("/redesign/gen/promo.jpg")}
               alt=""
               loading="lazy"
               decoding="async"

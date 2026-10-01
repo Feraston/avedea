@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 import type { Service } from "@/lib/content";
 import { getServiceNeighbors } from "@/lib/content";
 
@@ -25,7 +26,7 @@ export function ServiceDetail({ service }: { service: Service }) {
         <div className="detail__grid">
           <div className="detail__media">
             <img
-              src={service.image}
+              src={asset(service.image)}
               alt={service.title}
               loading="lazy"
               decoding="async"

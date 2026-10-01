@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { site } from "@/data/site";
+import { asset } from "@/lib/asset";
 
 export function Header() {
   const pathname = usePathname();
@@ -42,7 +43,7 @@ export function Header() {
           <Link className="site-brand" href="/" onClick={close}>
             <img
               className="site-brand__mark"
-              src="/blocks/header/file/logo.svg"
+              src={asset("/blocks/header/file/logo.svg")}
               alt=""
             />
             <span className="site-brand__name">{site.name}</span>

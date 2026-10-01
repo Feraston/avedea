@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 /** Category covers — original color photos from the studio library */
 export const categoryCovers: Record<string, string> = {
   hydrafacial: "/redesign/cat-hydrafacial.jpg",
@@ -20,5 +22,5 @@ export const categoryCovers: Record<string, string> = {
 };
 
 export function getCategoryCover(category: string): string {
-  return categoryCovers[category] || "/redesign/gen/texture.jpg";
+  return asset(categoryCovers[category] || "/redesign/gen/texture.jpg");
 }

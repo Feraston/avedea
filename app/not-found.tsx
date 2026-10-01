@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { site } from "@/data/site";
+import { asset } from "@/lib/asset";
 
 export default function NotFound() {
   return (
     <main className="not-found">
       <div className="not-found__atmosphere" aria-hidden>
-        <img src="/redesign/gen/texture.jpg" alt="" />
+        <img src={asset("/redesign/gen/texture.jpg")} alt="" />
         <div className="not-found__veil" />
         <div className="not-found__glow" />
       </div>

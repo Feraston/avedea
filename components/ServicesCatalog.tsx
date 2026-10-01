@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getCategoryCover } from "@/data/categories";
+import { asset } from "@/lib/asset";
 import type { Service } from "@/lib/content";
 import { formatCategoryTitle, formatServiceCount } from "@/lib/format";
 
@@ -87,7 +88,7 @@ export function ServicesCatalog({ groups }: { groups: Group[] }) {
                           href={`/services/${service.category}/${service.slug}/`}
                         >
                           <img
-                            src={service.cardImage || service.image}
+                            src={asset(service.cardImage || service.image)}
                             alt=""
                             loading="lazy"
                             decoding="async"

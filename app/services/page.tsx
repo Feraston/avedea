@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ServicesCatalog } from "@/components/ServicesCatalog";
+import { asset } from "@/lib/asset";
 import { getServicesByCategory } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ export default function ServicesPage() {
     <main>
       <section className="page-hero">
         <div className="page-hero__media" aria-hidden>
-          <img src="/redesign/gen/banner.jpg" alt="" />
+          <img src={asset("/redesign/gen/banner.jpg")} alt="" />
           <div className="page-hero__shade" />
         </div>
         <div className="page-hero__content">

@@ -10,6 +10,7 @@ import {
   getServicesByCategory,
   getSpecialists,
 } from "@/lib/content";
+import { asset } from "@/lib/asset";
 import { formatCategoryTitle, formatProcedureCount } from "@/lib/format";
 
 export default function HomePage() {
@@ -72,7 +73,7 @@ export default function HomePage() {
           <Reveal>
             <div className="about__media">
               <img
-                src="/redesign/gen/about.jpg"
+                src={asset("/redesign/gen/about.jpg")}
                 alt="Студия Avedea"
                 loading="lazy"
                 decoding="async"
@@ -125,7 +126,7 @@ export default function HomePage() {
                 <Link className="spec-card" href={`/specialists/${spec.slug}/`}>
                   <div className="spec-card__media">
                     <img
-                      src={spec.homeImage}
+                      src={asset(spec.homeImage)}
                       alt={spec.shortName}
                       loading="lazy"
                       decoding="async"

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 import type { Abonement } from "@/lib/content";
 
 export function AbonementDetail({ abonement }: { abonement: Abonement }) {
@@ -12,7 +13,7 @@ export function AbonementDetail({ abonement }: { abonement: Abonement }) {
         <div className="detail__grid">
           <div className="detail__media">
             <img
-              src={abonement.image}
+              src={asset(abonement.image)}
               alt={abonement.title}
               loading="lazy"
               decoding="async"

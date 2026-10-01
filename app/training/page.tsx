@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { asset } from "@/lib/asset";
 import { getTraining } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function TrainingPage() {
     <main>
       <section className="page-hero">
         <div className="page-hero__media" aria-hidden>
-          <img src="/redesign/gen/banner.jpg" alt="" />
+          <img src={asset("/redesign/gen/banner.jpg")} alt="" />
           <div className="page-hero__shade" />
         </div>
         <div className="page-hero__content">
@@ -32,14 +33,14 @@ export default function TrainingPage() {
             <article className="train-card" key={seminar.slug}>
               {seminar.image ? (
                 <img
-                  src={seminar.image}
+                  src={asset(seminar.image)}
                   alt={seminar.title}
                   loading="lazy"
                   decoding="async"
                 />
               ) : (
                 <img
-                  src="/redesign/training.jpg"
+                  src={asset("/redesign/training.jpg")}
                   alt=""
                   loading="lazy"
                   decoding="async"
